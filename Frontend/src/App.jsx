@@ -1,0 +1,42 @@
+import React, { useEffect, useRef, useState } from 'react';
+import { Routes } from 'react-router-dom';
+
+import Loader from './components/Loader';
+import MouseTracker from './components/MouseFollower';
+
+import AppRoutes from './routes/AppRoutes';
+import ClerkRoutes from './routes/ClerkRoutes';
+
+const App = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const mouseRef = useRef({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const loaderShown = sessionStorage.getItem('loaderShown');
+    if (loaderShown) {
+      setIsLoaded(true);
+    }
+  }, []);
+
+  const handleLoaded = () => {
+    sessionStorage.setItem('loaderShown', 'true');
+    setIsLoaded(true);
+  };
+
+  return (
+    <>
+      <MouseTracker onMove={(pos) => (mouseRef.current = pos)} />
+
+      {!isLoaded ? (
+        <Loader onLoaded={handleLoaded} mouse={mouseRef} />
+      ) : (
+        <Routes>
+          {AppRoutes()}
+          {ClerkRoutes()}
+        </Routes>
+      )}
+    </>
+  );
+};
+
+export default App;

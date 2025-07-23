@@ -1,0 +1,5504 @@
+[
+  {
+    "title": "Dylect in-Ear Wired Earphone I Stereo Quality Sound I High Bass I in-Built Mic I 1.2m Tangle Free Cable I 3.5mm Aux Port (Black)",
+    "actual_price": 299,
+    "selling_price": 188,
+    "brand": "Dylect",
+    "model": "Dylect Wired Earphone",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71GndAQChgL._SL1500_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 1,
+    "type": "accessory"
+  },
+  {
+    "title": "Jabra Engage 65 Wireless Headset, Mono \u2013 Telephone Headset with Industry-Leading Wireless Performance, Advanced Noise-Cancelling Microphone, Call Center Headset with All Day Battery Life",
+    "actual_price": 77914,
+    "selling_price": 57914,
+    "brand": "Jabra",
+    "model": "Engage 65 Mono",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71Koi12k68L._SY355_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 2,
+    "type": "headset"
+  },
+  {
+    "title": "Jabra Elite 3 in Ear Bluetooth Truly Wireless in Ear Earbuds, Noise Isolating with mic for Clear Calls, Rich Bass, Customizable Sound, Mono Mode - Dark Grey",
+    "actual_price": 6999,
+    "selling_price": 4499,
+    "brand": "Jabra",
+    "model": "Elite 3",
+    "color": "Dark Grey",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51RMgNGAmnL._SX425_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 3,
+    "type": "earbuds"
+  },
+  {
+    "title": "Zebronics Zeb-Sound Bomb 3 TWS In Ear Earbuds with Bluetooth v5.2, up to 12H Backup, Flash Connect, Splash Proof, Voice Assistant, stem Touch Control, 13mm Driver, Built in Microphone and Type C(Blue)",
+    "actual_price": 3499,
+    "selling_price": 799,
+    "brand": "ZEBRONICS",
+    "model": "Zeb - Sound Bomb 3 (Blue)",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhUTERIQFRAXGBMVFxYWFRYRFxURFRcYFxYWGBUYHSggGBolGxcWITEhJSkwLi4vFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgIDBAUHCAH/xABKEAABAgMDBgoGBggFBQAAAAABAAIDBBESITEFBjJBccEHEyJCUWFygZGxFDV0obPRIyQzUmJzFyVUgpKisuEIFTRTg0Oj4vDx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AO4oiICIiAiIgIiICIiAiIgIiICIiAiLnnCHns6EXSkm4CPT6aNiIAI0W9MUi/8ACKHEhBts7M/5TJ54vlRpn/Zh3kdt3N956lz+c4YJ61dLwIY1B4e4+NR5KLQosOFWze43uc41c49LnHFWcoTLHw3VoRQnwQdPzU4WoUeI2FOQ2wXOIa2K01h2jgHA3sr01I2Lpq8dQoUcNDntc1rhVpNLxsXobgbznfOyhhRjWPLFrC6tS+E4fRvP4rnNPYrrQT9ERAREQEREBERAREQEREBERAREQEREBERAREQEREEW4Qc5DIwKQyBMRatYbjYaNOLQ42aig1lzdVV5yytlqriyG42amrq1LnE1cS7WSaknWVNc/MrHKGUHw2uPF2jCBHNgQq8Y4bTbIP429CiuccpBJBZCEMUAFLqtGBoP/qCPOjV1qzEiGhvKvGWWRLS4BqgkOcTw6DLlupgH8o+Sm/8Ah9afSJw83i5cHbai091VzWPFLhQ6l3ngZyF6LICK4fSzLuOPVDpZhN2WRa2vKCeoiICIiAiIgIiICIiAiIgIiICIiAiKCZ08J8pKWmwWvmYjSQ7iyBCY4Yh0U3E11NBprognaLhkXhonCatgyrR0G28+NoeS2+RuGcEgTcuA08+Ea06yx3zQdcRYmS8pQZqG2LAe18N2Dh5Eaj1FZaAsHLs76PLR43+3CixP4GF25ZyjfCO6mS538iKPFtN6Dz1mkC+JGc41IZDh1/OeA73BavOTKLnTEYV5NpzWjoscmg20PitxmV/1j+OWH85WdwYS4fl1toBzbc4CCAQeTE1FBAWTjxr8VfGUiObXVStDVeks5OCbJc5VwhmBE+9Bo0d7NGmyijmT+AeXhxLTpyK5owAhtYfEuI9yDnmZub0XKExDgUIDiHRSL7EEHlGvTS4dZC9PwYbWNDWgBrQAAMAAKALWZu5uSsgwsl2Wa6TibT3kYWnbsAtsgIiICIiAiIgIiICIiAiIgIiICIiDnHClnO6EfRWksYWB8VwNC5hqBDBF4bcS467hhVcPmsox5t3FSzKQxddyRTcFKeHiK7/NC0EgGDAHcS9UZAhQoDBSlUEZGZ86BUcXstH5LAitjQHWIzHNPXgR1HAro8TLLQueZxTcWNFdbJsg1aNQGrvQTPgxzsfk+OLTiZOI5rYoxDC65sSnV8x0L0cDW8YLyLkwOg1ERoLHsDhrDmm8U969FcFOWTNSDWudafAcYJPS1oDoZ/gc0bQUExUX4Tz+qZ38l+5ShRfhP9Uzv5L0HnPI066Xa6yGm25jr63cWajxKk/BOK5ahu+/6RE2WmPJHjVQ+Dot2H+oqZ8EvreX/Ljf0PQeikREBERAREQEREBERAREQEREBERAREQEREHCOG/JkRmUGTJZ9DEhMhtdiONYXlzT0GyQR0ivQVBxNleossZKgzcF0GOwPhOF41g6nA6nA3grhmdvBjOyhc6Xa6YgX0LBWI0arUIXuPW0GvQMEEOdMFa2fFSDtHyWFNTUxDcWPFh4xDm2HDaHXjwVqXc976kudQXnEAaq0uF9EExk4PGyUM85jYoH/G+4eCnn+HyeJiTcGt1mC4bWuiNJ8HM8AoZmrfKU/FMjxbaW9/w8OPpseoIrLk/9yH/dB35RjhO9VTv5ETyUnUY4TfVU7+RE8kHmmX0G9476k71MuCQ/reB+XG/oeo7mnAhvEURWtNHwKBwwq4h2PUt/wRj9dig5IdNAdAFl9B4UQejkREBERAREQEREBERAREQEREBERAREQEREBERBajy0OJpsY7tNDvNQfhigMZkiOGNY0W4FzQGivHM6FPVz/hyP6qf1xYFf4wfMBByHM+vo5rhxsanWOJG+qkXAET6fEN98s439HGQ7sb9q0+bx+rQR1zHnEW34A/8AXu9ld4cZCpqF6DvqxspSMOYhRIMUVhxGOY4YVa4EG/UaHFZKIOLzHApMhx4vKDDDwbxkE2g0XNBLXUJApfr6lLcweDz/AC1/Gxo4jRgHNZZh8W1gdS0byS5xpjcKVuU7RAREQEREBERAREQEREBERAREQEREBERARF8KDg2Us5coTESJ9bish10WGzSvKAFKUAFOtYr8pz5tVn5vlUry6Vphs7liS+Ltrf6Gq6guRMqZQNqs/N8qleXStMMMO5afOTKU3EhObGmo8VjnMJa91Wkt0TTqV6fypAg6cRoP3Re7wCjs3lxkcljWuDcbRpW7ob/dBJM3v9PB2x/OItHkGbjQn1gxokJ3F2SWOLSW2mmybgReAadS2+ake3AaKUsRIrO4sL6/zLUZPaA9oaSfo6mpreaOr4EIJMzLeUXVrPzV5BPL1ilNmAV7/NcoGtZ+bvIJ5ettKbMBgtDlOf8AR4ReAC4kNaDhaNbz1AAqNnLU1UkRqnW0AUHdS/uQdEOU8oGtZ+bvIJ5ettKbMBgvrspT5rWfm7yCeXrFKbMBgoRJ54PF0WGHDpbyT4G4+5b6Ry/LRbg8Nd91/JPjge4oNy7KU+a1n5u8gnl4kYbMMFUMu5RhEvE9MGpBcHGtdV2oeCsK3M6J7vMIO75rTz5iUgxYhq9zeUcKuBLSaddKrarQZhn6hA2P/rct+gIiICIiAiIgIiICIiAiIgIiIC+FfV8KDzW6YENsR5rRoDjTG5jVC8o5emY2BLGHmtuu63YlS+PA42HFYDQuFmvWWNUAmIL4bjDiAgjVvHSEFkAA8qqyA9rCCK0v20Iotjkr0UQ38dDLnXOhmpbWmkyoBoaVI1E3VC28xk7J4lXv4xhi0dZFsWi4EgUGJQW83c4peXhlj4MR7i9z6tddewN6RTAr5kAQ3xHOhwyxjRQNtF+kbr9jT4qKwjQE68O44+5TbNmXsQGk4vJee+4e4DxQWc7JcmAHDmuBOw1b5kKIRWkUcNfuIxXR5qCIjHMODgW+IXOX4EHEH34Ee5BW17XCprXuvVl5bqr30UozWkZKLBeYz2iMCaAuDTZAGAPfesfKbZFkFghAPjvHKdU0h4dWkejqQazJ+VZiD9m91n7p5TfDV3Ka5NymJmAX0suBsuGq0KG7qvCgAN9GVqbus9QCm2QZB8CXIfpONsjorQAHruQehswf9BA2P+I9SBR7MD1fA2P+I9SFAREQEREBERAREQEREBERAREQF8K+rnucPCWxjnw5WGXuY6Ix0R4oxsSG6y5oZUOdfW/C7Wg5TLvoX7W/0NWPlGThRxSILxg4XObsO5PRXWrnCjr6Xgm7p1XUR8uSOTZF9K2nY9GigjE/kqLBBs8tnS3GnW3eFqWsDtdD7v7KaRJGNQ/SAEddw7rG9a+Lm1Fc6rokMuIrokV67gg0DJe0Ww2kFziLxeOj5lT2EQ0BowAAGwXLWtyKGtaYVhsY0Fsl7q63ckigrRX4cpFANp7DQ0uDhf31QZ/GKF5algyO+tzH8oHtXn+aqlD5SJfRzajGto0HcrDMkOefp+LiC4sAL2Wem8X31GvUghroTRzgeoX+9ZsnIRZgAMFGjnG5v/kdi2js2nE1a+GGl3Juc7XcLxfgsxuTpoA/WGUF2jh7kGRknJEKBfpRPvHV2Rq81sph/IP/ALrWtZIzANHRWE0ronBX/RXkNFoXjr5VOi65B37g+9Xy+x/xHKRLkWaGf3ocJkCNDtwWWml7LnMF7iXAnl33XUN+tdVyfOw5iFDjQjWHEY2Iw0Iqx4DmmhvFxQZCIiAiIgIiICIiAiIgIiICIiAvN819rN+1Tvxnr0gvN019rN+1TvxnoLTcYew+QVEPRb295VTcYew+QVEPRHb3lBVGwibB5K5zv3d6tRsImweSvwG1iDs70FtjDSHccTq6ihabL7jp9HWFnN5m070ODu0dyDEMN1YlxwHkVchQHVb2fksh2MTYPIqqHi3s/JBhwpY2GVI0t5Vb5YWX3nH5KrjQGs7W8qxMTBLX0uv+SDIitYHmv3N6sB4PF0AAo7yC+lhLzQcw396rgS/2dTqd5BBjH7OLtieS71mH6tkvZpb4TVwiO2jYvR9J5Lu2YXq2R9mlvhNQb5ERAREQEREBERAREQEREBERAXm2b+1m/apz4z16SXm2b+1m/apz4z0FluMPYfIKiHojt7yqm4w9h8gqIeiO3vKCqLhE2DyWVKaf7m9YkXCJ3eSvwYll9fwb0GY3mbTvXw4O7R3LFEyeRQAXnr1FWYjyWuqed8kGbFjtBia7hhsKtCOSW6hZ+SshhLogHQPIrMgQAC2t5s/JBhy8MljKfe3lZJlwA+t943K4zRZ2t5X2Jg/aNyC4/SPZ3qmHzNjty+v0j2d6ph8zY7cgxpzQif8AIu55herZH2aW+E1cKmzyYnVbXdcwvVkj7NLfCag3yIiAiIgIiICIiAiIgIiICIiAvNk59tN+1Tnxnr0mvNc79tN+1TnxnoLLTfD2HyCoh6I7e8qpuMPYfIKiHojt7ygqi4RNg8lcGl+7vVqLhE2DyVwaX7u9BSzCHtPkV8dou7W8KuXi2bGsVNfArIdBa5rqfeOHdqQWoUWy6J0Ub5FZkGM0lt/N2dCxYksaxKUNw6tRVtrSC2o5vyQZzNFna3lImD9o8wtbAeQ1lDzt5V8zRo+oreNyDOfpHs71Q11LB6nbl8Mdpcb+bvWI6LaLOijvJBQ91WRa9MRd7zC9WSPs0t8Jq4EdCJtiLvuYXqyR9mlvhNQb5ERAREQEREBERAREQEREBERAXmqd+2m/apz4z16VXmme+2m/apz4z0FhuMPYfIKlmiO3vK+txZsPkFSzRHb3lBVFN0Tu8lcGl+7vVqLg/u8lfeGVbZc4uLDaBbQNNo0ANTauoa3YoLTMGbT5FfQ8gOp975L7KhhdCD3FrC69wbbIF9SG1FdlVbODu18kGYJq99RqGGwq7DmGkt7PRsWA43xNg8irxDRxdlxJLOUC2ll1qlAa8q6hrdjTUg+gwy1l/O1V6SrMXB9On5JJhh4sPcWsti0QLZAqakNqK+KpiaL9o3ILr9M9g+aphczY7yCP0z2D5r5C5mx3kgHQibXrv2YXqyR9mlvhNXADoRNr16AzEFMmyXs0t8JqDeoiICIiAiIgIiICIiAiIgIiIC87Z1yZl52chuFKxokVvWyN9ICOnSI2gr0So3nhmZL5SALy6HHaKMispUNxsuB0m11dZoRUoOCDFmw+QXxmA7W9dBicEE0DyZyCaYVhOb7g4q1+iKd/apbp0X4oIHEwf3eSrGl+7vU5PBFO3/Wpa/8AC9ff0Rzv7VLdGi9BA28zafIr4cHdr5KefoinbvrUtd+F6foinb/rUtffovQQV2L9g8lUzFvZ+SnH6I52/wCtS1/4Xr6OCOd/apbo0XoIEzRZ2t5X2Jg/b8lOxwRTtAPSpa6/Revp4I52/wCtS1/4XoIM/SPZPmvkPmbHeSnR4JJ39qlsKaL8FUzgim7qzcAU6IbzvCCARSbDwAS5znNaBiXOuAHXVekshyZgS0CEcYcKEw7WMDT5KJ5o8GsCSiCNGiGYjtNWVbxcNjvvBlTV3WT1gAqdICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiD//Z",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 4,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 402 Bluetooth Truly Wireless In Ear Earbuds with Bluetooth V5.0, Advanced Touch Controls, Instant Voice Assistant, Up to 16H Total Playtime and IPX4 Water Resistance with mic (Active Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Boat Airdopes 408",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41ZT3cZsqoL._SY300_SX300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "noise-cancelling",
+      "limited"
+    ],
+    "id": 5,
+    "type": "earbuds"
+  },
+  {
+    "title": "Zebronics Zeb-Lark Metallic Wireless in Ear Neckband Earphone with BT 5.0, Rapid Fast Charging (Metallic Red)",
+    "actual_price": 1449,
+    "selling_price": 799,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-LARK",
+    "color": "Metallic Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31RyeY+XA-S._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 6,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Rockerz 330ANC Bluetooth Neckband in Ear Earphones (Gunmetal Black) & Wave Call Smart Watch, Smart Talk (Active Black) & Xtend Talk with Advanced Dedicated Bluetooth Calling Chip,(Teal Green)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Gunmetal Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31ttYwEZIPL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 7,
+    "type": "smartwatch"
+  },
+  {
+    "title": "Skullcandy Dime True Wireless in-Ear Bluetooth Earbuds Compatible with iPhone and Android/Charging Case and Microphone/Great for Gym, Sports, and Gaming, IPX4 Water Dust Resistant - Dark Green",
+    "actual_price": 7499,
+    "selling_price": 2688,
+    "brand": "Skullcandy",
+    "model": "Dime",
+    "color": "Blue Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://imagecdn.skullcandy.in/uploads/dime_2_buy_box_true_black_1_333af15fb2_4a1b11be42.png",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 8,
+    "type": "earbuds"
+  },
+  {
+    "title": "Noise Flair in-Ear Wireless Bluetooth Smart Neckband Earphone with Touch Controls, 35 Hour Playtime, Environmental Cancellation with Dual mic, Fast Charging (Stone Blue)",
+    "actual_price": 3999,
+    "selling_price": 1799,
+    "brand": "Noise",
+    "model": "Flair",
+    "color": "Stone Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://www.gonoise.com/cdn/shop/products/Artboard1_b1ba1ef5-3f51-42fa-b9ab-a1bfbc0a3d04.png?v=1627585716",
+    "category": [
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 9,
+    "type": "neckband"
+  },
+  {
+    "title": "Meyaar Beex Series Earphones with Super Heavy Bass 90%-Noise Isolating Earbuds with Microphone and Game Experience for All Headphone with Carry Case (Black)",
+    "actual_price": 999,
+    "selling_price": 239,
+    "brand": "Meyaar",
+    "model": "Meyaar-Made-in-India-with-Case",
+    "color": "With Carry Case",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71GjG-IfDCL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 10,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra 2400 II Duo USB MS BT Wireless In Ear Bluetooth Headset with Mic - Black",
+    "actual_price": 22974,
+    "selling_price": 8500,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71K6H0b9oQL._AC_SL1500_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 11,
+    "type": "headset"
+  },
+  {
+    "title": "Portronics Conch 70 in-Ear Wired Earphone with Mic, 3.5mm Audio Jack(Pink)",
+    "actual_price": 599,
+    "selling_price": 349,
+    "brand": "Portronics",
+    "model": "Conch 70",
+    "color": "Pink",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51wYqUsT7fL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 12,
+    "type": "earphone"
+  },
+  {
+    "title": "Meyaar Beex Abhinandan Wired Durable Metal Earphones Earbuds with Microphone & Deep Bass Clear Sound Noise Isolating in Ear Headphones, Stereo Ear Buds for Cell Phones, Laptop, Tablet (Metal Black)",
+    "actual_price": 999,
+    "selling_price": 119,
+    "brand": "Meyaar",
+    "model": "Abhinandan",
+    "color": "Metal Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://images.price.tools/images/meyaar-beex-abhinandan-wired-durable-metal-m-MeFutkdn1.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 13,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Portronics Harmonics Twins S2 Wireless Sports Earbuds Bluetooth 5.0 I Voice Assistant I 20 Hrs Playtime with Case I Type C Charging (Green)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Portronics",
+    "model": "Harmonics Twins S2",
+    "color": "Green",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31eTRuVAtZL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 14,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Buds C2 in Ear Type C Wired Earphones with Mic, Braided 1.2 Metre Cable, Metallic Design, 10mm Drivers, in Line Mic & Volume Controller (Red)",
+    "actual_price": 699,
+    "selling_price": 399,
+    "brand": "ZEBRONICS",
+    "model": "Zeb Buds C2 (Red)",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31j+dMMDQ4L._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 15,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib True Wireless Earbuds with 22 Hours Total Battery, IPX4 Sweat and Water Resistant, Use Either Bud Solo, Dual Microphones, Noise-Isolating Fit,Call, Track and Volume Control (Orange Black)",
+    "actual_price": 8999,
+    "selling_price": 3299,
+    "brand": "Skullcandy",
+    "model": "Jib TWS",
+    "color": "Orange Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41B7wTFxvDL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 16,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Bassbuds Fute 5.1 Bluetooth Truly Wireless Featherlite TWS in Ear Earbuds with Mic 25Hrs Playtime, 13Mm Dynamic Driver, Immersive Audio, Touch Control, Voice Assistance & Fast Charging (Black)",
+    "actual_price": 3299,
+    "selling_price": 699,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.1",
+    "image": "https://m.media-amazon.com/images/I/31BtqFqyasL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "noise-cancelling"
+    ],
+    "id": 17,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio BassBuds Oak in-Ear Wired Earphones with 10mm Extra Bass Driver and HD Sound with mic(Brown)",
+    "actual_price": 1299,
+    "selling_price": 549,
+    "brand": "Boult Audio",
+    "model": "BassBuds",
+    "color": "Brown",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/81g-hUPy-TL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 18,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Bang Pro Bluetooth Wireless On Ear Headphones with Mic V5.0, 30H Backup, Foldable, Call Function, Voice Assistant, Built-in Rechargeable Battery, Type C, 40Mm Driver and Aux (Orange)",
+    "actual_price": 2499,
+    "selling_price": 1199,
+    "brand": "ZEBRONICS",
+    "model": "Zeb- Bang Pro (Orange)",
+    "color": "Orange",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31PR2A2ggYL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 19,
+    "type": "accessory"
+  },
+  {
+    "title": "boAt Airdopes 141 True Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode & Stone 180 5W Bluetooth Speaker with Upto 10 Hours Playback, 1.75\" Driver, IPX7 & TWS Feature(Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/AD141-FI_Black01_600x.png?v=1698391770",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 20,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Evolve2 75 PC Wireless Headset with 8-Microphone Technology - Dual Foam Stereo Headphones with Adjustable Advanced Active Noise Cancelling, USB-C Bluetooth Adapter and UC Compatibility - Black",
+    "actual_price": 48212,
+    "selling_price": 43500,
+    "brand": "Jabra",
+    "model": "Evolve2 75",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31QuLXoSSRL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 21,
+    "type": "headset"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Sound Bomb N1 True Wireless in Ear Earbuds with Mic ENC, Gaming Mode (up to 50ms), up to 18H Playback, BT V5.2, Fidget Case, Voice Assistant, Splash Proof, Type C (Midnight Black)",
+    "actual_price": 4199,
+    "selling_price": 999,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB N1 (MIDNIGHT BLACK)",
+    "color": "Midnight black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31i5nmWFmhL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 22,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt BassHeads 950v2 Wired Over Ear Headphones with 40mm Audio Drivers, Soft Ear-Cushion, Lightweight Build, 3.5mm Jack and with mic(Warm Grey)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Bassheads 950v2",
+    "color": "Warm Grey",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31dGyRehBLL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium"
+    ],
+    "id": 23,
+    "type": "headphone"
+  },
+  {
+    "title": "Zebronics Zeb Yoga 101 (Red) Wireless Neckband Earphone with 10mm Neodymium Driver, Dual Pairing, Magnetic Earpiece and Voice Assistant",
+    "actual_price": 2499,
+    "selling_price": 1297,
+    "brand": "ZEBRONICS",
+    "model": "Zeb Yoga 101",
+    "color": "RED",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/416YkH0xUyL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 24,
+    "type": "neckband"
+  },
+  {
+    "title": "pTron Bassbuds Fute 5.1 Bluetooth Truly Wireless Featherlite TWS in Ear Earbuds with Mic 25Hrs Playtime, 13Mm Dynamic Driver, Immersive Audio, Touch Control, Voice Assistance & Fast Charging (White)",
+    "actual_price": 3298,
+    "selling_price": 699,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Pearl White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.1",
+    "image": "https://ptron.in/cdn/shop/products/B09ZBC381Y.MAIN_637x.jpg?v=1657181893",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "noise-cancelling"
+    ],
+    "id": 25,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Bro in Ear Wired Earphones with Mic, 3.5mm Audio Jack, 10mm Drivers, Phone/Tablet Compatible(Green)",
+    "actual_price": 399,
+    "selling_price": 149,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-BRO(Green)",
+    "color": "Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/316aSEuJIaL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 26,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra Elite 85t True Wireless Bluetooth Earbuds, Copper Black \u2013 Advanced Noise-Cancelling Earbuds with Charging Case for Calls & Music \u2013 Wireless Earbuds with Superior Sound & Premium Comfort",
+    "actual_price": 61365,
+    "selling_price": 39557,
+    "brand": "Jabra",
+    "model": "Elite 85t",
+    "color": "Copper Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/41G0gvAGsrL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 27,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 245v2 Bluetooth Wireless in Ear Earphones with Upto 8 Hours Playback, 12mm Drivers, IPX5, Magnetic Eartips, Integrated Controls and Lightweight Design with Mic (Raging Red)",
+    "actual_price": 2490,
+    "selling_price": 1099,
+    "brand": "boAt",
+    "model": "Rockerz",
+    "color": "Raging Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.3",
+    "image": "https://m.media-amazon.com/images/I/31r4MOOo2NS._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 28,
+    "type": "earphone"
+  },
+  {
+    "title": "(Renewed) Zebronics Zeb-Symphony Wireless Neckband Earphone with BT v5.2, Type C Charging, Voice Assistant Support, 13H Backup, Splash Proof, Magnetic earpiece, Calling and Built-in Rechargeable Battery (Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "Zeb- Symphony( Blue)",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/315ADafzv0L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 29,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Bassheads 105 Wired in Ear Earphones with Mic (Black)",
+    "actual_price": 999,
+    "selling_price": 449,
+    "brand": "boAt",
+    "model": "Bassheads 105",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/34b854e0-0fee-4518-ad71-e2a61b3e4c8f_600x.png?v=1623832759",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 30,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt (Renewed) Rockerz 510 Wireless Bluetooth On Ear Headphone with Mic (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Rockerz 510",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/5d5377dc-d3dd-48ba-8ec9-2a1630146d8d_600x.png?v=1685709753",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 31,
+    "type": "headphone"
+  },
+  {
+    "title": "Boult Audio BassBuds X1 in-Ear Wired Earphones with 10mm Extra Bass Driver and HD Sound with mic(Blue)",
+    "actual_price": 999,
+    "selling_price": 349,
+    "brand": "Boult Audio",
+    "model": "Bassbuds",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41mjj4T9hkL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "headphones",
+      "budget"
+    ],
+    "id": 32,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Nirvana 751 ANC Hybrid Active Noise Cancelling Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, ASAP Charge, Ambient Sound Mode, Immersive Sound, Carry Pouch(Gunmetal Grey)",
+    "actual_price": 7990,
+    "selling_price": 3999,
+    "brand": "boAt",
+    "model": "Nirvanaa 751 ANC",
+    "color": "Gunmetal Grey",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/31dXEvtxidL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling"
+    ],
+    "id": 33,
+    "type": "headphone"
+  },
+  {
+    "title": "pTron Bassbuds Wave ENC Bluetooth 5.3 Wireless in Ear Earbuds, 40Hrs Total Playtime, Movie Mode & Deep Bass, Low Latency, Stereo Calls, Snug-fit, Smooth Touch Control & Type-C Charging (Black)",
+    "actual_price": 4599,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://ptron.in/cdn/shop/products/B09XBH4F47.MAIN.jpg?v=1653540152",
+    "category": [
+      "trending",
+      "popular",
+      "headphones",
+      "gaming"
+    ],
+    "id": 34,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Evolve 40 MS Wired Bluetooth On Ear Headphone with Mic (Black)",
+    "actual_price": 15066,
+    "selling_price": 10450,
+    "brand": "Jabra",
+    "model": "Jabra EVOLVE 40 MS Stereo wired USB headset",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "USB",
+    "image": "https://www.jabra.com/_next/image?url=https%3A%2F%2Fassets2.jabra.com%2F2%2F3%2F2%2Fd%2F232d947f5d3b36e50438128e95b245e93940327f_evolve_40_mono_2.png&w=1080&q=75",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 35,
+    "type": "headset"
+  },
+  {
+    "title": "Boult Audio X1 Buds True Wireless in Ear Earbuds with 24H Playtime, Quad Mic ENC, Made in India, Type-C Fast Charging, Environmental Noise Cancellation, 10mm Bass Drivers, TWS Airbass ear buds (White)",
+    "actual_price": 6999,
+    "selling_price": 1799,
+    "brand": "Boult Audio",
+    "model": "Bassbuds",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.1",
+    "image": "https://m.media-amazon.com/images/I/71mT2gCHH+L._SY355_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 36,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Skullcandy Push Active True Wireless Earbuds with 44 Hours Total Battery & IP55 Sweat and Water Resistant (Light Gray Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Push Active",
+    "color": "Orange Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41ejsF0BqgL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 37,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Conch 80 in Ear Wired Earphones with Mic, 3.5mm Jack, 10mm Dynamic Drivers, Extra Bass, Magnetic Latch, Nylon Braided Wire(Black)",
+    "actual_price": 599,
+    "selling_price": 399,
+    "brand": "Portronics",
+    "model": "Conch 80",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31dct9jw8tL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 38,
+    "type": "earphone"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 441 Pro Bluetooth Truly Wireless In Ear Earbuds with Mic (Raging Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Raging Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/4172ciPkr4L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 39,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Black)",
+    "actual_price": 899,
+    "selling_price": 229,
+    "brand": "PTron",
+    "model": "Pride Lite",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31ayQE6qnbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "budget"
+    ],
+    "id": 40,
+    "type": "headset"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Sound Bomb 8 Light Weight Earbuds with 12Hours* of Playback time.(White)",
+    "actual_price": 3599,
+    "selling_price": 1099,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Sound Bomb 8(White)",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://d13rpl5inwerx1.cloudfront.net/filters:format(webp)/filters:quality(90)/fit-in/370x370/images/images/1_nSGvgVO.webp",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 41,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar SPN UpBeat-1 Earbuds, Wired Headphones with Microphone and Ear Bud Tip Replacements, Universal 3.5 mm Plug for Most Smartphones, Tablets, Noise Isolating, Memory Foam Pads, Deep Bass (White)",
+    "actual_price": 349,
+    "selling_price": 129,
+    "brand": "Meyaar",
+    "model": "Upbeat-1",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51tZSAeAYNL._SL1500_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 42,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Black)",
+    "actual_price": 899,
+    "selling_price": 229,
+    "brand": "PTron",
+    "model": "Pride Lite",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51RyH+nQGRL._SX425_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "budget"
+    ],
+    "id": 43,
+    "type": "headset"
+  },
+  {
+    "title": "pTron Bassbuds Wave ENC Bluetooth 5.3 Wireless in-Ear TWS Earbuds with Mic, 40Hrs Total Playtime, Movie Mode & Deep Bass, Low Latency, Stereo Calls, Smooth Touch Control & Type-C Fast Charging (Grey)",
+    "actual_price": 4599,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Rich Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://ptron.in/cdn/shop/products/B09XBH4F47.MAIN.jpg?v=1653540152",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 44,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Skullcandy Sesh Evo Truly Wireless Bluetooth In Ear Earbuds with Mic (Bleached Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Skullcandy Model",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51gHqPGCyBL._SY355_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 45,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar M-11 High Bass Wired in-Ear Earphone with Mic ((Pack of 3) Pink + Black + Grey)",
+    "actual_price": 999,
+    "selling_price": 379,
+    "brand": "Meyaar",
+    "model": "M-11_(Pink + Black + Grey)",
+    "color": "(Pack of 3) Pink + Black + Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/719aoXZGjIL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 46,
+    "type": "earphone"
+  },
+  {
+    "title": "pTron Bassbuds Fute 5.1 Bluetooth Truly Wireless Featherlite TWS in Ear Earbuds with Mic 25Hrs Playtime, 13Mm Dynamic Driver, Immersive Audio, Touch Control, Voice Assistance & Fast Charging (White)",
+    "actual_price": 3298,
+    "selling_price": 699,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Pearl White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.1",
+    "image": "https://m.media-amazon.com/images/I/31V-0PmEkJL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "noise-cancelling"
+    ],
+    "id": 47,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Jumbo LITE with 70 Hours Backup, Bluetooth v5.2 Wireless Neckband, Fast Charging, ENC Calling, Gaming Mode (Upto 50ms), Voice Assistant, Dual Pairing, Splash Proof, and Type C (Navy)",
+    "actual_price": 2999,
+    "selling_price": 999,
+    "brand": "ZEBRONICS",
+    "model": "Zeb Yoga 7 (Jumbo Lite)",
+    "color": "Navy",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31NHNOrWUML._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 48,
+    "type": "neckband"
+  },
+  {
+    "title": "(Renewed) boAT 103 Bluetooth Wireless Active Black In Ear Earphone with mic (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Boat 103-cr",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31Wh5G98mbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 49,
+    "type": "earphone"
+  },
+  {
+    "title": "(Renewed) Boat Super Bass Rockerz 400 Bluetooth On-Ear Headphones with Mic (Black/Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Multicolor",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41zZu2zGsUL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 50,
+    "type": "unknown"
+  },
+  {
+    "title": "boAt Airdopes 413ANC True Wireless in Ear Earbuds (Carbon Black) & Xtend Smartwatch with Alexa Built-in, 1.69\u201d HD Display(Charcoal Black) & Xtend/Xtend RTL Smartwatch with Alexa Built-in(Sandy Cream)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Carbon Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/410tiDRHOML._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 51,
+    "type": "smartwatch"
+  },
+  {
+    "title": "pTron Basspods 992 Active Noise Cancelling (ANC) Bluetooth 5.0 Wireless in Ear Earbuds with mic, Deep Bass, Low Latency, Ergonomic Touch Control Voice Assistance & IPX4 Water-Resistant (White)",
+    "actual_price": 4599,
+    "selling_price": 989,
+    "brand": "PTron",
+    "model": "Basspods 992",
+    "color": "White",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31Fqn-10LqL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "noise-cancelling",
+      "gaming"
+    ],
+    "id": 52,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) ZEBRONICS Zeb-Symphony Bluetooth Wireless In Ear Earphone with Mic with Voice Assistant (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "ZEBRONICS Model",
+    "color": "black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/41hM1Z3Ey8L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium"
+    ],
+    "id": 53,
+    "type": "earphone"
+  },
+  {
+    "title": "Boult Audio Z40 True Wireless in Ear Earbuds with 60H Playtime, Zen\u2122 ENC Mic, Low Latency Gaming, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, IPX5, Bluetooth 5.1 Ear Buds TWS (White)",
+    "actual_price": 4999,
+    "selling_price": 1499,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Z40 White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.jiomart.com/images/product/original/494249652/boult-audio-z40-true-wireless-in-ear-earbuds-with-60h-playtime-zen-enc-mic-low-latency-gaming-type-c-fast-charging-made-in-india-10mm-rich-bass-drivers-ipx5-bluetooth-v5-3-ear-buds-tws-brown-digital-o494249652-p605918422-0-202310311935.jpeg?im=Resize=(420,420)",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 54,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio AirBass PowerBuds with 120H Total Playtime, Inbuilt Powerbank, IPX7 Fully Waterproof, Type-C Fast Charging, Low Latency Gaming, Pro Calling Mic Airbass True Wireless in Ear Earbuds (Blue)",
+    "actual_price": 8999,
+    "selling_price": 1499,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/41ra+AIql+L._SY300_SX300_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 55,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 255 Pro+ Wireless In Ear Earphones with 40 Hours Battery, ASAP Charge, IPX7, Bluetooth Version 5.0, 10mm Drivers and Voice Assistant with mic (Active Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Rockerz 255 Pro+",
+    "color": "Black; Active Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41NVmSPAgAL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 56,
+    "type": "earphone"
+  },
+  {
+    "title": "Boult Audio Omega with 30dB ANC+ENC, 32H Playtime, 45ms Xtreme Latency Mode, Quad Mic ENC, Type-C Fast Charging, Active Noise Cancellation, TWS BT Gaming Airbass True Wireless in Ear Earbuds (White)",
+    "actual_price": 9999,
+    "selling_price": 1999,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Omega White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41sEmULXfAL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "noise-cancelling",
+      "gaming"
+    ],
+    "id": 57,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 330 in-Ear Bluetooth Neckband with Upto 30 Hours Playtime, ASAP Charge, Signature Sound, Dual Pairing & IPX5 with Mic (Active Black) & r Headphones",
+    "actual_price": 6703.3,
+    "selling_price": 999,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Active Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/main3_a08fff6a-7c3d-4663-9499-3421df127e94_600x.png?v=1641801688",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 58,
+    "type": "neckband"
+  },
+  {
+    "title": "CableCreation 3.5mm TRS Aux Cable, Braided Audio Auxiliary Input Adapter Male to Male for Car, Hi-Fi Sound, Cotton Compatible with Headphone, Galaxy S22, Phone, Home Stereo, Car Stereo&More",
+    "actual_price": 6703.3,
+    "selling_price": 599,
+    "brand": "CableCreation",
+    "model": "CableCreation Model",
+    "color": "Gold, White, Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Auxiliary",
+    "image": "https://orami.in/image/cache/catalog/OB01K3WX4FW/61XVajlLyIL._SL1500_-1100x1100.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 59,
+    "type": "accessory"
+  },
+  {
+    "title": "pTron Bassbuds Sports V2 Bluetooth 5.3 Wireless Over Ear Headphone with Mic, Earhooks, 48Hrs Playtime, Snug-fit Design, ENC TWS Earbuds, Immersive Sound, Movie/Music Mode & Type-C Charging (Black)",
+    "actual_price": 3199,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds Sports",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41n580-gZ7L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "trending"
+    ],
+    "id": 60,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Symphony Bluetooth Wireless in Ear Earphones with Mic V5.2 Type C Charging, Voice Assistant Support, Splash Proof Magnetic Earpiece Calling Built-in Rechargeable Battery (Red)",
+    "actual_price": 1299,
+    "selling_price": 699,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Symphony (Red)",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/416gcCX0qXL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 61,
+    "type": "earphone"
+  },
+  {
+    "title": "pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Blue)",
+    "actual_price": 749.17,
+    "selling_price": 229,
+    "brand": "PTron",
+    "model": "Pride Lite",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://ptron.in/cdn/shop/products/51yB_3-eJwL._SL1100_637x.jpg?v=1632967723",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "budget"
+    ],
+    "id": 62,
+    "type": "headset"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Sound Bomb G1 Gaming Bluetooth Truly Wirelss in Ear Earbuds, 50Ms Low Latency, AAC Support, Flash Connect, Deep Bass, Splash Proof, Voice Assistant, Bt V5.0 with Mic (Black)",
+    "actual_price": 3999,
+    "selling_price": 1099,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB G1 (BLACK)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41yBnWbS5nL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 63,
+    "type": "earbuds"
+  },
+  {
+    "title": "Logitech H390 Wired On Ear Headset for PC/Laptop, Stereo Headphones with Noise Cancelling Microphone, USB-A, In-Line Controls, Works with Chromebook",
+    "actual_price": 4695,
+    "selling_price": 3964,
+    "brand": "Logitech",
+    "model": "H390 Headset",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31xiZQHVI3L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling"
+    ],
+    "id": 64,
+    "type": "headset"
+  },
+  {
+    "title": "Jabra EVOLVE 65 UC Duo Wireless Bluetooth On Ear Headphone with Mic (Black)",
+    "actual_price": 27621,
+    "selling_price": 23300,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41XtZ6GsNvL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 65,
+    "type": "headphone"
+  },
+  {
+    "title": "ZEBRONICS Yoga N2 RGB Neckband with 30H Playtime, ENC Mic, Upto 50ms Gaming Mode, Powerful Bass, Voice Asst, IPX4, Dual Pairing, Type C Port, Bluetooth v5.2 Wireless in Ear Earphones with Mic(Black)",
+    "actual_price": 3999,
+    "selling_price": 899,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-YOGA N2 (Black)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31sVzn1hOXL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 66,
+    "type": "neckband"
+  },
+  {
+    "title": "PTron Boom Ultima V2 Dual Driver, in Ear Gaming Wired Earphones with Mic, Volume Control, Passive Noise Cancelling Boom 3 with 3.5mm Audio Jack & 1.2M Tangle-Free Cable (Black)",
+    "actual_price": 1583,
+    "selling_price": 399,
+    "brand": "PTron",
+    "model": "Boom Ultima V2",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41JRh5RhQxL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget",
+      "noise-cancelling",
+      "gaming"
+    ],
+    "id": 67,
+    "type": "accessory"
+  },
+  {
+    "title": "Logitech H340 Stereo Wired Over Ear Headphones With Mic With Noise-Cancelling, Usb, Pc/Mac/Laptop - Black",
+    "actual_price": 3195,
+    "selling_price": 2470,
+    "brand": "Logitech",
+    "model": "l1",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61kCTnNQe6L._SY355_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 68,
+    "type": "headphone"
+  },
+  {
+    "title": "ZEBRONICS Sound Bomb 7 Bluetooth TWS in Ear Earbuds with 40H Playtime, ENC Mic, Rapid Charge, Upto 50ms Gaming Mode, Flash Connect, Voice Assistant, Smooth Touch Control, BT v5.2, Type C (White)",
+    "actual_price": 4299,
+    "selling_price": 999,
+    "brand": "ZEBRONICS",
+    "model": "Zebronics ZEB-SOUND BOMB 7 (White)",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31MO45G7BeL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 69,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Z2 Wireless Bluetooth 5.2 Headset with Mic, ENC Noise Cancelling, Upto 30Hrs Playtime, Fast Charging Type C Neckband, Voice Assistant, & in-line Controls (Red)",
+    "actual_price": 1999,
+    "selling_price": 769,
+    "brand": "Portronics",
+    "model": "Harmonics Z2",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31Dym8JW5oL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 70,
+    "type": "neckband"
+  },
+  {
+    "title": "ZEBRONICS Yoga N2 RGB in Ear Neckband with 30H Playtime, ENC Mic, Upto 50ms Gaming Mode, Powerful Bass, Voice Assistant, IPX4, Dual Pairing, BT v5.2, Type C Port, Wireless Earphones with Mic(Blue)",
+    "actual_price": 3999,
+    "selling_price": 899,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-YOGA N2 (BLUE)",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61yP-GjwidL._SY355_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 71,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Rockerz 425 Bluetooth Wireless Over Ear Headphones with Mic with Signature Sound, Beast Mode(Upto 65Ms Low Latency) for Gaming Enx Tech, ASAP Charge 25H Playtime V5.2, Dual Pairing (Oceana Blue)",
+    "actual_price": 2999,
+    "selling_price": 1499,
+    "brand": "boAt",
+    "model": "Rockerz 425",
+    "color": "Oceana Blue",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/41UhhUPV7vL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "gaming"
+    ],
+    "id": 72,
+    "type": "headphone"
+  },
+  {
+    "title": "Jabra Elite 4 Active in-Ear Bluetooth Earbuds \u2013 True Wireless Earbuds with Secure Active Fit, 4 Built-in Microphones, Active Noise Cancellation and Adjustable HearThrough Technology \u2013 Navy",
+    "actual_price": 6703.3,
+    "selling_price": 15980,
+    "brand": "Jabra",
+    "model": "Elite 4 Active",
+    "color": "Navy",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31mwjKh8blL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 73,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Conch 50 in-Ear Wired Earphone with Mic, 3.5mm Audio Jack(Violet)",
+    "actual_price": 499,
+    "selling_price": 299,
+    "brand": "Portronics",
+    "model": "Conch 50",
+    "color": "Violet",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/5163AdosK4L._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 74,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Rockerz 330 in-Ear Bluetooth Neckband with Upto 30 Hours Playtime, ASAP Charge, Signature Sound, Dual Pairing & IPX5 with Mic (Raging Red)",
+    "actual_price": 3990,
+    "selling_price": 1599,
+    "brand": "boAt",
+    "model": "Rockerz 330",
+    "color": "Raging Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/51HWmUoZhWS._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 75,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Airdopes 141 Bluetooth Truly Wireless Earbuds with Upto 42H Playtime, Beast Mode Low Latency Upto 80ms for Gaming, ENx Tech, ASAP Charge, IWP, Smooth Touch Controls with Mic",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Clear",
+    "form_factor": "In Ear, On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/513mTGIIy5L._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "gaming"
+    ],
+    "id": 76,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Conch 70 in-Ear Wired Earphone with Mic, 3.5mm Audio Jack, 1.2M(White)",
+    "actual_price": 599,
+    "selling_price": 289,
+    "brand": "Portronics",
+    "model": "Conch 70",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://www.jiomart.com/images/product/original/rvxgxnhpp7/portronics-conch-70-in-ear-wired-earphone-with-mic-3-5mm-audio-jack-red-por-1502-product-images-orvxgxnhpp7-p594228564-0-202210031306.jpg?im=Resize=(420,420)",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 77,
+    "type": "earphone"
+  },
+  {
+    "title": "Noise Buds VS402 Truly Wireless in Ear Earbuds, 35-Hours of Playtime (Neon Black) & ColorFit Pulse Spo2 Smart Watch & IP68 Waterproof (Jet Black) & Pulse Go Buzz Smart Watch Bluetooth Calling (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Noise",
+    "model": "Noise Model",
+    "color": "Neon Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41xf1dU-GQL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 78,
+    "type": "smartwatch"
+  },
+  {
+    "title": "Portronics Conch 50 in-Ear Wired Earphone with Mic, 3.5mm Audio Jack(Yellow)",
+    "actual_price": 499,
+    "selling_price": 299,
+    "brand": "Portronics",
+    "model": "Conch 50",
+    "color": "Yellow",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31ui0kLd+xL._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 79,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra 40 Stereo Wired On Ear Headphones with mic Black",
+    "actual_price": 19500,
+    "selling_price": 10500,
+    "brand": "Jabra",
+    "model": "40 Stereo",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://www.jabra.com/_next/image?url=https%3A%2F%2Fassets2.jabra.com%2F2%2F3%2F2%2Fd%2F232d947f5d3b36e50438128e95b245e93940327f_evolve_40_mono_2.png&w=1080&q=75",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 80,
+    "type": "headphone"
+  },
+  {
+    "title": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic(Aqua Blue) & Airdopes 121v2 in-Ear True Wireless Earbuds(Midnight Blue) & Airdopes 121v2 in-Ear True Wireless Earbuds",
+    "actual_price": 6703.3,
+    "selling_price": 1399,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Aqua Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31x-Xz8TkbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "trending"
+    ],
+    "id": 81,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar DG-Beex Pack of 3 Headset with High Bass Headphones with Microphone, Earbuds Wired Stereo Earphones for All Smartphones (3 Black) (Set of 3 White)",
+    "actual_price": 999,
+    "selling_price": 329,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Set of 3 White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31xnPMXWaLL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 82,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Bassbuds Perl in-Ear TWS Earbuds with TruTalk ENC, Bluetooth 5.3 Wireless Headphone with Mic, Deep Bass, Low Latency, HD Stereo Call, Pinch Control & Type-C Fast Charging (Black)",
+    "actual_price": 3199,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41hXm9nKkkL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 83,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Sound Bomb G1 Gaming Bluetooth Truly Wireless in Earbuds, 50Ms Low Latency, AAC Support, Flash Connect, Deep Bass, Splash Proof, Voice Assistant, Bt V5.0 with Mic (Black + Red)",
+    "actual_price": 3999,
+    "selling_price": 1099,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB G1 (BLACK + RED)",
+    "color": "Black+Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/611p3MVMmrL._SY355_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 84,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Engage 50 Wired Headset with Mic (Black)",
+    "actual_price": 25771,
+    "selling_price": 23967,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41h96pqFRsL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 85,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Rockerz 255 Pro+ in-Ear Bluetooth Neckband Active Black & Bassheads 242 in Ear Wired Earphones with Mic(Active Black) & Stone 135 Portable Wireless Speaker(Soldier Green)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Active Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41NVmSPAgAL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "premium",
+      "headphones"
+    ],
+    "id": 86,
+    "type": "neckband"
+  },
+  {
+    "title": "Portronics Harmonics Twins 27 Smart TWS Earbuds with ANC+ENC Noise Cancelling, 35 Hrs Playtime, Voice Assistant, Dual Mic. Support, Feather Touch(White)",
+    "actual_price": 3999,
+    "selling_price": 1699,
+    "brand": "Portronics",
+    "model": "Harmonics Twins 27",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41vGvRbjl0L._SY355_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 87,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Zebronics Zeb-Bang Bluetooth Headphone with Voice Assistant (Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "ZEBRONICS Model",
+    "color": "red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61pmTZYmM-L._SY355_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 88,
+    "type": "unknown"
+  },
+  {
+    "title": "Meyaar SP Dual Driver Earphones,6D Sound High End Sport Earbuds Noise Isolating Deep Bass in Ear Earphones with Microphones Headphones with Volume Control (Metal Black)",
+    "actual_price": 999,
+    "selling_price": 249,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Metal Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41Msd1Cl8XL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "budget"
+    ],
+    "id": 89,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio Z15 with 32Hrs Playtime, Pro+Calling HD Mic, Type-C Lightning Boult Fast Charging (10mins=100Mins), BoomX Tech Rich Bass, Touch Controls, IPX5, Truly Wireless in Ear Earbuds TWS (Black)",
+    "actual_price": 2999,
+    "selling_price": 1199,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Z15 Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/316HwTiJyML._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 90,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Immortal IM1000D Dual Channel Wired Over Ear Headphones with Mic, Gaming Headphones(White Sabre) & Flash Edition Smartwatch with Activity Tracker,Multiple Sports Modes(Moon Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "White Sabre",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/411Li+2fKCS._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "gaming"
+    ],
+    "id": 91,
+    "type": "smartwatch"
+  },
+  {
+    "title": "Boult Audio Airbass Fx1 Bluetooth Truly Wireless in Ear Earbuds with Mic with 32H Total Playtime, Type-C Fast Charging, Touch Controls, Ipx5 Sweatproof and Voice Assistant (White)",
+    "actual_price": 4999,
+    "selling_price": 1099,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31O9psqe+sS._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 92,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib Wired in Ear Earbuds with Microphone- Cobalt Blue",
+    "actual_price": 1999,
+    "selling_price": 820,
+    "brand": "Skullcandy",
+    "model": "Jib with Mic",
+    "color": "Cobalt Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://imagecdn.skullcandy.in/uploads/Jib_mic_1_S2_DUYK_M712_Cobalt_Blue_Ortho_v001_ae1799718d_b89089b179.png",
+    "category": [
+      "headphones"
+    ],
+    "id": 93,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Tangent Duo Bluetooth 5.2 Wireless Earphones, 24Hrs Playback, 13mm Dynamic Driver, Deep Bass, HD Calls, Fast Charging Type-C Neckband, Voice Assistant & IPX4 Water Resistant (Black/Blue)",
+    "actual_price": 1899,
+    "selling_price": 549,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black/Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51f5mDFYR-L._SX425_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 94,
+    "type": "neckband"
+  },
+  {
+    "title": "(Renewed) Skullcandy Dime 2 True Wireless In Ear Earbuds (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Dime 2 TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61M8OEARTkL._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 95,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar SPN UpBeat-1 Wired in Ear Earphone with Mic (Blue)",
+    "actual_price": 799,
+    "selling_price": 299,
+    "brand": "Meyaar",
+    "model": "Upbeat-1",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/412tntNdK1L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 96,
+    "type": "earphone"
+  },
+  {
+    "title": "Skullcandy Hesh3 Wireless Over-Ear Headphone with Mic (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 5899,
+    "brand": "Skullcandy",
+    "model": "Hesh 3",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSu5_PES7KPGoXw2URHnz-oXUpKAMX_g0330UvKovIKQWR2QlX6WojljC7LYfxd4O9zDlu_WU89o3nj6IimMkTh5JZl8njI9MTNgUR4PYK_ebwqmXltdbn42w",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 97,
+    "type": "unknown"
+  },
+  {
+    "title": "boAt Rockerz 255 Pro+ in-Ear Bluetooth Neckband with Upto 40 Hours Playback, ASAP Charge, IPX7, Dual Pairing, BT v5.0, with Mic (Teal Green)",
+    "actual_price": 3990,
+    "selling_price": 1299,
+    "brand": "boAt",
+    "model": "Rockerz 255 Pro+",
+    "color": "Teal Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/416isonjX7L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 98,
+    "type": "neckband"
+  },
+  {
+    "title": "CableCreation 3.5mm TRS Aux Cable, Braided Audio Auxiliary Input Adapter Male to Male for Car, Hi-Fi Sound, Cotton Compatible with Headphone, Galaxy S22, Phone, Home Stereo, Car Stereo&More",
+    "actual_price": 6703.3,
+    "selling_price": 599,
+    "brand": "CableCreation",
+    "model": "CableCreation Model",
+    "color": "Gold, White, Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Auxiliary",
+    "image": "https://m.media-amazon.com/images/I/61XVajlLyIL._SX342_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 99,
+    "type": "accessory"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 600 Bluetooth Headphones",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Rockerz",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41wp+P2OdvL._SY300_SX300_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 100,
+    "type": "unknown"
+  },
+  {
+    "title": "Wings Phantom 410 Best Low Latency 40ms Wireless Earbuds, Gaming Case with Digital Battery Indicator, 70 Hours Playtime, in Ear Airpods, ENC Mic, Touch Controls TWS Headset",
+    "actual_price": 2999,
+    "selling_price": 1446,
+    "brand": "Wings",
+    "model": "Phantom 410",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/t/t/j/-original-imahd2syvmhjsxhm.jpeg?q=70",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 101,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 141 Tws Bluetooth Truly Wireless In Ear Earbuds With Mic 42H Playtime, Beast Mode, Enx Tech, Asap Charge, Iwp, Ipx4 Water Resistance, Smooth Touch Controls(Pure White)",
+    "actual_price": 6703.3,
+    "selling_price": 1099,
+    "brand": "boAt",
+    "model": "Airdopes 141",
+    "color": "Pure White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/w/j/b/-original-imahdt83dy6dgzpk.jpeg?q=70",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling",
+      "limited"
+    ],
+    "id": 102,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) BoAt Rockerz 600 Bluetooth Headphones (Brown)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Brown",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41X5UJGYceL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "limited",
+      "popular",
+      "premium",
+      "headphones"
+    ],
+    "id": 103,
+    "type": "unknown"
+  },
+  {
+    "title": "(Renewed) Boult Audio ProBass EQCharge Bluetooth Headset (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Boult Audio",
+    "model": "ProBass EQCharge Bluetooth (Black)-cr",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71g4CMwdYyL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 104,
+    "type": "headset"
+  },
+  {
+    "title": "Boult Audio Airbass Z10 Bluetooth Truly Wireless in Ear Earbuds with Mic with 30H Playtime & Fast Charging with Type-C, Ipx7 Fully Waterproof and Voice Assistant (Grey)",
+    "actual_price": 4999,
+    "selling_price": 1199,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/614u8-oiOkL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 105,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar M12 Edition Wired Durable Metal Earphones Earbuds with Microphone with Noise Isolating Earphones Earbuds with Remote & Mic Headset Stereo Headphones for Android & iOS Smartphones (Metal White)",
+    "actual_price": 999,
+    "selling_price": 259,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Metal White",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/51NqKLn-fxL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 106,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Dime Bluetooth Truly Wireless in Ear Earbuds with Mic (Black)",
+    "actual_price": 7499,
+    "selling_price": 2699,
+    "brand": "Skullcandy",
+    "model": "Dime TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61KY-QEhTCL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 107,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Twins S3 Smart TWS Bluetooth 5.2 Earbuds with 20 Hrs Playtime, 8 MM Drivers, Lightweight Earbuds(Black)",
+    "actual_price": 1999,
+    "selling_price": 1099,
+    "brand": "Portronics",
+    "model": "Twins S3",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/5108gi-TZUL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 108,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Bassheads 102 in Ear Wired Earphones with Mic(Fiery Red)",
+    "actual_price": 1290,
+    "selling_price": 449,
+    "brand": "boAt",
+    "model": "Bassheads",
+    "color": "Fiery Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "3.5 mm Jack",
+    "image": "https://m.media-amazon.com/images/I/41o2uWllXtL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 109,
+    "type": "earphone"
+  },
+  {
+    "title": "Logitech H340 Stereo Wired Over Ear Headphones With Mic With Noise-Cancelling, Usb, Pc/Mac/Laptop - Black",
+    "actual_price": 3195,
+    "selling_price": 2470,
+    "brand": "Logitech",
+    "model": "l1",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61kCTnNQe6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 110,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar Kidz Earphones Without Mic Colorful in-Ear Headphones Earphones with 3.5mm Jack Stereo Bulk Earbuds for Classroom School Library - 10 Pack (Without Mic)",
+    "actual_price": 999,
+    "selling_price": 499,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/81reGS2MzZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 111,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Elite 3 in Ear Wireless Bluetooth Earbuds \u2013 Noise Isolating True Wireless Buds with 4 Built-in Microphones for Clear Calls, Rich Bass, Customizable Sound, and Mono Mode - Lilac",
+    "actual_price": 21303,
+    "selling_price": 16671,
+    "brand": "Jabra",
+    "model": "Elite 3",
+    "color": "Lilac",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/6153kh8CbDL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones"
+    ],
+    "id": 112,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Newly Launched Rockerz 378 Bluetooth Neckband with Spatial Bionic Sound Tuned by THX, Beast\u2122 Mode, ASAP\u2122 Charge, Signature Sound, 25 Hours Playtime & BT v5.1(Electric Blue)",
+    "actual_price": 3490,
+    "selling_price": 1299,
+    "brand": "boAt",
+    "model": "Rockerz 378",
+    "color": "Electric Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/51Mj5+gi54L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 113,
+    "type": "neckband"
+  },
+  {
+    "title": "Wings X Fire Wireless Gaming Earbuds,TWS Headphones with RGB Lights case, 40ms Low Latency, Bluetooth 5.3, 40 Hours Playtime, ENC, 8mm Speaker Size (Black TWS)",
+    "actual_price": 3999,
+    "selling_price": 1598,
+    "brand": "Wings",
+    "model": "Wings Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/0/d/v/wl-phantom860-blk-wings-original-imaghnuhn2zhzmed.jpeg?q=70",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 114,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Hesh Evo Wireless Over-Ear Headphone, Rapid Charge (10 min = 3 hrs), Noise-Isolating Fit and Built-in Tile Finding Technology (Blue)",
+    "actual_price": 14999,
+    "selling_price": 8499,
+    "brand": "Skullcandy",
+    "model": "Hesh Evo",
+    "color": "Blue",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/7132xJGhhxL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 115,
+    "type": "unknown"
+  },
+  {
+    "title": "(Renewed) Skullcandy Dime True Wireless Earbuds with 12 Hours Total Battery, IPX4 Sweat and Water Resistant, Secure Noise Isolating Fit (Golden Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Dime TWS",
+    "color": "Golden Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51FuAPAmz5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 116,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar SPN Edition SP-26 Wired Durable Metal Earphones Earbuds with Microphone & Deep Bass Clear Sound Noise Isolating in Ear Headphones, Stereo Ear Buds for Cell Phones, Laptop, Tablet, (Black)",
+    "actual_price": 799,
+    "selling_price": 129,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Metal Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/61Iy+yGr19L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 117,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Bassbuds Xtreme in Ear Bluetooth Truly Wireless in Ear Earbuds with mic, 32Hrs Playtime, BT5.3, 13mm Driver, Stereo Calls, DeepBass, Zany Case & Type-C Fast Charging (Grey/Black)",
+    "actual_price": 4599,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds Xtreme",
+    "color": "Grey/Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61BVsL0+raL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 118,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Skullcandy Push True Wireless Earbuds (Dark Gray/Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Skullcandy Model",
+    "color": "Gray/Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71-S0fdHi1L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 119,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib Plus Wireless in-Earphone with Mic (Black) (S2JPW-M003)",
+    "actual_price": 2499,
+    "selling_price": 1399,
+    "brand": "Skullcandy",
+    "model": "Jib Plus",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61n7gYGDQwL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 120,
+    "type": "earphone"
+  },
+  {
+    "title": "Skullcandy Jib 2 In-Ear True Wireless Earbuds with Mic (Black)",
+    "actual_price": 9999,
+    "selling_price": 3799,
+    "brand": "Skullcandy",
+    "model": "Jib 2 TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61GP+Gpn0aL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 121,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Indy Evo Truly Wireless Bluetooth in Ear Earbuds with Mic (White)",
+    "actual_price": 9999,
+    "selling_price": 5808,
+    "brand": "Skullcandy",
+    "model": "Indy Evo",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51x2kbpHmIL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 122,
+    "type": "earbuds"
+  },
+  {
+    "title": "Noise Newly Launched Buds Connect Truly Wireless in Ear Earbuds with 50H Playtime, Quad Mic with ENC, Instacharge(10 min=120 min), 13mm Driver, Hyper Sync, and BT v5.2 (Carbon Black)",
+    "actual_price": 3999,
+    "selling_price": 1499,
+    "brand": "Noise",
+    "model": "Buds Connect",
+    "color": "Carbon Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/619gDUPcbNL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 123,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio Z20 True Wireless in Ear Earbuds with Zen ENC Mic, 40H Playtime, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, Environmental Noise Cancellation, IPX5 Ear Buds TWS (Green)",
+    "actual_price": 5499,
+    "selling_price": 1399,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Z20 Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71fhOp-12tL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 124,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback & Stone 170 5W Bluetooth Speaker with Upto 6 Hours Playback, TWS Feature, IPX6, Multifunction Buttons",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": null,
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71SJv6Lop-L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 125,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Enterprise Store Evolve2 40 UC Wired On Ear Headphone with Mic (Black)",
+    "actual_price": 26500,
+    "selling_price": 11950,
+    "brand": "Jabra",
+    "model": "Evolve2 40",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61QHiy-YWqL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 126,
+    "type": "headphone"
+  },
+  {
+    "title": "Jabra Evolve2 65 Link380a MS Bluetooth Wireless On Ear Headphone with Mic (Black)",
+    "actual_price": 36500,
+    "selling_price": 32000,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/713lu+ONcjL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 127,
+    "type": "headphone"
+  },
+  {
+    "title": "(Renewed) Skullcandy Indy Evo Truly Wireless Bluetooth In Ear Earbuds with Mic (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Skullcandy Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61k1Bos8LQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 128,
+    "type": "earbuds"
+  },
+  {
+    "title": "Noise Buds Vs104 Bluetooth Truly Wireless in Ear Earbuds with Mic, 30-Hours of Playtime, Instacharge, 13Mm Driver and Hyper Sync (Mint Green)",
+    "actual_price": 3499,
+    "selling_price": 1499,
+    "brand": "Noise",
+    "model": "Buds VS104",
+    "color": "Mint Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61IEe78I0zL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 129,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Jumbo LITE with 70 Hours Backup, Bluetooth v5.2 Wireless In ear Neckband, Fast Charging, ENC Calling, Gaming Mode (Upto 50ms), Voice Assistant, Dual Pairing, Splash Proof, and Type C (Green)",
+    "actual_price": 2999,
+    "selling_price": 999,
+    "brand": "ZEBRONICS",
+    "model": "Zeb Yoga 7 (Jumbo Lite)",
+    "color": "Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61JzRG50cVL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 130,
+    "type": "neckband"
+  },
+  {
+    "title": "Skullcandy Jib True Wireless in-Ear Earbud-Blue",
+    "actual_price": 8999,
+    "selling_price": 3199,
+    "brand": "Skullcandy",
+    "model": "Jib True Wireless Earbuds",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61CivzOfIZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 131,
+    "type": "unknown"
+  },
+  {
+    "title": "pTron Tangent Lite Bluetooth 5.0 Earphones with Mic, Hi-Fi Stereo Sound Neckband, 8Hrs Playtime, Lightweight Snug-fit in-Ear Headphones, IPX4 Water Resistant, Fast Charge & Voice Assistant (Black)",
+    "actual_price": 1800,
+    "selling_price": 649,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51iafZoLEuL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 132,
+    "type": "neckband"
+  },
+  {
+    "title": "Jabra Talk 15 SE Mono Bluetooth Wireless in Ear Single Earphones with mic, Media Streaming and up to 7 Hours Talk Time - Black",
+    "actual_price": 1999,
+    "selling_price": 1899,
+    "brand": "Jabra",
+    "model": "Talk 15 SE",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/413gds7MLwL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 133,
+    "type": "earphone"
+  },
+  {
+    "title": "Boult Audio Z25 with 32H Playtime, 45ms Low Latency, Type-C Fast Charging (10=150Mins), 13mm Rich Bass Drivers, Zen ENC Mic, TWS Bluetooth 5.3 True Wireless Airbass in Ear Earbuds (Blue Moss)",
+    "actual_price": 2999,
+    "selling_price": 1299,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Blue Moss",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71ITkeoYiTL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 134,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib (TWS) Bluetooth Truly Wireless in Ear Earbuds with 22 Hours Total Battery, IPX4 Sweat and Water Resistant, with mic, Noise-Isolating Fit, Call, Track and Volume Control (Black)",
+    "actual_price": 8999,
+    "selling_price": 3299,
+    "brand": "Skullcandy",
+    "model": "Jib True Wireless Earbuds",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61GP+Gpn0aL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 135,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Evolve2 65 Headset",
+    "actual_price": 79120,
+    "selling_price": 59120,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/61EmutePDGL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 136,
+    "type": "headset"
+  },
+  {
+    "title": "Meyaar SPN.SP-29 [Combo of 2] Ultra High Bass Perfume Headset, Wired in-Ear Earphone with Mic (2 Black)",
+    "actual_price": 999,
+    "selling_price": 259,
+    "brand": "Meyaar",
+    "model": "SP-29",
+    "color": "Black (2 Pack)",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71ExrduHp+L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 137,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Rockerz 330 in-Ear Bluetooth Neckband with Upto 30 Hours Playtime, ASAP Charge, Signature Sound, Dual Pairing & IPX5 with Mic (Active Black)",
+    "actual_price": 3990,
+    "selling_price": 999,
+    "brand": "boAt",
+    "model": "Rockerz 330",
+    "color": "Active Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/512ek05dr+L._AC_UL480_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 138,
+    "type": "neckband"
+  },
+  {
+    "title": "Zebronics Zeb-Lark Metallic Wireless in Ear Neckband Earphone with BT 5.0, Rapid Fast Charging (Metallic Yellow)",
+    "actual_price": 1449,
+    "selling_price": 799,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-LARK",
+    "color": "Metallic Yellow",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/718YKkENapL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 139,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Rockerz 255 Pro+ in-Ear Bluetooth Neckband (Active Black) & Rockerz 450 Bluetooth On Ear Headphones with Mic(Luscious Black) & Rockerz 450 Bluetooth On Ear Headphones(Aqua Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 1999,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Active Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61HZLDc2ykL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 140,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback & Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers & Multifunction Controls(Active Black)",
+    "actual_price": 6703.3,
+    "selling_price": 1099,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51FNnHjzhQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "trending"
+    ],
+    "id": 141,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Bassheads 220 Wired in Ear Earphones(Indi Blue)",
+    "actual_price": 999,
+    "selling_price": 499,
+    "brand": "boAt",
+    "model": "Bassheads 220",
+    "color": "Indi Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61eTnFwlbOL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 142,
+    "type": "earphone"
+  },
+  {
+    "title": "Skullcandy Dime 2 in-Ear True Wireless Earbuds with Mic (Black)",
+    "actual_price": 7999,
+    "selling_price": 2616,
+    "brand": "Skullcandy",
+    "model": "Dime 2 TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/n/c/e/-original-imah96h6pgrwwved.jpeg?q=70",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 143,
+    "type": "earbuds"
+  },
+  {
+    "title": "PTron Boom Ultima 4D Dual Driver, in-Ear Gaming Wired Headphones with in-line Mic, Volume Control & Passive Noise Cancelling Boom 3 Earphones - (Dark Blue)",
+    "actual_price": 1900,
+    "selling_price": 299,
+    "brand": "PTron",
+    "model": "Boom Ultima",
+    "color": "Dark Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61PlUpGmAYL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget",
+      "noise-cancelling",
+      "gaming"
+    ],
+    "id": 144,
+    "type": "earphone"
+  },
+  {
+    "title": "Portronics Aural 1 Foldable On Ear Wired Headphone with Powerful Bass I 3.5mm Audio Jack I in-Built Mic (White)",
+    "actual_price": 1499,
+    "selling_price": 949,
+    "brand": "Portronics",
+    "model": "Aural 1",
+    "color": "White",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51OpXOQc0PL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 145,
+    "type": "headphone"
+  },
+  {
+    "title": "Noise Buds VS402 Truly Wireless in Ear Earbuds with 35-Hours of Playtime, Instacharge, Quad Mic with ENC, Hyper Sync, Low Latency, 10mm Driver, Bluetooth v5.3 and Breathing LED Lights (Neon White)",
+    "actual_price": 3999,
+    "selling_price": 1799,
+    "brand": "Noise",
+    "model": "Buds VS402",
+    "color": "Neon White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51gsWPWLTKL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 146,
+    "type": "earbuds"
+  },
+  {
+    "title": "Dylect in-Ear Wired Earphone I Stereo Quality Sound I High Bass I in-Built Mic I 1.2m Tangle Free Cable I 3.5mm Aux Port (Red)",
+    "actual_price": 299,
+    "selling_price": 188,
+    "brand": "Dylect",
+    "model": "Dylect Wired Earphone",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71GndAQChgL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 147,
+    "type": "accessory"
+  },
+  {
+    "title": "pTron Bassbuds Plus True Wireless Bluetooth 5.0 in Ear Earbuds with, Deep Bass, IPX4 Water/Sweat Resistant, Passive Noise Canceling, Up to 8Hrs Battery,Digital Display & with Mic(Blue)",
+    "actual_price": 2499,
+    "selling_price": 849,
+    "brand": "PTron",
+    "model": "Bassbuds Plus",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless, Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/31So95fi7pL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 148,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Evolve2 75 PC Wireless Headset with 8-Microphone Technology - Dual Foam Stereo Headphones with Advanced Active Noise Cancelling, USB-C Bluetooth Adapter and MS Teams-Compatibility - Black",
+    "actual_price": 59000,
+    "selling_price": 45000,
+    "brand": "Jabra",
+    "model": "Evolve2 75",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "USB",
+    "image": "https://m.media-amazon.com/images/I/61qimRlcP4L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling"
+    ],
+    "id": 149,
+    "type": "headset"
+  },
+  {
+    "title": "Jabra Enterprise Store Evolve2 40 UC Wired On Ear Headphone with Mic (Black)",
+    "actual_price": 26500,
+    "selling_price": 11950,
+    "brand": "Jabra",
+    "model": "Evolve2 40",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51ccw3EUDZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 150,
+    "type": "headphone"
+  },
+  {
+    "title": "Skullcandy Mod True Wireless in-Ear Earbuds - True Black",
+    "actual_price": 16999,
+    "selling_price": 5999,
+    "brand": "Skullcandy",
+    "model": "Mod True Wireless",
+    "color": "Green Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51Y3t06bA-L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 151,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Z2 Wireless Bluetooth 5.2 Headset with Mic, ENC Noise Cancelling, Upto 30Hrs Playtime, Fast Charging Type C Neckband, Voice Assistant, & in-line Controls (Blue)",
+    "actual_price": 1999,
+    "selling_price": 749,
+    "brand": "Portronics",
+    "model": "Harmonics Z2",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41v21i5fuZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 152,
+    "type": "neckband"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 518 Bluetooth Headphone with Thumping Bass, Up to 10H Playtime, Dual Connectivity Modes, Easy Access Controls and Ergonomic Design (Viper Green)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Viper Green",
+    "form_factor": "On Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/71SXIg5aNML._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "popular",
+      "premium",
+      "headphones"
+    ],
+    "id": 153,
+    "type": "unknown"
+  },
+  {
+    "title": "Boult Audio Z25 True Wireless in Ear Earbuds with 32H Playtime, 45ms Low Latency, Type-C Fast Charging (10=150Mins), Made in India, Zen ENC Mic, 13mm Bass Drivers, Bluetooth 5.3 Ear Buds (Candy Cane)",
+    "actual_price": 2999,
+    "selling_price": 1299,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Candy Cane",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61psrPUnMVL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 154,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Airdopes 413ANC True Wireless in Ear Earbuds with Hybrid ANC (Carbon Black) & Xtend Smartwatch with Alexa Built-in, 1.69\u201d HD Display(Pitch Black) & Xtend Smartwatch with Alexa Built-in",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Carbon Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71zh+chcf5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 155,
+    "type": "smartwatch"
+  },
+  {
+    "title": "pTron Pride Lite HBE (High Bass Earphones) in Ear Wired Earphones with Mic, 10mm Powerful Driver for Stereo Audio, Noise Cancelling Headset with 1.2m Tangle-Free Cable & 3.5mm Aux - (Blue)",
+    "actual_price": 749.17,
+    "selling_price": 229,
+    "brand": "PTron",
+    "model": "Pride Lite",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/516ITnK-yDL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "budget"
+    ],
+    "id": 156,
+    "type": "headset"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Duke Wireless Bluetooth Over The Ear Headphone with Mic - (Green)",
+    "actual_price": 2499,
+    "selling_price": 1299,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Duke",
+    "color": "Green",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61iaHy0qteL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 157,
+    "type": "unknown"
+  },
+  {
+    "title": "Meyaar SPN UpBeat-1 Wired in Ear Earphone with Mic (Black)",
+    "actual_price": 799,
+    "selling_price": 299,
+    "brand": "Meyaar",
+    "model": "Upbeat-1",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41IFsfSuKqL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 158,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra (Renewed) Elite Active 65t True Wireless Earbuds and Charging Case (Titanium Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Titanium Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/6153kh8CbDL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 159,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt BassHeads 100 in-Ear Wired Headphones with Mic (Black) & Bassheads 100 in Ear Wired Earphones with Mic(Taffy Pink)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/513ugd16C6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 160,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Airdopes 413ANC True Wireless in Ear Earbuds with Hybrid ANC (Carbon Black) & Wave Call Smart Watch, Smart Talk & Xtend Smartwatch with Alexa Built-in",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Carbon Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/716CRTrQzgL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 161,
+    "type": "smartwatch"
+  },
+  {
+    "title": "Noise Buds VS304 Truly Wireless in Ear Earbuds with 35H of Playtime, Instacharge(10 min=120 min), 13 mm Driver and BT v5.3 (Jet Black)",
+    "actual_price": 2999,
+    "selling_price": 1099,
+    "brand": "Noise",
+    "model": "Buds VS304",
+    "color": "Jet Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51ImqskYiEL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 162,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio Newly Launched XCharge with ENC Mic, 20H Playtime, Biggest 14.2mm Bass Drivers, Type-C Fast Charging (15Mins=15Hrs), Made in India Neckband Probass Bluetooth Wireless Earphones (Black)",
+    "actual_price": 4999,
+    "selling_price": 899,
+    "brand": "Boult Audio",
+    "model": "ProBass Xcharge",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61FxtMZu7lL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 163,
+    "type": "neckband"
+  },
+  {
+    "title": "Meyaar SPN Earbuds Headphones with Microphone 5 Pack, Earbuds Wired Stereo Earphones in-Ear Headphones Bass Earbuds, for All Smartphones, Fits All 3.5mm Interface Device (2 Black 3 White)",
+    "actual_price": 999,
+    "selling_price": 479,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/61xDqPB0djL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 164,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio FXCharge Wireless in Ear Bluetooth Earphones with ENC Mic, 32H Playtime, Type-C Fast Charging (5Min=7Hrs Playtime), Made in India, Biggest 14.2mm Bass Drivers Neckband Ear Phones (Green)",
+    "actual_price": 4499,
+    "selling_price": 999,
+    "brand": "Boult Audio",
+    "model": "ProBass",
+    "color": "FXCharge Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.2",
+    "image": "https://m.media-amazon.com/images/I/71dNikAw32L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 165,
+    "type": "neckband"
+  },
+  {
+    "title": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+    "actual_price": 999,
+    "selling_price": 599,
+    "brand": "JBL",
+    "model": "C100SI",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51Q8DUDT2eL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 166,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 550 Bluetooth Wireless Over Ear Headphones with Upto 20 Hours Playback & Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators (Active Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "Over Ear, In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61F5SXdi9jL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 167,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Airdopes 181 in-Ear True Wireless Earbuds with ENx Tech (Carbon Black) & Wave Call Smart Watch, Smart Talk (Active Black) & Xtend/Xtend RTL Smartwatch (Sandy Cream)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61kReoWGtHL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 168,
+    "type": "smartwatch"
+  },
+  {
+    "title": "CableCreation 3.5mm TRS Aux Cable, Braided Audio Auxiliary Input Adapter Male to Male for Car, Hi-Fi Sound, Cotton Compatible with Headphone, Galaxy S22, Phone, Home Stereo, Car Stereo&More",
+    "actual_price": 1399,
+    "selling_price": 599,
+    "brand": "CableCreation",
+    "model": "CableCreation Model",
+    "color": "Gold, White, Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Auxiliary",
+    "image": "https://m.media-amazon.com/images/I/61XVajlLyIL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 169,
+    "type": "accessory"
+  },
+  {
+    "title": "Meyaar 225 in-Ear Wired Earphones with Super Extra Bass, Metallic Finish, Tangle-Free Cable and Gold Plated Angled Jack Headphones with Mic (Metal Black)",
+    "actual_price": 999,
+    "selling_price": 329,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Black",
+    "form_factor": "Earbuds",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/71JJh9ukl3L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 170,
+    "type": "accessory"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 441 Bluetooth Truly Wireless In Ear Earbuds with Mic (Green, Spirit Lime)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Airdopes 441",
+    "color": "Spirit Lime",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61GEknTv6KL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 171,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Evolve2 65 Link380c UC Headphone (Black)",
+    "actual_price": 42500,
+    "selling_price": 36400,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71Uv5dNyZJL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 172,
+    "type": "unknown"
+  },
+  {
+    "title": "Gaming Headset K8 with Surround Sound, Premium Wired Over Ear Gaming Headphones with Mic & LED Light, Compatible with PS5, PS4, Switch, Xbox Series X|S, PC, Laptop. (White)",
+    "actual_price": 1999,
+    "selling_price": 827,
+    "brand": "RUNMUS GAMING",
+    "model": "K8",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51vUMenoNkL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "gaming"
+    ],
+    "id": 173,
+    "type": "headset"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Buds 30 3.5Mm Stereo Wired in Ear Earphones with Mic for Calling, Volume Control, Multifunction Button, 14Mm Drivers, Stylish Eartip,1.2 Meter Durable Cable and Lightweight Design(Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Buds 30 (Blue)",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51FcBvOUkcL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 174,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib True Wireless Earbuds with 22 Hours Total Battery, IPX4 Sweat and Water Resistant, Use Either Bud Solo, Dual Microphones, Noise-Isolating Fit,Call, Track and Volume Control (Black)",
+    "actual_price": 8999,
+    "selling_price": 3299,
+    "brand": "Skullcandy",
+    "model": "Jib TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61n7gYGDQwL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 175,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Twins S3 Smart TWS Bluetooth 5.2 Earbuds with 20 Hrs Playtime, 8 MM Drivers, Lightweight Earbuds(White)",
+    "actual_price": 1999,
+    "selling_price": 1049,
+    "brand": "Portronics",
+    "model": "Twins S3",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41l2hPQgdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 176,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar [Pack of 2 Beex Abhinandan Series HF-61 in-Ear Wired Earphones with mic, Suitable for Android Smartphones (2 Black)",
+    "actual_price": 999,
+    "selling_price": 299,
+    "brand": "Meyaar",
+    "model": "HF-61_2Q",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71P+tioYadS._AC_UL480_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 177,
+    "type": "earphone"
+  },
+  {
+    "title": "Boult Audio X30 True Wireless in Ear Earbuds with 40H Playtime, Quad Mic ENC, 45ms Xtreme Low Latency, Made in India, Type-C Fast Charging, 3 Equalizer Modes (Rock, BoomX, Hi-Fi), BT 5.1 (Warm Grey)",
+    "actual_price": 4999,
+    "selling_price": 1499,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Warm Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71p+1pjVfVL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 178,
+    "type": "earbuds"
+  },
+  {
+    "title": "Noise Buds VS201 V2 in-Ear Truly Wireless Earbuds with Dual Equalizer | with Mic | Total 14-Hour Playtime | Full Touch Control | IPX5 Water Resistance and Bluetooth v5.1 (Snow White)",
+    "actual_price": 2999,
+    "selling_price": 1299,
+    "brand": "Noise",
+    "model": "Buds VS201 V2",
+    "color": "Snow White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51Xc8p1GCuL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 179,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Muffs M1 Wireless Bluetooth Over Ear Headphone, Powerful Bass, Handsfree Calling, 3.5mm Aux in, Long Playtime(Grey)",
+    "actual_price": 2499,
+    "selling_price": 1749,
+    "brand": "Portronics",
+    "model": "Muffs M1",
+    "color": "Grey",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51OpXOQc0PL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 180,
+    "type": "accessory"
+  },
+  {
+    "title": "Jabra Engage 50 Wired Headset with Mic (Black)",
+    "actual_price": 25771,
+    "selling_price": 23967,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61tZ2CJXlbL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 181,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Bassheads 242 in Ear Wired Earphones with Mic(Active Black) & Bassheads 242 in Ear Wired Earphones with Mic(Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61+tzvHZi+L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 182,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra Evolve 80 UC Duo USB Headband MS Optimized Connector (Black)",
+    "actual_price": 84034,
+    "selling_price": 58034,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71r0AlAXj+L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 183,
+    "type": "unknown"
+  },
+  {
+    "title": "Portronics Harmonics 250 Wireless Bluetooth Headset with 60 Hrs Playtime in 2 Hrs Charging, 800mAh Battery, Voice Assistant(Green)",
+    "actual_price": 2999,
+    "selling_price": 999,
+    "brand": "Portronics",
+    "model": "Harmonics 250",
+    "color": "Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41jlruwSl-L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 184,
+    "type": "headset"
+  },
+  {
+    "title": "Zebronics Zeb-Buds 10 (Red) In Ear Wired Earphones with Mic, Metallic Design, L Shaped Connector, 13.5mm NdFeb Drivers",
+    "actual_price": 699,
+    "selling_price": 329,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Buds 10 (Red)",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71oJSETM0HL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 185,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boat Rockerz 510 Wireless Bluetooth On ear Headphones (Black)",
+    "actual_price": 3999,
+    "selling_price": 3599,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Red",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless, Bluetooth 4.1",
+    "image": "https://m.media-amazon.com/images/I/61XvYOrqVeL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 186,
+    "type": "headphone"
+  },
+  {
+    "title": "boAt Bassheads 100 Wired in Ear Earphones with Mic (Mint Green)",
+    "actual_price": 999,
+    "selling_price": 399,
+    "brand": "boAt",
+    "model": "Bassheads 100",
+    "color": "Mint Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51wlAzvx9SS._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 187,
+    "type": "earphone"
+  },
+  {
+    "title": "Skullcandy Riff Wired On-Ear Headphone with Mic (Black)",
+    "actual_price": 2999,
+    "selling_price": 2299,
+    "brand": "Skullcandy",
+    "model": "Riff Wired",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/515muBRPd5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 188,
+    "type": "unknown"
+  },
+  {
+    "title": "boAt Airdopes 141 Bluetooth Truly Wireless Earbuds with Upto 42H Playtime & Rockerz 370 On Ear Bluetooth Headphones with Upto 12 Hours Playtime, Cozy Padded Earcups and Bluetooth v5.0(Buoyant Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41umTKqeziL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 189,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar R-Plus 2208 Edition Deep Bass Wired Durable Metal Earphones Headphones with Microphone in Ear Earbuds Noise Isolating Earphones Remote & Mic Headset Stereo Headphones for Android & iOS (White)",
+    "actual_price": 799,
+    "selling_price": 99,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/61XAIfjyrwL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 190,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Muffs M1 Wireless Bluetooth Over Ear Headphone, Powerful Bass, Handsfree Calling, 3.5mm Aux in, Long Playtime(Black)",
+    "actual_price": 2499,
+    "selling_price": 1699,
+    "brand": "Portronics",
+    "model": "Muffs M1",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61qFUZmrExL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 191,
+    "type": "accessory"
+  },
+  {
+    "title": "pTron Tangent Duo Made in India Bluetooth 5.2 Wireless in-Ear Earphones with Mic, 24Hrs Playback, 13mm Drivers, Punchy Bass, Fast Charging, Voice Assistant, IPX4 & in-line Controls (Black & Green)",
+    "actual_price": 1899,
+    "selling_price": 549,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black & Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/5107hPsNM3L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 192,
+    "type": "earphone"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Thunder Bluetooth Wireless Over Ear Headphone (Black) & Zeb-County 3W Wireless Bluetooth Portable Speaker & Call Function. (Black) & Zeb-Sound Bomb 1 TWS Earbuds with BT5.0 (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "ZEBRONICS Model",
+    "color": "Black",
+    "form_factor": "Over Ear, In Ear",
+    "connectivity_type": "Wireless, Wired",
+    "image": "https://m.media-amazon.com/images/I/618Z0eTNM6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 193,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Bassbuds Vista in Ear True Wireless Bluetooth 5.1 Earbuds with Deep Bass, IPX4 Sweat Resistant, Passive Noise Cancelation, Up to 12Hrs Battery, Voice Assistance with Mic (Black)",
+    "actual_price": 2799,
+    "selling_price": 799,
+    "brand": "PTron",
+    "model": "Bassbuds Vista",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61JVcCzQ0hL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 194,
+    "type": "earbuds"
+  },
+  {
+    "title": "Noise Buds VS304 Truly Wireless in Ear Earbuds with 35H of Playtime, Instacharge(10 min=120 min), 13 mm Driver and BT v5.3 (Pearl White)",
+    "actual_price": 2999,
+    "selling_price": 1099,
+    "brand": "Noise",
+    "model": "Buds VS304",
+    "color": "Pearl White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51kZe4K9IAL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 195,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Tangent Duo Made in India Bluetooth 5.2 Wireless in-Ear Earphones with Mic, 24Hrs Playback, 13mm Drivers, Punchy Bass, Fast Charging, Voice Assistant, IPX4 & in-line Controls (Black & Blue)",
+    "actual_price": 1899,
+    "selling_price": 549,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black & Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.2",
+    "image": "https://m.media-amazon.com/images/I/5107hPsNM3L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 196,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Rockerz 450 Masaba Edition Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions and Dual Modes Bluetooth Wireless On Ear Headphones with Mic (Black Star)",
+    "actual_price": 3990,
+    "selling_price": 1699,
+    "brand": "boAt",
+    "model": "Rockerz 450",
+    "color": "Black Star",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51FNnHjzhQL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 197,
+    "type": "headphone"
+  },
+  {
+    "title": "Jabra Evolve2 65 UC Wireless Bluetooth Headphone with Mic (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 36139,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/612IE+253eL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 198,
+    "type": "unknown"
+  },
+  {
+    "title": "Gaming Headset K8 with Surround Sound, Premium Wired Over Ear Gaming Headphones with Mic & LED Light, Compatible with PS5, PS4, Switch, Xbox Series X|S, PC, Laptop. (White)",
+    "actual_price": 1999,
+    "selling_price": 827,
+    "brand": "RUNMUS GAMING",
+    "model": "K8",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51vUMenoNkL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "gaming"
+    ],
+    "id": 199,
+    "type": "headset"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 245v2 Bookshelf Wireless Bluetooth V5.0, 8 Hours Playback Time, IPX5 Sweat and Water Resistance, in-Built mic and Voice Assistant (Navy Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Rockerz 245v2",
+    "color": "Navy Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51LBFvhGjPL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "noise-cancelling",
+      "limited"
+    ],
+    "id": 200,
+    "type": "unknown"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 441 Bluetooth Truly Wireless in Ear Earbuds with mic DC Blue",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/515u026d0pL._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 201,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Xtend Pro with Advanced Dedicated Bluetooth Calling Chip, Dial Pad",
+    "actual_price": 6703.3,
+    "selling_price": 1799,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Clear",
+    "form_factor": "On hand",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/xtend-pro-3_600x.png?v=1658298359",
+    "category": [
+      "popular",
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 202,
+    "type": "unknown"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Thunder Bluetooth Wireless Over Ear Headphone FM, mSD, 9 hrs Playback with Mic (Black)",
+    "actual_price": 1399,
+    "selling_price": 1099,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-Thunder",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Bluetooth 4.2",
+    "image": "https://m.media-amazon.com/images/I/417gW8O1RzL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 203,
+    "type": "headphone"
+  },
+  {
+    "title": "boAt Bassheads 900 Wired On Ear Headphones with Mic (Pearl White) & Bassheads 100 in Ear Wired Earphones with Mic(Furious Red)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Red, White",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41ZeJ53ij3L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 204,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar SP-27 Wired in-Ear Earphone with Mic (Pack of 2 (Black & White))",
+    "actual_price": 6703.3,
+    "selling_price": 259,
+    "brand": "Meyaar",
+    "model": "SP-27",
+    "color": "Pack Of 2 ( Black & White)",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71AOKe+npkL._SY550_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 205,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Rockerz 205 Pro Bluetooth Wireless in Ear Earphones with Mic, Beast Mode, ENx Mode for Clear Voice Delivery, ASAP Charge, 10mm Drivers, IPX5, Bluetooth v5.2, 30HRS Playtime(Fiery Red)",
+    "actual_price": 6703.3,
+    "selling_price": 999,
+    "brand": "boAt",
+    "model": "boAt Rockerz 205 Pro",
+    "color": "Fiery Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/205pro_red_600x.png?v=1641449888",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 206,
+    "type": "earphone"
+  },
+  {
+    "title": "pTron Bassbuds Perl in-Ear TWS Earbuds with TruTalk ENC, Bluetooth 5.3 Wireless Headphone with Mic, Deep Bass, Low Latency, HD Stereo Call, Pinch Control & Type-C Fast Charging (Black)",
+    "actual_price": 3199,
+    "selling_price": 1099,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://ptron.in/cdn/shop/products/B0BHZC2PZK.MAIN_637x.jpg?v=1678032827",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 207,
+    "type": "earbuds"
+  },
+  {
+    "title": "Zebronics Zeb-Lark Metallic Wireless in Ear Neckband Earphone with BT 5.0, Rapid Fast Charging (Metallic Black)",
+    "actual_price": 1449,
+    "selling_price": 949,
+    "brand": "ZEBRONICS",
+    "model": "ZEBRONICS Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41F1wsQT+tS._SY355_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 208,
+    "type": "neckband"
+  },
+  {
+    "title": "Jabra Evolve 100-55910000-99 40 UC Stereo Wired Headset (Black)",
+    "actual_price": 13376,
+    "selling_price": 9750,
+    "brand": "Jabra",
+    "model": "Evolve",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31Z0ags7MWL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 209,
+    "type": "headset"
+  },
+  {
+    "title": "Meyaar Earphones SP Series Metal Housing Wired Handsfree Earphones ErgoFit Earbud Headphones with Microphone and Call Controller Compatible with All Smartphones - M-50 - in-Ear (Silver)",
+    "actual_price": 999,
+    "selling_price": 249,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Silver Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41KLkCAbvnL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "budget"
+    ],
+    "id": 210,
+    "type": "earphone"
+  },
+  {
+    "title": "Meyaar Alpha-2 Ultralight Weight Wired On Ear Headphones with Mic (Red Black)",
+    "actual_price": 1499,
+    "selling_price": 399,
+    "brand": "Meyaar",
+    "model": "Alpha-2",
+    "color": "Red Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41p8xMiMulL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 211,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar SPN SP-04 Wired in-Ear Earphones Wired Headset with Ultra High Bass & Mic (Black)",
+    "actual_price": 599,
+    "selling_price": 99,
+    "brand": "Meyaar",
+    "model": "Sp-04",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31WqL7gYpxL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 212,
+    "type": "headset"
+  },
+  {
+    "title": "Boult Audio Probass Curve Bluetooth Wireless in Ear Earphones with Mic with Ipx5 Water Resistant, 12H Battery Life & Extra Bass (Black)",
+    "actual_price": 4499,
+    "selling_price": 899,
+    "brand": "Boult Audio",
+    "model": "Neckband",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61kFR8NZYnL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 213,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra Evolve2 65 Link380c UC Headphone (Black)",
+    "actual_price": 42500,
+    "selling_price": 36400,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/316Ri70HttL._SX342_SY445_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 214,
+    "type": "unknown"
+  },
+  {
+    "title": "ZEBRONICS Sound Bomb 7 Bluetooth TWS in Ear Earbuds with 40H Playtime, ENC Mic, Rapid Charge, Upto 50ms Gaming Mode, Flash Connect, Voice Assistant, Smooth Touch Control, BT v5.2, Type C (Black)",
+    "actual_price": 4299,
+    "selling_price": 999,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB 7 (Black)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31MO45G7BeL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 215,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback,Padded Ear Cushions, Integrated Controls and Dual Modes(Aqua Blue) & Bassheads 242 in Ear Wired Earphones with Mic(Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 1399,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless, Wired",
+    "image": "https://m.media-amazon.com/images/I/31x-Xz8TkbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 216,
+    "type": "headphone"
+  },
+  {
+    "title": "pTron Bassbuds Duo in Ear Earbuds with 32Hrs Total Playtime, Bluetooth 5.1 Wireless, Stereo Audio, Touch Control TWS, with Mic, Type-C Fast Charging, IPX4 & Voice Assistance (White)",
+    "actual_price": 2599,
+    "selling_price": 898,
+    "brand": "PTron",
+    "model": "Bassbuds",
+    "color": "Moon White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51Q3PHZCWXL._SX425_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 217,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Move Style Black (Black)",
+    "actual_price": 47918,
+    "selling_price": 30240,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31tZ6EmtI-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 218,
+    "type": "unknown"
+  },
+  {
+    "title": "Skullcandy Cassette Wireless On-Ear Headphone with Mic (Cobalt Blue)",
+    "actual_price": 3999,
+    "selling_price": 2903,
+    "brand": "Skullcandy",
+    "model": "Cassette BT",
+    "color": "Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://imagecdn.skullcandy.in/uploads/Cassette_S5_CSW_M448_Black_Hero_v002_3a7537dd63_e98f2ca95b.png",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 219,
+    "type": "unknown"
+  },
+  {
+    "title": "Boult Audio Newly Launched XCharge with ENC Mic, 20H Playtime, Biggest 14.2mm Bass Drivers, Type-C Fast Charging (15Mins=15Hrs), Made in India Neckband Probass Bluetooth Wireless Earphones (Black)",
+    "actual_price": 4999,
+    "selling_price": 899,
+    "brand": "Boult Audio",
+    "model": "ProBass Xcharge",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31sG182dzKL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 220,
+    "type": "neckband"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Envy Bluetooth Wireless Over Ear Headphones with Mic with 33 hrs Playback time, Voice Assistant, with Detachable, Breathing RGB Lights and (Black)",
+    "actual_price": 3299,
+    "selling_price": 1699,
+    "brand": "ZEBRONICS",
+    "model": "ZEBRONICS Model",
+    "color": "black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless, Wired",
+    "image": "https://m.media-amazon.com/images/I/41wvFWya7FL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 221,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar Pack of 3 Made in India Headset SP-27 Wired in Ear Headphones 3 Pack (2 White, 1 Black)",
+    "actual_price": 999,
+    "selling_price": 359,
+    "brand": "Meyaar",
+    "model": "SP-27(B+W)",
+    "color": "2 White 1 Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41KCnFY6YcL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 222,
+    "type": "headset"
+  },
+  {
+    "title": "Boult Audio Airbass Q10 Bluetooth Truly Wireless in Ear Earbuds with Mic with 24H Total Playtime, Touch Controls, Ipx5 Water Resistant and Voice Assistant (Black)",
+    "actual_price": 4999,
+    "selling_price": 1199,
+    "brand": "Boult Audio",
+    "model": "Airbass",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://5.imimg.com/data5/ECOM/Default/2023/11/360838623/OL/GI/RT/119722937/1700040690428-412aztezellsx300sy300ql70fmwebp-1000x1000.jpeg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 223,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Bassheads 220 Wired in Ear Earphones(Indi Lime)",
+    "actual_price": 999,
+    "selling_price": 499,
+    "brand": "boAt",
+    "model": "Bassheads 220",
+    "color": "Indi Lime",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/1neon_3105765c-e660-47c7-9deb-3482720df176_900x.png?v=1592544752",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 224,
+    "type": "earphone"
+  },
+  {
+    "title": "Boult Audio ZCharge Wireless in Ear Bluetooth Earphones with ENC Mic, 40H Playtime, Type-C Fast Charging (10Mins=15Hrs Playtime), Made in India, Biggest 14.2mm Bass Drivers Neckband Ear Phones (Blue)",
+    "actual_price": 4999,
+    "selling_price": 1199,
+    "brand": "Boult Audio",
+    "model": "ProBass",
+    "color": "ZCharge Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/61j0xja8hGL._SY355_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 225,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Bassheads 220 Wired in Ear Earphones(Raging Red Indi)",
+    "actual_price": 999,
+    "selling_price": 499,
+    "brand": "boAt",
+    "model": "Bassheads 220",
+    "color": "Raging Red Indi",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41NTfF+5+hL._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 226,
+    "type": "earphone"
+  },
+  {
+    "title": "Jabra Evolve 40 Ms Stereo Wired On Ear Headphones With Mic",
+    "actual_price": 13776,
+    "selling_price": 12260,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": null,
+    "form_factor": "On Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://www.jabra.com/_next/image?url=https%3A%2F%2Fassets2.jabra.com%2F2%2F3%2F2%2Fd%2F232d947f5d3b36e50438128e95b245e93940327f_evolve_40_mono_2.png&w=1080&q=75",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 227,
+    "type": "headphone"
+  },
+  {
+    "title": "Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators, Lightweight Earbuds",
+    "actual_price": 6703.3,
+    "selling_price": 1299,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Clear",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/airdopes-121-v2-blue_600x.png?v=1678773275",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 228,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb- Sound Bomb S101 Wireless Earbuds Comes with Bluetooth v5.0 Supporting Call Function, Voice Assistant & Upto 12Hrs* of Playback Time with Portable Type - C Charging Case (Blue)",
+    "actual_price": 2999,
+    "selling_price": 1348,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-Sound Bomb S 101",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31DX2lZF8jL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 229,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Z5 Wireless Bluetooth Stereo Headset with 33Hrs Playtime, Double EQ Mode, 14.2 mm Dynamic Drivers, Click Action Buttons(Black)",
+    "actual_price": 2499,
+    "selling_price": 999,
+    "brand": "Portronics",
+    "model": "Harmonics Z5",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41XCgE8tRcL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 230,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Airdopes 141 True Wireless in Ear Earbuds with mic, 42H Playtime, BeastMode & Stone Grenade 5 W Bluetooth Speaker with Upto 7 Hours Battery, IPX6 Water & Shock Resistant, Integrated Controls",
+    "actual_price": 1999.3,
+    "selling_price": 799.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": null,
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61u48FEsDbL._AC_SL1500_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 231,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics 250 Wireless Bluetooth Headset with 60 Hrs Playtime in 2 Hrs Charging, 800mAh Battery, Voice Assistant(Black)",
+    "actual_price": 2999,
+    "selling_price": 999,
+    "brand": "Portronics",
+    "model": "Harmonics 250",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41jlruwSl-L._SY355_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 232,
+    "type": "headset"
+  },
+  {
+    "title": "Meyaar Pack of 2Abhinandan Series Wired in-Ear Earphones Handsfree with Mic and Tangle-Free Cable Compatible with All Android Smartphones, MP3 Players, Fits All 3.5mm Interface (2 Pack| Black)",
+    "actual_price": 999,
+    "selling_price": 249,
+    "brand": "Meyaar",
+    "model": "Meyaar",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41O3bNPwQnS._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 233,
+    "type": "accessory"
+  },
+  {
+    "title": "boAt Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers & Multifunction Controls (Active Black, with Mic) & Bassheads 242 in Ear Wired Earphones with Mic",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless, Wired",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/airdopes-121-v2-blue_600x.png?v=1678773275",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 234,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar Beex Earbuds, Headphones with Microphone Pack of 3, Earbuds Wired, Stereo in-Ear Earphones, Compatible with Android Smartphones, MP3 Players, Fits 3.5mm Interface (3 Pack| 2 Black| 1 White)",
+    "actual_price": 1299,
+    "selling_price": 379,
+    "brand": "Meyaar",
+    "model": "Meyaar",
+    "color": "Black & White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/413+gaqoQ1L._SY300_SX300_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 235,
+    "type": "earbuds"
+  },
+  {
+    "title": "Jabra Elite 45h, On Ear Wireless Headphones with Mic, Fast Charging & Up to 50 Hours of Battery Life, Superior Sound with 40mm Speakers, Compact & Lightweight - Titanium Black, Designed in Denmark",
+    "actual_price": 9999,
+    "selling_price": 8810,
+    "brand": "Jabra",
+    "model": "Elite 45h",
+    "color": "Titanium Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71fRnVbTPyL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 236,
+    "type": "speaker"
+  },
+  {
+    "title": "Noise Flair Smart Bluetooth Wireless in Ear Earphones with Mic Dual with Touch Controls, 35 Hour Playtime, Environmental Cancellation, Fast Charging (Forest Green)",
+    "actual_price": 3999,
+    "selling_price": 1799,
+    "brand": "Noise",
+    "model": "Flair",
+    "color": "Forest Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/31qrhQx74WS._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 237,
+    "type": "earphone"
+  },
+  {
+    "title": "Meyaar M-11 Pack of 6 Noise Isolating High Bass Headset Wired in-Ear Earphone with Mic (2Black + Light Pink + Dark Pink + Light Grey + Dark Green, 6 Pack)",
+    "actual_price": 999,
+    "selling_price": 699,
+    "brand": "Meyaar",
+    "model": "M-11",
+    "color": "2Black + Light Pink + Dark Pink + Light Grey + Dark Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51ILRopvd6L._SY300_SX300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 238,
+    "type": "headset"
+  },
+  {
+    "title": "Meyaar M-11 Wired in-Ear Earphones with Mic Pink",
+    "actual_price": 1299,
+    "selling_price": 479,
+    "brand": "Meyaar",
+    "model": "Meyaar",
+    "color": "Pink",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51Xj0yoPRuL._SL1418_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 239,
+    "type": "earphone"
+  },
+  {
+    "title": "Airdopes 413ANC True Wireless in Ear Earbuds with Hybrid ANC, 2 Mics ENx Tech, Signature Sound, Touch Gesture",
+    "actual_price": 6703.3,
+    "selling_price": 1799,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Clear",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/410tiDRHOML._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 240,
+    "type": "earbuds"
+  },
+  {
+    "title": "Meyaar SPN\u30102Pack\u3011Made in India Earbuds Headphones with Microphone 2 Pack, Earbuds Wired Stereo Earphones in-Ear Headphones Bass Earbuds, for All Smartphones(Black & White)",
+    "actual_price": 999,
+    "selling_price": 249,
+    "brand": "Meyaar",
+    "model": "SP-27",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/41Pkeww427L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 241,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 330 Pro in-Ear Bluetooth Neckband with 60HRS Playtime, ASAP Charge, ENx Tech, Signature Sound, BT v5.2, Dual Pairing, IPX5, with Mic (Teal Green)",
+    "actual_price": 2990,
+    "selling_price": 1799,
+    "brand": "boAt",
+    "model": "Rockerz 330 Pro",
+    "color": "Teal Green",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.2",
+    "image": "https://m.media-amazon.com/images/I/51Mj5+gi54L._SX425_.jpg",
+    "category": [
+      "popular",
+      "headphones"
+    ],
+    "id": 242,
+    "type": "neckband"
+  },
+  {
+    "title": "Jabra Elite 85t True Wireless Bluetooth Earbuds, Titanium Black \u2013 Advanced Noise-Cancelling Earbuds with Charging Case for Calls & Music \u2013 Wireless Earbuds with Superior Sound & Premium Comfort",
+    "actual_price": 45754,
+    "selling_price": 28308,
+    "brand": "Jabra",
+    "model": "Elite 85t",
+    "color": "Titanium Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/41mRCG+nuVL._SY300_SX300_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 243,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 550 Bluetooth Over-Ear Wireless Headphone with Ergonomic Aesthetics Plush Padded Earcups Immersive Audio Bluetooth v5.0 & Upto 20H Playback (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Rockerz 550",
+    "color": "Active Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41PlZjYsy-L._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 244,
+    "type": "unknown"
+  },
+  {
+    "title": "Portronics Conch Delta POR-1146 in-Ear Wired Earphone, 1.2m Tangle Free Cable, in-Line Mic, Noise Reduction, 3.5mm Aux Port and High Bass, for All Android & iOS Devices(White)",
+    "actual_price": 499,
+    "selling_price": 349,
+    "brand": "Portronics",
+    "model": "Conch Delta",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31lSqdSftaL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 245,
+    "type": "accessory"
+  },
+  {
+    "title": "Meyaar SPN Series Metal Housing Wired Handsfree Earphones ErgoFit Earbud Headphones with Microphone and Call Controller Compatible with All Smartphones- M-50 - in-Ear (Black&Silver)",
+    "actual_price": 999,
+    "selling_price": 249,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Silver",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41KLkCAbvnL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 246,
+    "type": "earphone"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Tulip Wired in Ear Earphone with Mic (Black)",
+    "actual_price": 459,
+    "selling_price": 149,
+    "brand": "ZEBRONICS",
+    "model": "Zebronics Tulip",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31DzP9UcrbL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 247,
+    "type": "earphone"
+  },
+  {
+    "title": "Portronics Conch Beta Wired in Ear Earphones with Mic POR-1071, 1.2m Tangle Free Cable, in-Line Mic, Noise Isolation 3.5mm Aux Port and High Bass, for All Android & iOS Devices(Black)",
+    "actual_price": 599,
+    "selling_price": 449,
+    "brand": "Portronics",
+    "model": "Wired Earphone",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/31iz9Z2xudL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 248,
+    "type": "accessory"
+  },
+  {
+    "title": "(Renewed) Skullcandy Push Active True Wireless Earbuds with 44 Hours Total Battery & IP55 Sweat and Water Resistant (Light Gray Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Push Active",
+    "color": "Orange Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41b5682EVBL._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 249,
+    "type": "earbuds"
+  },
+  {
+    "title": "Wings Sonic Wireless Bluetooth in Ear Headphones with Mic (Black)",
+    "actual_price": 2999,
+    "selling_price": 430,
+    "brand": "Wings",
+    "model": "Wings Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/31B3T2-mHZS._SX300_SY300_QL70_FMwebp_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "budget"
+    ],
+    "id": 250,
+    "type": "earphone"
+  },
+  {
+    "title": "Logitech H340 Stereo Wired Over Ear Headphones With Mic With Noise-Cancelling, Usb, Pc/Mac/Laptop - Black",
+    "actual_price": 3195,
+    "selling_price": 2490,
+    "brand": "Logitech",
+    "model": "l1",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61kCTnNQe6L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 251,
+    "type": "headphone"
+  },
+  {
+    "title": "ZEBRONICS Zeb Yoga 90 Plus Wireless in-Ear Neckband Earphone Supporting Bluetooth 5.0, Dual Pairing,Type C Charging,10mm Drivers,Metallic Magnetic Earpiece,Call & Media Controls, Splash Proof(Grey)",
+    "actual_price": 2299,
+    "selling_price": 799,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-YOGA 90 PLUS - Grey",
+    "color": "Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71KpXHax2JL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 252,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt BassHeads 132 Wired in Ear Earphone with Mic (White)",
+    "actual_price": 1290,
+    "selling_price": 497,
+    "brand": "boAt",
+    "model": "BassHeads",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71e1SSUhZeL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 253,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Rockerz 550 Over Ear Bluetooth Headphones with Upto 20 Hours Playback, Soft Padded Ear Cushions and Physical Noise Isolation(Black) & Bassheads 242 in Ear Wired Earphones with Mic(Active Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "Black",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless, Wired",
+    "image": "https://m.media-amazon.com/images/I/61gYxcIGjvL._AC_UL480_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 254,
+    "type": "headphone"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Sound Bomb N2 TWS in Ear Earbuds with 50ms Low Latency Gaming, ENC, Voice Assistant, Flash Connect, Splash Proof, Bluetooth 5.2, up to 12H Backup, Call Function and Type C (Black)",
+    "actual_price": 4199,
+    "selling_price": 1099,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB N2 (Black)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.2",
+    "image": "https://m.media-amazon.com/images/I/5197bOnxfWL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "gaming"
+    ],
+    "id": 255,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Hazel Beige)",
+    "actual_price": 3990,
+    "selling_price": 1399,
+    "brand": "boAt",
+    "model": "Rockerz 450",
+    "color": "Hazel Beige",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61LuTKQUDwL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 256,
+    "type": "headphone"
+  },
+  {
+    "title": "Boult Audio Truebuds with 30H Playtime, IPX7 Waterproof, Made in India, Type C Fast Charging (10Min=100Mins), Rich Bass, Pro+ Calling HD Mic, IPX5 Airbass Bluetooth True Wireless in Ear Earbuds (Blue)",
+    "actual_price": 7999,
+    "selling_price": 1199,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71ITkeoYiTL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 257,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 450 Pro Bluetooth Wireless On Ear Headphones with Mic with 70 Hours Battery, 40Mm Drivers, Bluetooth V5.0 Padded Ear Cushions, Easy Access Controls and Voice Assistant (White Purity)",
+    "actual_price": 3990,
+    "selling_price": 1999,
+    "brand": "boAt",
+    "model": "Rockerz 450 Pro",
+    "color": "White Purity",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61edVIWAN1L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 258,
+    "type": "headphone"
+  },
+  {
+    "title": "ZEBRONICS Jumbo with 160 H* Playback, ENC, Gaming Mode (Up to 50ms), Fast Charging 10min = 15H*, 1000mAh Built-in Battery, Dual Pairing, Voice Assistant, BT v5.2, Bluetooth Wireless Neckband (Black)",
+    "actual_price": 4199,
+    "selling_price": 1299,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-YOGA 1 (Black)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/41uRJroOxhL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 259,
+    "type": "neckband"
+  },
+  {
+    "title": "Portronics Harmonics Twins S4 Smart TWS Earbuds with Hall Switch Feature, Bluetooth 5.3, 16Hrs Playtime, 13mm Dynamic Drivers, Heavy Bass, Type C Charging(White)",
+    "actual_price": 3499,
+    "selling_price": 899,
+    "brand": "Portronics",
+    "model": "Harmonics Twins S4",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51Rf3LSrOdL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 260,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Jib True Wireless in-Ear Earbud-Blue",
+    "actual_price": 8999,
+    "selling_price": 3199,
+    "brand": "Skullcandy",
+    "model": "Jib True Wireless Earbuds",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61CivzOfIZL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "premium",
+      "headphones",
+      "trending"
+    ],
+    "id": 261,
+    "type": "unknown"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Yoga 90 Pro Bluetooth Wireless in Ear Earphones with Mic (Blue)",
+    "actual_price": 2999,
+    "selling_price": 699,
+    "brand": "ZEBRONICS",
+    "model": "Zeb-Yoga 90 Pro",
+    "color": "blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/712JrdCd9rL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 262,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback & Stone 135 Portable Wireless Speaker with 5W RMS Immersive Sound, IPX4 Water Resistance, True Wireless Feature",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": null,
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61QeGcag85L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 263,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio Z20 True Wireless in Ear Earbuds with Zen ENC Mic, 40H Playtime, Type-C Fast Charging, Made in India, 10mm Rich Bass Drivers, Environmental Noise Cancellation, IPX5 Ear Buds TWS (Black)",
+    "actual_price": 5499,
+    "selling_price": 1399,
+    "brand": "Boult Audio",
+    "model": "AirBass",
+    "color": "Z20 Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.1",
+    "image": "https://m.media-amazon.com/images/I/71dNikAw32L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 264,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Airdopes 141 Pro True Wireless in Ear Earbuds with 45H Playtime, Quad Mics ENx Tech, 12mm Drivers, ASAP Charge, Beast Mode for Gaming & BT v5.3(Cool Grey)",
+    "actual_price": 2990,
+    "selling_price": 1499,
+    "brand": "boAt",
+    "model": "Airdopes 141",
+    "color": "Cool Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/71oXzCK43NL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "gaming"
+    ],
+    "id": 265,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Airdopes 141 Pro True Wireless in Ear Earbuds with 45H Playtime, Quad Mics Enx Tech, 12mm Drivers, ASAP Charge, Beast Mode for Gaming & BT v5.3(Siberian White)",
+    "actual_price": 2990,
+    "selling_price": 1499,
+    "brand": "boAt",
+    "model": "Airdopes 141",
+    "color": "Siberian White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/61+62pfcajL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "gaming"
+    ],
+    "id": 266,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Skullcandy Dime 2 True Wireless In Ear Earbuds (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Dime 2 TWS",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61KY-QEhTCL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "limited"
+    ],
+    "id": 267,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Harmonics Twins 24 Smart TWS Earbuds with Bluetooth 5.0, Upto 15 H Total Playtime, Type-C Charging Port & Voice Assistant(White)",
+    "actual_price": 1999,
+    "selling_price": 1189,
+    "brand": "Portronics",
+    "model": "Twins 24",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/418F0w3dkVL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 268,
+    "type": "earbuds"
+  },
+  {
+    "title": "Zebronics Zeb-Sound Bomb 5 Tws V5.0 Bluetooth Truly Wireless In Ear Earbuds With Up To 22H Backup, Flash Connect, Splash Proof, Voice Assistant, Touch Control, 10Mm Driver, With Mic And Type C (White)",
+    "actual_price": 3999,
+    "selling_price": 899,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-SOUND BOMB 5 (WHITE)",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51HGnDMQmcL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "wireless",
+      "headphones",
+      "trending"
+    ],
+    "id": 269,
+    "type": "earbuds"
+  },
+  {
+    "title": "Portronics Conch 80 in Ear Wired Earphones with Mic, 10mm Dynamic Drivers, Extra Bass, Magnetic Latch, Nylon Braided Wire(White)",
+    "actual_price": 599,
+    "selling_price": 348,
+    "brand": "Portronics",
+    "model": "Conch 80",
+    "color": "White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51GGwjwSr0L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 270,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Bassheads 220 in Ear Wired Earphones(Fiery Orange Indi)",
+    "actual_price": 999,
+    "selling_price": 499,
+    "brand": "boAt",
+    "model": "Bassheads 220",
+    "color": "Fiery Orange Indi",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61EoTBg1+SL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 271,
+    "type": "earphone"
+  },
+  {
+    "title": "Meyaar SPN Series Headset Made in India Earphones Earbuds for Kids 3 Pack, Wholesale Earbuds Headphones Earphones for Classroom, School, Library, Computer Lab, Students and Adult Packs (3 Pack)",
+    "actual_price": 999,
+    "selling_price": 299,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/71K6H0b9oQL._AC_SL1500_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 272,
+    "type": "earbuds"
+  },
+  {
+    "title": "pTron Tangent Lite Bluetooth 5.0 Earphones with Mic, Hi-Fi Stereo Sound Neckband, 8Hrs Playtime, Lightweight Snug-fit in-Ear Headphones, IPX4 Water Resistant, Fast Charge & Voice Assistant (Black)",
+    "actual_price": 1800,
+    "selling_price": 649,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61Wn47xzxbL._AC_SL1500_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 273,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Bassheads 225 in Ear Wired Earphones with Mic(Forest Green Indi)",
+    "actual_price": 999,
+    "selling_price": 699,
+    "brand": "boAt",
+    "model": "Bassheads 225",
+    "color": "Forest Green Indi",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/614P+3LGo+L._SY355_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 274,
+    "type": "earphone"
+  },
+  {
+    "title": "(Renewed) Zebronics Zeb-Buds C2 in Ear Type C Wired Earphones with Mic, Braided 1.2 Metre Cable, Metallic Design, 10mm Drivers, in Line Mic & Volume Controller (Black)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "ZEBRONICS",
+    "model": "Zeb Buds C2 (Black)",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51AlEWmNCrL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium"
+    ],
+    "id": 275,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 370 On Ear Bluetooth Headphones with Upto 12 Hours Playtime, Cozy Padded Earcups and Bluetooth v5.0(Fiery Red)",
+    "actual_price": 2499,
+    "selling_price": 1199,
+    "brand": "boAt",
+    "model": "Rockerz 370",
+    "color": "Fiery Red",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61mD5YyWSrL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 276,
+    "type": "headphone"
+  },
+  {
+    "title": "Jabra Evolve 20 Wired On Ear Headphones with mic Black",
+    "actual_price": 8890,
+    "selling_price": 6300,
+    "brand": "Jabra",
+    "model": "Jabra Model",
+    "color": null,
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61nv1b5pS2L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 277,
+    "type": "headphone"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 481V2 Bluetooth Truly Wireless In Ear Earbuds With Mic (Active Black), One Size",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "Airdopes 481v2",
+    "color": "Active Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61dGwBIwaDL._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "headphones",
+      "limited"
+    ],
+    "id": 278,
+    "type": "earbuds"
+  },
+  {
+    "title": "Skullcandy Indy ANC True Wireless in-Ear Bluetooth Earbuds, Active Noise Cancellation, Compatible with iPhone and Android, Charging Case and Mic, Best for Gym, Sports, and Gaming - Chill Gray",
+    "actual_price": 14999,
+    "selling_price": 9599,
+    "brand": "Skullcandy",
+    "model": "Indy ANC",
+    "color": "Chill Gray",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/6141Wf0TGOL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "wireless",
+      "headphones",
+      "noise-cancelling",
+      "gaming"
+    ],
+    "id": 279,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Rockerz 450 Wireless Bluetooth On Ear Headphone with Mic (Luscious Black)",
+    "actual_price": 2499,
+    "selling_price": 2399,
+    "brand": "boAt",
+    "model": "Rockerz 450",
+    "color": "Luscious Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51FNnHjzhQL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 280,
+    "type": "headphone"
+  },
+  {
+    "title": "pTron Tangent Sports, 60Hrs Playtime, ENC BT5.2 Headphone, AptSense 40ms Low Latency Gaming, Punchy Bass, in-Ear Wireless Earphone, HD Mic, Type-C Fast Charging & IPX4 (Black/Red)",
+    "actual_price": 2499,
+    "selling_price": 899,
+    "brand": "PTron",
+    "model": "Tangent",
+    "color": "Black/Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51fockgJJKL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 281,
+    "type": "earphone"
+  },
+  {
+    "title": "Meyaar Beex Abhinandan Wired Durable Metal Earphones Earbuds with Microphone & Deep Bass Clear Sound Noise Isolating in Ear Headphones, Stereo Ear Buds for Cell Phones, Laptop, Tablet (Metal White)",
+    "actual_price": 999,
+    "selling_price": 129,
+    "brand": "Meyaar",
+    "model": "Abhinandan",
+    "color": "Metal White",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51KDIuNsxOS._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 282,
+    "type": "earbuds"
+  },
+  {
+    "title": "Wings Phantom Truly Wireless in Ear Earbuds with LED Battery Indiacator 50ms Low Latency 40Hrs Playtime, MEMS with Mic, Bluetooth 5.3, IPX5 Resistant, for Best Calling and Designed for Comfort Gaming",
+    "actual_price": 4999,
+    "selling_price": 979,
+    "brand": "Wings",
+    "model": "Wings Model",
+    "color": "Black",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/0/d/v/wl-phantom860-blk-wings-original-imaghnuhn2zhzmed.jpeg?q=70",
+    "category": [
+      "trending",
+      "headphones",
+      "gaming"
+    ],
+    "id": 283,
+    "type": "earbuds"
+  },
+  {
+    "title": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
+    "actual_price": 999,
+    "selling_price": 599,
+    "brand": "JBL",
+    "model": "C100SI",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51Q8DUDT2eL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 284,
+    "type": "earbuds"
+  },
+  {
+    "title": "ZEBRONICS Zeb-Buds 40 Wired Stereo Earphone with Deep bass, in-line Microphone for Calling, Gold Plated 3.5mm Connector, Glossy Finish, 1.2 Meter Durable Cable and Lightweight Design(Red)",
+    "actual_price": 449,
+    "selling_price": 325,
+    "brand": "ZEBRONICS",
+    "model": "ZEB-BUDS 40 (RED)",
+    "color": "Red",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61oC6yFrviL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 285,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Nirvana 751 ANC Hybrid Active Noise Cancelling Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, ASAP Charge, Ambient Sound Mode, Immersive Sound, Carry Pouch(Gunmetal Grey)",
+    "actual_price": 7990,
+    "selling_price": 3999,
+    "brand": "boAt",
+    "model": "Nirvanaa 751 ANC",
+    "color": "Gunmetal Grey",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Bluetooth 5.0",
+    "image": "https://m.media-amazon.com/images/I/51Tf2zsMODL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling"
+    ],
+    "id": 286,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar SPN.SP-29 Ultra High Bass Perfume Headset, Wired in-Ear Earphone with Mic (White)",
+    "actual_price": 999,
+    "selling_price": 99,
+    "brand": "Meyaar",
+    "model": "SP-29",
+    "color": "WHite",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/41gkM8U8goL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 287,
+    "type": "headset"
+  },
+  {
+    "title": "Jabra Engage 50 Stereo Wired Professional UC Headset",
+    "actual_price": 35533,
+    "selling_price": 27533,
+    "brand": "Jabra",
+    "model": "Engage 50 Stereo",
+    "color": "Stereo",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61da-hvNI5L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 288,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Rockerz 335 Bluetooth Wireless in Ear Earphones with Qualcomm Aptx & CVC, Upto 30 Hours Playback, ASAP Charge, Signature Sound, Ipx5 and Btv5.0 with Mic (Blue Ocean)",
+    "actual_price": 3990,
+    "selling_price": 2129,
+    "brand": "boAt",
+    "model": "Rockerz 335",
+    "color": "Blue Ocean",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "trending"
+    ],
+    "id": 289,
+    "type": "earphone"
+  },
+  {
+    "title": "Portronics Harmonics Z2 Wireless Bluetooth 5.2 Headset with Mic, ENC Noise Cancelling, Upto 30Hrs Playtime, Fast Charging Type C Neckband, Voice Assistant, & in-line Controls (Yellow)",
+    "actual_price": 1999,
+    "selling_price": 899,
+    "brand": "Portronics",
+    "model": "Harmonics Z2",
+    "color": "Yellow",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61Mx6uChc8L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 290,
+    "type": "neckband"
+  },
+  {
+    "title": "boAt Airdopes 181 in-Ear True Wireless Earbuds with ENx Tech, Beast Mode(Low Latency Upto 60ms) for Gaming, with Mic, ASAP Charge, 20H Playtime, Bluetooth v5.2, IPX4 & IWP (Cool Grey)",
+    "actual_price": 2990,
+    "selling_price": 1399,
+    "brand": "boAt",
+    "model": "Airdopes 181",
+    "color": "Cool Grey",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth 5.2",
+    "image": "https://m.media-amazon.com/images/I/71oXzCK43NL._SY355_.jpg",
+    "category": [
+      "popular",
+      "headphones",
+      "wireless",
+      "gaming"
+    ],
+    "id": 291,
+    "type": "earbuds"
+  },
+  {
+    "title": "Boult Audio Probass Qcharge Bluetooth Wireless in Ear Earphones with Mic with Fast Charging, 20H Battery Life, Ipx5 Water Resistant Neckband (Blue)",
+    "actual_price": 4999,
+    "selling_price": 999,
+    "brand": "Boult Audio",
+    "model": "ProBass Qcharge",
+    "color": "Blue",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71hMZ91Q3KL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "trending"
+    ],
+    "id": 292,
+    "type": "neckband"
+  },
+  {
+    "title": "Skullcandy Jib Wired in-Earphone with Mic (Black) (S2DUYK-343)",
+    "actual_price": 999,
+    "selling_price": 820,
+    "brand": "Skullcandy",
+    "model": "S2DUYK-343",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/51fC+iq47sL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones"
+    ],
+    "id": 293,
+    "type": "earphone"
+  },
+  {
+    "title": "boAt Bassheads 900 Wired On Ear Headphones with Mic (Pearl White) & Bassheads 152 in Ear Wired Earphones with Mic(Jazzy Blue)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": "White, Blue",
+    "form_factor": "On Ear",
+    "connectivity_type": "Wired",
+    "image": "https://m.media-amazon.com/images/I/61eTnFwlbOL._SY355_.jpg",
+    "category": [
+      "headphones",
+      "premium"
+    ],
+    "id": 294,
+    "type": "headphone"
+  },
+  {
+    "title": "Meyaar Zigzag HB-9139 for Samsung Earphone with High Bass 3.5 mm Jack Earphone for Android Mobiles Wired Headset with Mic (Black)",
+    "actual_price": 999,
+    "selling_price": 279,
+    "brand": "Meyaar",
+    "model": "Meyaar Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "wired usb",
+    "image": "https://m.media-amazon.com/images/I/71EMtwzJc8L._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "budget"
+    ],
+    "id": 295,
+    "type": "headset"
+  },
+  {
+    "title": "boAt Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators, Lightweight Earbuds & Multifunction Controls & Stone 180 5W Bluetooth Speaker",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": null,
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/71LStnbkz4L._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones"
+    ],
+    "id": 296,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) Skullcandy Jib Plus Wireless in-Earphone with Mic (Pure Mint)",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Skullcandy",
+    "model": "Skullcandy Model",
+    "color": "Pure Mint",
+    "form_factor": "In Ear",
+    "connectivity_type": "Bluetooth",
+    "image": "https://m.media-amazon.com/images/I/51x2kbpHmIL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium"
+    ],
+    "id": 297,
+    "type": "earphone"
+  },
+  {
+    "title": "(Renewed) Portronics Harmonics 224 POR-1156 Wireless Bluetooth 5.0 Sports Headset with High Bass, Powerful Audio Drivers Comfort Fit, Supreme Sound, Built-in Mic for Calls, All Android & iOS Devices, Black",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "Portronics",
+    "model": "Portronics Model",
+    "color": "Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/610QvfjkFiL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "limited",
+      "headphones",
+      "premium",
+      "trending"
+    ],
+    "id": 298,
+    "type": "headset"
+  },
+  {
+    "title": "Skullcandy Hesh ANC Wireless Over-Ear Headphones, Active Noise Cancelling, Wireless Charging 22 Hours Battery Life - Mob White",
+    "actual_price": 19999,
+    "selling_price": 10599,
+    "brand": "Skullcandy",
+    "model": "Hesh ANC",
+    "color": "Mod White",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/51KJmViHJeL._AC_UY327_FMwebp_QL65_.jpg",
+    "category": [
+      "headphones",
+      "premium",
+      "noise-cancelling",
+      "trending"
+    ],
+    "id": 299,
+    "type": "unknown"
+  },
+  {
+    "title": "boAt Airdopes 121v2 in-Ear True Wireless Earbuds with Upto 14 Hours Playback & Stone 135 Portable Wireless Speaker with 5W RMS Immersive Sound, IPX4 Water Resistance, True Wireless Feature",
+    "actual_price": 6703.3,
+    "selling_price": 3848.23,
+    "brand": "boAt",
+    "model": "boAt Model",
+    "color": null,
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://m.media-amazon.com/images/I/61vvODnIUyL._SY355_.jpg",
+    "category": [
+      "premium",
+      "trending",
+      "popular",
+      "wireless",
+      "headphones",
+      "noise-cancelling"
+    ],
+    "id": 300,
+    "type": "earbuds"
+  },
+  {
+    "title": "boAt Stone 350 Bluetooth Wireless Speaker with 10W RMS Stereo Sound, IPX7 Water Resistance",
+    "actual_price": 2499,
+    "selling_price": 1399,
+    "brand": "boAt",
+    "model": "Stone 350",
+    "color": "Black",
+    "form_factor": "Speaker",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/STONE350PRO_Blue_01_5f6b006a-d740-424c-b4a1-733f10a89a11_1300x.jpg?v=1720589782",
+    "category": [
+      "speaker",
+      "wireless",
+      "portable",
+      "boat",
+      "audio"
+    ],
+    "id": 301,
+    "type": "speaker"
+  },
+  {
+    "title": "(Renewed) boAt Rockerz 255 Pro+ Bluetooth Neckband with ASAP Charge & Upto 40H Playtime",
+    "actual_price": 3499,
+    "selling_price": 1599,
+    "brand": "boAt",
+    "model": "Rockerz 255 Pro+",
+    "color": "Active Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/R255Pro_-FI_Black01_1300x.png?v=1713177293",
+    "category": [
+      "neckband",
+      "wireless",
+      "in-ear",
+      "renewed",
+      "audio"
+    ],
+    "id": 302,
+    "type": "neckband"
+  },
+  {
+    "title": "(Renewed) boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with Mic",
+    "actual_price": 2999,
+    "selling_price": 1299,
+    "brand": "boAt",
+    "model": "Airdopes 141",
+    "color": "Bold Black",
+    "form_factor": "In Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/products/main_blue_09c68461-f23f-4e30-a8af-c54b80d9034e_600x.png?v=1671193643",
+    "category": [
+      "earbuds",
+      "wireless",
+      "in-ear",
+      "renewed",
+      "audio"
+    ],
+    "id": 303,
+    "type": "earbuds"
+  },
+  {
+    "title": "(Renewed) boAt Nirvana 751 ANC Hybrid Active Noise Cancelling Bluetooth Headphones",
+    "actual_price": 6999,
+    "selling_price": 3499,
+    "brand": "boAt",
+    "model": "Nirvana 751 ANC",
+    "color": "Gunmetal Grey",
+    "form_factor": "Over Ear",
+    "connectivity_type": "Wireless",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Artboard2_b4d30e02-00f0-4b78-82c0-07440c4cc5f0_1300x.png?v=1752731162",
+    "category": [
+      "headphones",
+      "wireless",
+      "noise-cancelling",
+      "over-ear",
+      "boat"
+    ],
+    "id": 304,
+    "type": "unknown"
+  },
+  {
+    "title": "(Renewed) boAt Wave Call Smartwatch with Bluetooth Calling & 1.69 HD Display",
+    "actual_price": 3999,
+    "selling_price": 1999,
+    "brand": "boAt",
+    "model": "Wave Call",
+    "color": "Black",
+    "form_factor": "Wrist",
+    "connectivity_type": "Bluetooth",
+    "image": "https://www.boat-lifestyle.com/cdn/shop/files/Black_4ba64b66-43bc-4a49-be93-0ef996b2be00_1300x.png?v=1742906349",
+    "category": [
+      "smartwatch",
+      "bluetooth",
+      "wearable",
+      "renewed",
+      "boat"
+    ],
+    "id": 305,
+    "type": "smartwatch"
+  }
+]
