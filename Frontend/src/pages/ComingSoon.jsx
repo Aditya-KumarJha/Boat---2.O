@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import instance from '../utils/axios';
+import { useProductContext } from '../context/ProductContext';
 import Cubes from '../components/partials/Cubes';
 import Loading from "../components/Loading";
 import InfiniteScroll from 'react-infinite-scroll-component';
@@ -25,12 +25,40 @@ const shuffleArray = (arr) => {
 };
 
 const ComingSoon = () => {
+  const { products, loading } = useProductContext();
+
   const [email, setEmail] = useState('');
-  const [allProducts, setAllProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(8);
   const [hasMore, setHasMore] = useState(true);
-  const [loading, setLoading] = useState(true);
   const [showEndMessage, setShowEndMessage] = useState(false);
+  const [localLoading, setLocalLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLocalLoading(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const upcomingProducts = useMemo(() => {
+    const filtered = products
+      .filter((p) => p.id >= 251 && p.id <= 300)
+      .map((p) => ({
+        ...p,
+        launchDate: getRandomLaunchDate(),
+      }));
+    return shuffleArray(filtered);
+  }, [products]);
+
+  const loadMore = useCallback(() => {
+    setVisibleCount((prev) => {
+      const newCount = prev + 8;
+      if (newCount >= upcomingProducts.length) {
+        setHasMore(false);
+        setShowEndMessage(true);
+        setTimeout(() => setShowEndMessage(false), 4000);
+      }
+      return newCount;
+    });
+  }, [upcomingProducts]);
 
   const handleSubscribe = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -40,44 +68,9 @@ const ComingSoon = () => {
     setEmail('');
   };
 
-  useEffect(() => {
-    const fetchUpcomingProducts = async () => {
-      try {
-        const res = await instance.get('/api/products');
-        const filtered = res.data
-          .filter((p) => p.id >= 251 && p.id <= 300)
-          .map((p) => ({
-            ...p,
-            launchDate: getRandomLaunchDate(),
-          }));
-        const shuffled = shuffleArray(filtered);
-        setAllProducts(shuffled);
-        setHasMore(shuffled.length > 8);
-        setLoading(false);
-      } catch (err) {
-        console.error('❌ Failed to fetch upcoming products:', err);
-        setLoading(false);
-      }
-    };
+  if (loading || localLoading) return <Loading />;
 
-    fetchUpcomingProducts();
-  }, []);
-
-  const loadMore = useCallback(() => {
-    setVisibleCount((prev) => {
-      const newCount = prev + 8;
-      if (newCount >= allProducts.length) {
-        setHasMore(false);
-        setShowEndMessage(true);
-        setTimeout(() => setShowEndMessage(false), 4000);
-      }
-      return newCount;
-    });
-  }, [allProducts]);
-
-  const visibleProducts = allProducts.slice(0, visibleCount);
-
-  if (loading) return <Loading />;
+  const visibleProducts = upcomingProducts.slice(0, visibleCount);
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] text-[#f5f5dc] font-sans overflow-x-hidden">
@@ -100,7 +93,7 @@ const ComingSoon = () => {
           Coming Soon
         </h1>
 
-        <p className="max-w-xl text-lg text-white/90 mb-10 ml-[12%]">
+        <p className="max-w-xl text-lg text-white/90 mb-10 ml-[12%]" style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 400 }}>
           Subscribe to be the first to know about all the events and get a discount on your first order!
         </p>
 
@@ -136,12 +129,12 @@ const ComingSoon = () => {
             }
             className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
           >
-            {visibleProducts.map((product) => (
+            {visibleProducts.map((product, index) => (
               <div
                 key={product._id}
-                className="bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 
+                className={`bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/10 
                   shadow-[0_0_15px_3px_rgba(255,255,255,0.15)] hover:shadow-[0_0_20px_6px_rgba(255,255,255,0.25)] 
-                  transition-all duration-300 transform hover:scale-105 cursor-pointer"
+                  transition-all duration-300 transform hover:scale-105 cursor-pointer ${index < 4 ? 'mt-10' : ''}`}
               >
                 <img
                   src={product.image}

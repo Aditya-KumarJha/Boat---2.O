@@ -60,7 +60,7 @@ const AllProducts = () => {
         }
         className="px-6 pb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
       >
-        {visibleProducts.map((item) => (
+        {visibleProducts.map((item, index) => (
           <Tilt
             key={item._id}
             glareEnable
@@ -70,13 +70,17 @@ const AllProducts = () => {
           >
             <motion.div
               whileHover={{ scale: 1.03 }}
-              className="group bg-white/10 rounded-xl p-4 hover:bg-white/20 transition backdrop-blur-sm shadow-md border border-white/10"
+              className={`group bg-white/10 rounded-xl p-4 hover:bg-white/20 transition backdrop-blur-sm shadow-md border border-white/10 ${index < 4 ? 'mt-10' : ''}`}
             >
               <Link to={`/product/${item._id}`}>
                 <img
                   src={item.image}
                   alt={item.title}
                   className="w-full h-52 object-fill mb-4 rounded-lg"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = '/noimage.jpg'; 
+                  }}                
                 />
                 <h3 className="text-lg font-semibold text-white group-hover:text-teal-200 transition">
                   {item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title}

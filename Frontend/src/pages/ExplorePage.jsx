@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Search, X } from 'lucide-react';
 import Dropdown from '../components/partials/Dropdown';
@@ -7,9 +7,13 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import HighlightedProducts from '../components/partials/HighlightedProducts';
 import AllProducts from '../components/partials/AllProducts';
+import { useProductContext } from '../context/ProductContext';
+import Loading from '../components/Loading';
 
 const ExplorePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [localLoading, setLocalLoading] = useState(true);
+  const { loadingProducts, loadingHighlights } = useProductContext();
 
   const bannerImages = [
     'banner/Banner1.webp',
@@ -17,6 +21,20 @@ const ExplorePage = () => {
     'banner/Banner3.png',
     'banner/Banner4.jpg',
   ];
+
+  const isLoading = loadingProducts || loadingHighlights || localLoading;
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLocalLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] text-[#f5f5dc]">
@@ -83,9 +101,9 @@ const ExplorePage = () => {
       <HighlightedProducts />
       <AllProducts />
 
-        <div className="flex justify-center text-sm text-[#f5f5dc]/60">
-          © 2025 Boat 2.0 — All rights reserved.
-        </div>
+      <div className="flex justify-center text-sm text-[#f5f5dc]/60 mt-12 mb-6">
+        © 2025 Boat 2.0 — All rights reserved.
+      </div>
     </div>
   );
 };

@@ -53,7 +53,7 @@ const HighlightedProducts = () => {
       </h2>
 
       <div className="px-6 pb-10 overflow-hidden" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-        <div className="flex w-max gap-8" style={{
+        <div className="flex w-max gap-2" style={{
           animation: 'scroll-loop 40s linear infinite',
           animationPlayState: isHovered ? 'paused' : 'running',
         }}>
@@ -75,6 +75,10 @@ const HighlightedProducts = () => {
                     alt={item.title}
                     className="w-full h-52 object-fill mb-4 rounded-lg"
                     draggable="false"
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = '/noimage.jpg'; 
+                    }}                  
                   />
                   <h3 className="text-lg font-semibold text-white group-hover:text-teal-200 transition">
                     {item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title}
