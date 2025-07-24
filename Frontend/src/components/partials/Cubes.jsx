@@ -11,21 +11,18 @@ import { EffectComposer, Bloom } from '@react-three/postprocessing';
 
 const Cubes = () => {
   return (
-    <div className="w-full h-full"> {/* ✅ pointer-events-none removed */}
+    <div className="w-full h-full"> 
       <Canvas
         shadows
         style={{ width: '100%', height: '100%' }}
         camera={{ position: [6, 6, 6], fov: 45 }}
       >
-        {/* 🌤️ Lighting */}
         <ambientLight intensity={0.4} />
         <directionalLight position={[5, 5, 5]} intensity={1.5} castShadow />
         <pointLight position={[-5, -5, -5]} intensity={0.6} />
 
-        {/* 🌅 Environment reflections */}
         <Environment preset="sunset" />
 
-        {/* 🧊 Rounded Glowing Cube */}
         <RoundedBox
           args={[4, 4, 4]}
           radius={0.3}
@@ -42,7 +39,6 @@ const Cubes = () => {
           />
         </RoundedBox>
 
-        {/* 🕶️ Soft Shadow */}
         <ContactShadows
           position={[0, -2.1, 0]}
           opacity={0.3}
@@ -51,7 +47,6 @@ const Cubes = () => {
           far={5}
         />
 
-        {/* 🎥 Camera Controls */}
         <OrbitControls
           enableZoom={false}
           enablePan={false}
@@ -60,7 +55,6 @@ const Cubes = () => {
           target={[0, 0, 0]}
         />
 
-        {/* ✨ Bloom Glow Effect */}
         <EffectComposer>
           <Bloom
             luminanceThreshold={0}

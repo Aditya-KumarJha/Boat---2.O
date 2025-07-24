@@ -20,25 +20,25 @@ const storySections = [
   {
     title: "Aman Gupta",
     subtitle: "Co-founder & CMO",
-    image: "/Aman Gupta.webp",
+    image: "about/Aman Gupta.webp",
     text: `Aman Gupta is a Chartered Accountant and MBA from ISB. Before boAt, he worked at Citibank and Harman International. He saw how Indian consumers were stuck between expensive imports and unreliable local audio gear — so he built a brand that matched global quality with Indian affordability.`,
   },
   {
     title: "Sameer Mehta",
     subtitle: "Co-founder & CEO",
-    image: "/Sameer Mehta.avif",
+    image: "about/Sameer Mehta.avif",
     text: `Sameer Mehta, a commerce graduate from Mumbai, had already launched Redgear — a gaming brand. His experience in distribution helped shape boAt’s product strategy. Together, they launched boAt in 2016 under Imagine Marketing.`,
   },
   {
     title: "boAt Begins",
     subtitle: "Plug Into Nirvana",
-    image: "/BOAT.png",
+    image: "about/BOAT.png",
     text: `boAt started with just ₹30 lakh in seed capital. Their first product? Indestructible charging cables. It clicked — stylish, affordable, durable. Soon they launched earphones, speakers, and wearables. “Plug into Nirvana” became a youth movement.`,
   },
   {
     title: "India's #1 Audio Brand",
     subtitle: "From ₹30 lakh to ₹3,000+ Cr",
-    image: "/Boat Brand.webp",
+    image: "about/Boat Brand.webp",
     text: `By 2023, boAt had become one of the top 5 wearable brands globally. Endorsed by IPL teams, Bollywood stars, and 4M+ ‘boAtheads’, the brand’s rise was fueled by smart marketing and loyal fans.`,
   },
 ];
@@ -98,7 +98,7 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-[5vw] items-center">
           <img
-            src="/Team.webp"
+            src="about/Team.webp"
             alt="boAt Team"
             className="rounded-xl shadow-lg object-cover w-full max-h-[350px]"
             draggable="false"
@@ -327,8 +327,8 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center text-sm text-[#f5f5dc]/60">
-        © 2025 Boat 2.0 — All rights reserved.
-      </div>
+          © 2025 Boat 2.0 — All rights reserved.
+        </div>
       </div>
 
       <style jsx="true">{`

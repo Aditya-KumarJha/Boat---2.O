@@ -8,6 +8,7 @@ import Signup from '../pages/Signup';
 import Dashboard from '../pages/Dashboard';
 import About from '../pages/About';
 import ComingSoon from '../pages/ComingSoon';
+import ExplorePage from '../pages/ExplorePage';
 
 const AppRoutes = () => [
   <Route key="/" path="/" element={<HomePage />} />,
@@ -15,6 +16,7 @@ const AppRoutes = () => [
   <Route key="/signup" path="/signup" element={<Signup />} />,
   <Route key="/about" path="/about" element={<About />} />,
   <Route key="/soon" path="/soon" element={<ComingSoon />} />,
+  <Route key="/explore" path="/explore" element={<ExplorePage />} />,
   <Route
     key="/dashboard"
     path="/dashboard"

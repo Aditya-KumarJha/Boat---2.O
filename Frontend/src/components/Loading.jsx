@@ -2,13 +2,14 @@ import React from 'react';
 
 const Loading = () => {
   return (
-    <div className="w-screen h-screen bg-black flex justify-center items-center">
+    <div className="fixed inset-0 z-[9999] bg-black flex justify-center items-center overflow-hidden">
       <video
         src="/Loader.mp4"
         autoPlay
         loop
         muted
-        className="w-[100rem] h-[100rem]"
+        playsInline
+        className="absolute w-full h-full object-cover"
       />
     </div>
   );

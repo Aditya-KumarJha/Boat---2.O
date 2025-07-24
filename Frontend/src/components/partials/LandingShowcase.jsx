@@ -21,11 +21,11 @@ const LandingShowcase = () => {
   const swiperRef = useRef(null);
 
   const videoMap = {
-    301: '/WirelessSpeaker.mp4',
-    302: '/NeckBand.mp4',
-    303: '/EarBuds.mp4',
-    304: '/HeadPhone.mp4',
-    305: '/Watch.mp4'
+    301: 'landingShowcase/WirelessSpeaker.mp4',
+    302: 'landingShowcase/NeckBand.mp4',
+    303: 'landingShowcase/EarBuds.mp4',
+    304: 'landingShowcase/HeadPhone.mp4',
+    305: 'landingShowcase/Watch.mp4'
   };
 
   useEffect(() => {

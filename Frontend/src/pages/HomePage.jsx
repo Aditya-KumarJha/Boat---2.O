@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Navbar from '../components/partials/Navbar';
 import LandingShowcase from '../components/partials/LandingShowcase';
 import { motion } from 'framer-motion';
@@ -7,9 +7,11 @@ import Contact from '../components/partials/Contact';
 import Highlights from '../components/partials/Highlights';
 import FAQ from '../components/partials/FAQ';
 import Footer from '../components/Footer';
+import Loading from "../components/Loading";
 
 const HomePage = () => {
   const contactRef = useRef(null);
+  const [loading, setLoading] = useState(true);
 
   const scrollToContact = () => {
     const lenis = window.lenis;
@@ -19,6 +21,20 @@ const HomePage = () => {
       contactRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <Loading />
+    );
+  }
 
   return (
     <motion.div

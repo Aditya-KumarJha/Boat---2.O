@@ -1,9 +1,11 @@
-import React, { useEffect, useState, useRef, useCallback } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import instance from '../utils/axios';
 import Cubes from '../components/partials/Cubes';
+import Loading from "../components/Loading";
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 const getRandomLaunchDate = () => {
   const today = new Date();
@@ -27,7 +29,8 @@ const ComingSoon = () => {
   const [allProducts, setAllProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(8);
   const [hasMore, setHasMore] = useState(true);
-  const loadMoreRef = useRef(null);
+  const [loading, setLoading] = useState(true);
+  const [showEndMessage, setShowEndMessage] = useState(false);
 
   const handleSubscribe = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -50,8 +53,10 @@ const ComingSoon = () => {
         const shuffled = shuffleArray(filtered);
         setAllProducts(shuffled);
         setHasMore(shuffled.length > 8);
+        setLoading(false);
       } catch (err) {
         console.error('❌ Failed to fetch upcoming products:', err);
+        setLoading(false);
       }
     };
 
@@ -63,37 +68,20 @@ const ComingSoon = () => {
       const newCount = prev + 8;
       if (newCount >= allProducts.length) {
         setHasMore(false);
+        setShowEndMessage(true);
+        setTimeout(() => setShowEndMessage(false), 4000);
       }
       return newCount;
     });
   }, [allProducts]);
 
-  useEffect(() => {
-    if (!hasMore || allProducts.length === 0) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          loadMore();
-        }
-      },
-      { threshold: 1 }
-    );
-    const current = loadMoreRef.current;
-    if (current) observer.observe(current);
-    return () => {
-      if (current) observer.unobserve(current);
-    };
-  }, [loadMore, hasMore, allProducts]);
-
   const visibleProducts = allProducts.slice(0, visibleCount);
+
+  if (loading) return <Loading />;
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] text-[#f5f5dc] font-sans overflow-x-hidden">
-      
-      {/* 🔵 Ring behind Cube */}
       <div className="hidden lg:block absolute top-20 right-[4vw] w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-teal-300/20 to-cyan-400/10 blur-3xl z-10 animate-pulse-slow pointer-events-none" />
-
-      {/* 🧊 3D Cube */}
       <div className="absolute top-20 right-[4vw] w-[400px] h-[400px] z-20 hidden lg:block pointer-events-auto animate-float-slow">
         <Cubes />
       </div>
@@ -108,17 +96,14 @@ const ComingSoon = () => {
           </Link>
         </div>
 
-        {/* 🧨 Title */}
         <h1 className="text-6xl md:text-9xl font-bold mb-8 ml-[10%] text-white drop-shadow-[0_2px_8px_rgba(0,255,255,0.3)] transition-all duration-500">
           Coming Soon
         </h1>
 
-        {/* 📬 Subtitle */}
         <p className="max-w-xl text-lg text-white/90 mb-10 ml-[12%]">
           Subscribe to be the first to know about all the events and get a discount on your first order!
         </p>
 
-        {/* 📩 Input + Submit */}
         <div className="flex items-center gap-4 ml-[12%] flex-wrap">
           <input
             type="email"
@@ -135,13 +120,22 @@ const ComingSoon = () => {
           </button>
         </div>
 
-        {/* 🛍️ Products Preview */}
         <div className="relative z-10 mt-34 px-4">
           <p className="text-xl md:text-2xl text-center mb-10 opacity-90">
             Here's a sneak peek at what’s coming your way.
           </p>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <InfiniteScroll
+            dataLength={visibleProducts.length}
+            next={loadMore}
+            hasMore={hasMore}
+            loader={
+              <div className="mt-10 text-center text-[#f5f5dc]/70 h-10 flex justify-center items-center">
+                Loading more products...
+              </div>
+            }
+            className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+          >
             {visibleProducts.map((product) => (
               <div
                 key={product._id}
@@ -152,7 +146,7 @@ const ComingSoon = () => {
                 <img
                   src={product.image}
                   alt="Upcoming product"
-                  className="w-full h-56 object-cover object-center mb-4 rounded-lg"
+                  className="w-full h-56 object-fill object-center mb-4 rounded-lg"
                   draggable={false}
                   onClick={() => toast.info('Details unlock on launch day')}
                   onError={(e) => {
@@ -166,26 +160,20 @@ const ComingSoon = () => {
                 </p>
               </div>
             ))}
-          </div>
+          </InfiniteScroll>
 
-          {/* 🌀 Infinite scroll loader */}
-          {hasMore && (
-            <div
-              ref={loadMoreRef}
-              className="mt-10 text-center text-[#f5f5dc]/70 h-10 flex justify-center items-center"
-            >
-              Loading more products...
+          {showEndMessage && (
+            <div className="mt-6 text-center text-green-300 text-sm animate-fade-out">
+              🎉 You’ve reached the end. No more products!
             </div>
-          )}
-          {!hasMore && visibleProducts.length === 0 && (
-            <p className="mt-10 text-center text-[#f5f5dc]/70">
-              No products found in this range.
-            </p>
           )}
         </div>
       </div>
 
-      {/* ⛅ Animations */}
+      <div className="flex justify-center text-sm text-[#f5f5dc]/60 py-6">
+        © 2025 Boat 2.0 — All rights reserved.
+      </div>
+
       <style>
         {`
           @keyframes floatSlow {
@@ -201,6 +189,14 @@ const ComingSoon = () => {
           }
           .animate-pulse-slow {
             animation: pulseSlow 5s ease-in-out infinite;
+          }
+          @keyframes fadeOut {
+            0% { opacity: 1; }
+            80% { opacity: 0.5; }
+            100% { opacity: 0; display: none; }
+          }
+          .animate-fade-out {
+            animation: fadeOut 4s forwards;
           }
         `}
       </style>

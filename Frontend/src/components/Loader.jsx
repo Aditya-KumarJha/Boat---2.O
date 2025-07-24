@@ -4,9 +4,10 @@ import {
   Stage, useGLTF, OrbitControls, Sparkles, Float, Environment, Text,
 } from '@react-three/drei';
 import * as THREE from 'three';
-import { EffectComposer, Bloom } from '@react-three/postprocessing';
+import { EffectComposer, Bloom, Vignette } from '@react-three/postprocessing';
 import Typewriter from 'typewriter-effect';
 import Hero from './Hero';
+import Loading from "../components/Loading";
 
 const HeadphoneModel = () => {
   const groupRef = useRef();
@@ -79,6 +80,7 @@ const Loader = ({ onLoaded }) => {
   const [userInteracted, setUserInteracted] = useState(false);
   const [showHero, setShowHero] = useState(false);
   const [fadeOutText, setFadeOutText] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const cursorRef = useRef(null);
   const whooshRef = useRef(null);
@@ -104,15 +106,19 @@ const Loader = ({ onLoaded }) => {
   }, [typewriterStarted, playWhoosh]);
 
   useEffect(() => {
-    const timer1 = setTimeout(() => setShowMainText(true), 2000);
-    const timer2 = setTimeout(() => setShowSubText(true), 4000);
-    const fadeOutTimer = setTimeout(() => setFadeOutText(true), 10000);
-    const heroTimer = setTimeout(() => setShowHero(true), 11000);
+    const timer1 = setTimeout(() => setShowMainText(true), 3500);
+    const timer2 = setTimeout(() => setShowSubText(true), 6000);
+    const fadeOutTimer = setTimeout(() => setFadeOutText(true), 12000);
+    const heroTimer = setTimeout(() => setShowHero(true), 13000);
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
     return () => {
       clearTimeout(timer1);
       clearTimeout(timer2);
       clearTimeout(fadeOutTimer);
       clearTimeout(heroTimer);
+      clearTimeout(timer);
     };
   }, []);
 
@@ -125,6 +131,12 @@ const Loader = ({ onLoaded }) => {
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
+
+  if (loading) {
+    return (
+      <Loading />
+    );
+  }
 
   return (
     <div className="relative w-full h-[100vh] overflow-hidden bg-gradient-to-br from-[#0d0d0d] via-[#1c1c1c] to-[#2e2e2e]">
@@ -141,18 +153,21 @@ const Loader = ({ onLoaded }) => {
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 5, 5]} intensity={1.2} castShadow />
         <spotLight position={[-5, 5, 5]} angle={0.3} penumbra={1} intensity={1} color="#88ccff" />
-        <Sparkles count={60} scale={10} speed={0.5} size={2} color="#ffffff" />
+        <Sparkles count={80} scale={15} speed={1.2} size={3} color="#ffffff" />
         <fog attach="fog" args={['#0d0d0d', 8, 20]} />
+
         <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, -2.8, 0]}>
           <planeGeometry args={[10, 10]} />
           <shadowMaterial opacity={0.3} />
         </mesh>
+
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -2.81, 0]}>
           <planeGeometry args={[30, 30]} />
           <meshStandardMaterial metalness={0.6} roughness={0.1} color="#111" />
         </mesh>
+
         <Stage environment={null} intensity={0.6} shadows={false}>
-          <Float speed={2} rotationIntensity={0.2} floatIntensity={0.4}>
+          <Float speed={2.4} rotationIntensity={0.4} floatIntensity={0.6}>
             <HeadphoneModel />
             <Text
               position={[0, 1.2, 0]}
@@ -165,9 +180,12 @@ const Loader = ({ onLoaded }) => {
             </Text>
           </Float>
         </Stage>
+
         <EffectComposer>
-          <Bloom intensity={0.8} luminanceThreshold={0.2} luminanceSmoothing={0.9} />
+          <Bloom intensity={1.1} luminanceThreshold={0.2} luminanceSmoothing={0.9} />
+          <Vignette eskil={false} offset={0.1} darkness={0.8} />
         </EffectComposer>
+
         <Environment preset="city" />
         <OrbitControls enablePan={false} enableZoom={false} enableRotate />
       </Canvas>
@@ -188,7 +206,9 @@ const Loader = ({ onLoaded }) => {
                 onInit={(typewriter) => {
                   setTypewriterStarted(true);
                   if (userInteracted) playWhoosh();
-                  typewriter.typeString('boAt 2.0').start();
+                  typewriter
+                  .typeString(`bo<span style="color: #ef4444;">A</span>t 2.0`)
+                  .start();
                 }}
               />
             </h1>
