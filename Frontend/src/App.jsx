@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import Loader from './components/Loader';
 import MouseTracker from './components/MouseFollower';
@@ -25,6 +27,7 @@ const App = () => {
 
   return (
     <>
+      <ToastContainer position="top-right" autoClose={3000} />
       <MouseTracker onMove={(pos) => (mouseRef.current = pos)} />
 
       {!isLoaded ? (

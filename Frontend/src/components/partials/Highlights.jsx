@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import instance from '../utils/axios';
+import instance from '../../utils/axios';
 
 const Highlights = () => {
   const [products, setProducts] = useState([]);

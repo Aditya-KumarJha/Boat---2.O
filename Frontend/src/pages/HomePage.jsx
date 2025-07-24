@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import Navbar from '../components/Navbar';
-import LandingShowcase from '../components/LandingShowcase';
+import Navbar from '../components/partials/Navbar';
+import LandingShowcase from '../components/partials/LandingShowcase';
 import { motion } from 'framer-motion';
-import Stats from '../components/Stats';
-import Contact from '../components/Contact';
-import Highlights from '../components/Highlights';
-import FAQ from '../components/FAQ';
+import Stats from '../components/partials/Stats';
+import Contact from '../components/partials/Contact';
+import Highlights from '../components/partials/Highlights';
+import FAQ from '../components/partials/FAQ';
 import Footer from '../components/Footer';
 
 const HomePage = () => {

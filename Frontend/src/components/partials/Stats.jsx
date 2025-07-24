@@ -10,7 +10,7 @@ import {
     HiStar,
     HiShoppingBag,
   } from 'react-icons/hi2';
-import { Card, CardContent } from "./ui/card";
+import { Card, CardContent } from "../ui/card";
   
 
 const features = [

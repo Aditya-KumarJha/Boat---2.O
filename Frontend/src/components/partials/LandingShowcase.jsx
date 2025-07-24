@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState, useMemo } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCreative } from 'swiper/modules';
 import { motion, AnimatePresence } from 'framer-motion';
-import instance from '../utils/axios';
+import instance from '../../utils/axios';
 import { Link } from 'react-router-dom';
 import { Truck, Undo2, ShieldCheck } from 'lucide-react';
 import 'swiper/css';
