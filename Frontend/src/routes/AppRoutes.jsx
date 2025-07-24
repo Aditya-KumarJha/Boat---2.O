@@ -6,11 +6,13 @@ import HomePage from '../pages/HomePage';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
 import Dashboard from '../pages/Dashboard';
+import About from '../pages/About';
 
 const AppRoutes = () => [
   <Route key="/" path="/" element={<HomePage />} />,
   <Route key="/login" path="/login" element={<Login />} />,
   <Route key="/signup" path="/signup" element={<Signup />} />,
+  <Route key="/about" path="/about" element={<About />} />,
   <Route
     key="/dashboard"
     path="/dashboard"
