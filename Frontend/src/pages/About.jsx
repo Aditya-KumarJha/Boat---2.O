@@ -277,13 +277,13 @@ const About = () => {
 
         <div className="mt-[4vh] p-[0.5rem] md:px-16 rounded-xl grid md:grid-cols-3 gap-[3vw] text-sm text-[#f5f5dc]/90">
           <div>
-            <h4 className="text-[1.2rem] font-bold mb-[0.8rem] flex items-center gap-[0.5vw]">
+            <h4 className="text-[1.2rem] font-bold mb-[0.8rem] flex items-center" style={{ fontFamily: "Saira Condensed" }}>
               <img
                 src="/Logo.jpg"
                 alt="boAt logo"
-                className="w-[1.5rem] h-[1.5rem] object-contain"
+                className="w-[1.5rem] h-[1.5rem] object-contain mr-2"
               />
-              boAt
+              bo<span className="text-red-500">A</span>t 2.0
             </h4>
             <p className="text-sm leading-relaxed">
               Plug into Nirvana with India’s favorite audio & wearable brand. Innovation,

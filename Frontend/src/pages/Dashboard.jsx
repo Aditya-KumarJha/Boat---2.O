@@ -124,11 +124,14 @@ const Dashboard = () => {
           }}
         >
           <Button
-            type="primary"
-            danger
             icon={<LogoutOutlined />}
             onClick={handleLogout}
-            className="font-medium"
+            style={{
+              backgroundColor: '#ccfbf1',
+              color: '#0f172a',
+              fontWeight: 600,
+              border: 'none',
+            }}
           >
             Logout
           </Button>
@@ -151,7 +154,7 @@ const Dashboard = () => {
               style={{ border: '2px solid #0d9488' }}
               draggable={false}
             />
-            <h2 className="text-xl font-bold text-[#f5f5dc]">Welcome back,</h2>
+            <h2 className="text-xl font-bold text-[#f5f5dc]">Welcome</h2>
             <p className="text-[#f5f5dc]">{user.fullName || user.username}</p>
             <Tag color="#0d9488" style={{ marginTop: '0.5rem' }}>Member since {new Date(user.createdAt).toLocaleDateString()}</Tag>
           </div>
@@ -159,7 +162,6 @@ const Dashboard = () => {
           <Divider style={{ borderColor: '#0d9488', color: '#ffffff' }}>
             Dashboard Overview
           </Divider>
-
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {[{

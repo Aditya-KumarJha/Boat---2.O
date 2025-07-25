@@ -106,13 +106,13 @@ const Loader = ({ onLoaded }) => {
   }, [typewriterStarted, playWhoosh]);
 
   useEffect(() => {
-    const timer1 = setTimeout(() => setShowMainText(true), 3500);
-    const timer2 = setTimeout(() => setShowSubText(true), 6000);
-    const fadeOutTimer = setTimeout(() => setFadeOutText(true), 12000);
-    const heroTimer = setTimeout(() => setShowHero(true), 13000);
+    const timer1 = setTimeout(() => setShowMainText(true), 3000);
+    const timer2 = setTimeout(() => setShowSubText(true), 5500);
+    const fadeOutTimer = setTimeout(() => setFadeOutText(true), 11500);
+    const heroTimer = setTimeout(() => setShowHero(true), 12500);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 1000);
     return () => {
       clearTimeout(timer1);
       clearTimeout(timer2);

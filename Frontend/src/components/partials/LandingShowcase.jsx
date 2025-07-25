@@ -94,12 +94,15 @@ const LandingShowcase = () => {
                 : hoveredIndex === index && activeIndex === index;
 
               return (
-                <SwiperSlide key={product._id}>
+                <SwiperSlide
+                  key={product._id}
+                  className="!rounded-2xl !overflow-hidden transition-all duration-300"
+                >
                   <div
                     onPointerEnter={() => !isTouch && setHoveredIndex(index)}
                     onPointerLeave={() => !isTouch && setHoveredIndex(null)}
                     onClick={() => isTouch && toggleTouchPlay(index)}
-                    className="w-full h-full flex flex-col md:flex-row bg-[#f5f5dc] text-[#0f172a] cursor-pointer"
+                    className="w-full h-full flex flex-col md:flex-row bg-[#f5f5dc] text-[#0f172a] cursor-pointer rounded-2xl overflow-hidden"
                   >
                     <div className="w-full md:w-[60%] flex flex-col justify-center items-start p-6 md:p-12 z-10">
                       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4" style={{ fontFamily: "Saira Condensed", fontWeight: 900 }}>Best Collection</h1>
@@ -112,7 +115,7 @@ const LandingShowcase = () => {
                       </Link>
                     </div>
 
-                    <div className="relative w-full md:w-[60%] h-[300px] md:h-[400px] lg:h-full overflow-hidden">
+                    <div className="relative w-full md:w-[60%] h-[300px] md:h-[400px] lg:h-full overflow-hidden rounded-2xl">
                       <AnimatePresence mode="wait">
                         {shouldShowVideo ? (
                           <motion.video

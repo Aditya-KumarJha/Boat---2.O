@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-8 px-6 sm:px-10 md:px-20 bg-transparent text-white">
-      <h3 className="text-4xl font-bold mb-10 text-center flex items-center justify-center gap-3 text-fuchsia-400">
+      <h3 className="text-4xl font-bold mb-10 text-center flex items-center justify-center gap-3 text-lime-800">
         <FiMessageSquare className="text-3xl" />
         Send us a message
       </h3>

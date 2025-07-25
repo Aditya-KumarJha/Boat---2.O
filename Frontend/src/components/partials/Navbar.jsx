@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Menu, LogOut } from "lucide-react";
+import { Menu, X, LogOut } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useUserContext } from "../../context/userContext";
 import { useClerk } from "@clerk/clerk-react";
@@ -26,6 +26,8 @@ const NavBar = ({ onContactClick }) => {
       e.preventDefault();
       onContactClick();
       setIsMenuOpen(false);
+    } else {
+      setIsMenuOpen(false);
     }
   };
 
@@ -33,6 +35,7 @@ const NavBar = ({ onContactClick }) => {
     try {
       await signOut();
       navigate("/login");
+      setIsMenuOpen(false);
     } catch (error) {
       console.error("Logout failed:", error);
     }
@@ -47,7 +50,7 @@ const NavBar = ({ onContactClick }) => {
     >
       <div className="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex-1">
-          <h1 className="text-[#f5f5dc] text-[1.75rem] font-extrabold tracking-widest">
+          <h1 className="text-[#f5f5dc] text-[1.75rem] font-extrabold tracking-widest" style={{ fontFamily: "Saira Condensed" }}>
             🎧 bo<span className="text-red-500">A</span>t 2.0
           </h1>
         </div>
@@ -76,23 +79,19 @@ const NavBar = ({ onContactClick }) => {
             {!isSignedIn ? (
               <>
                 <Link to="/login">
-                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-lime-400 text-lime-400 rounded-full relative overflow-hidden group">
-                    <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                      Login
-                    </span>
+                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-green-400 text-green-400 rounded-full relative overflow-hidden group">
+                    <span className="relative z-20 group-hover:text-black transition-all duration-300">Login</span>
                     <span className="absolute inset-0 flex justify-center items-center z-0">
-                      <span className="h-[3rem] w-[3rem] bg-[#a3e635] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                      <span className="h-[3rem] w-[3rem] bg-green-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                     </span>
                   </button>
                 </Link>
 
                 <Link to="/signup">
-                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-[#f472b6] text-[#f472b6] rounded-full relative overflow-hidden group">
-                    <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                      Signup
-                    </span>
+                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-slate-300 text-slate-300 rounded-full relative overflow-hidden group backdrop-blur-sm bg-white/10">
+                    <span className="relative z-20 group-hover:text-black transition-all duration-300">Signup</span>
                     <span className="absolute inset-0 flex justify-center items-center z-0">
-                      <span className="h-[3rem] w-[3rem] bg-[#f472b6] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                      <span className="h-[3rem] w-[3rem] bg-slate-300 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                     </span>
                   </button>
                 </Link>
@@ -100,14 +99,14 @@ const NavBar = ({ onContactClick }) => {
             ) : (
               <button
                 onClick={handleLogout}
-                className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-red-400 text-red-400 rounded-full relative overflow-hidden group flex items-center gap-2"
+                className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-teal-100 text-teal-100 rounded-full relative overflow-hidden group flex items-center gap-2"
               >
                 <span className="relative z-20 group-hover:text-black transition-all duration-300 flex items-center gap-2">
                   <LogOut size={18} />
                   Logout
                 </span>
                 <span className="absolute inset-0 flex justify-center items-center z-0">
-                  <span className="h-[3rem] w-[3rem] bg-red-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                  <span className="h-[3rem] w-[3rem] bg-teal-100 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                 </span>
               </button>
             )}
@@ -118,7 +117,7 @@ const NavBar = ({ onContactClick }) => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-md text-[#e0f2f1] hover:bg-[#0d948820] transition"
             >
-              <Menu size={22} />
+              {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
           </div>
         </div>
@@ -153,23 +152,19 @@ const NavBar = ({ onContactClick }) => {
               {!isSignedIn ? (
                 <div className="flex flex-row flex-wrap gap-3 justify-between">
                   <Link to="/login" className="flex-1 min-w-[45%]">
-                    <button className="w-full px-4 py-2 text-base font-semibold border-2 border-[#22d3ee] text-[#22d3ee] rounded-full relative overflow-hidden group">
-                      <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                        Login
-                      </span>
+                    <button className="w-full px-4 py-2 text-base font-semibold border-2 border-green-400 text-green-400 rounded-full relative overflow-hidden group">
+                      <span className="relative z-20 group-hover:text-black transition-all duration-300">Login</span>
                       <span className="absolute inset-0 flex justify-center items-center z-0">
-                        <span className="h-10 w-10 bg-[#22d3ee] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                        <span className="h-10 w-10 bg-green-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                       </span>
                     </button>
                   </Link>
 
                   <Link to="/signup" className="flex-1 min-w-[45%]">
-                    <button className="w-full px-4 py-2 text-base font-semibold border-2 border-[#f472b6] text-[#f472b6] rounded-full relative overflow-hidden group">
-                      <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                        Signup
-                      </span>
+                    <button className="w-full px-4 py-2 text-base font-semibold border-2 border-slate-300 text-slate-300 rounded-full relative overflow-hidden group backdrop-blur-sm bg-white/10">
+                      <span className="relative z-20 group-hover:text-black transition-all duration-300">Signup</span>
                       <span className="absolute inset-0 flex justify-center items-center z-0">
-                        <span className="h-10 w-10 bg-[#f472b6] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                        <span className="h-10 w-10 bg-slate-300 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                       </span>
                     </button>
                   </Link>
@@ -177,14 +172,14 @@ const NavBar = ({ onContactClick }) => {
               ) : (
                 <button
                   onClick={handleLogout}
-                  className="w-full mt-3 px-4 py-2 text-base font-semibold border-2 border-red-400 text-red-400 rounded-full relative overflow-hidden group flex items-center justify-center gap-2"
+                  className="w-full mt-3 px-4 py-2 text-base font-semibold border-2 border-teal-100 text-teal-100 rounded-full relative overflow-hidden group flex items-center justify-center gap-2"
                 >
                   <span className="relative z-20 group-hover:text-black transition-all duration-300 flex items-center gap-2">
                     <LogOut size={18} />
                     Logout
                   </span>
                   <span className="absolute inset-0 flex justify-center items-center z-0">
-                    <span className="h-10 w-10 bg-red-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                    <span className="h-10 w-10 bg-teal-100 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
                   </span>
                 </button>
               )}

@@ -117,7 +117,7 @@ const Highlights = () => {
         <div
           className="flex w-fit gap-6 py-4"
           style={{
-            animation: 'slide-infinite 25s linear infinite',
+            animation: 'slide-infinite 40s linear infinite',
             animationPlayState: isHovered ? 'paused' : 'running',
           }}
         >

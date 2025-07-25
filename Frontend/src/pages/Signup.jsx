@@ -11,6 +11,7 @@ import {
   AudioLines,
   LineChart,
   SlidersHorizontal,
+  ArrowLeft,
 } from "lucide-react";
 import Lottie from "lottie-react";
 import Loading from "../components/Loading";
@@ -30,7 +31,7 @@ const Signup = () => {
       .then((res) => res.json())
       .then(setAnimationData);
 
-    const timer = setTimeout(() => setLoading(false), 2500);
+    const timer = setTimeout(() => setLoading(false), 1200);
     return () => clearTimeout(timer);
   }, []);
 
@@ -38,11 +39,21 @@ const Signup = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] flex flex-col md:grid md:grid-cols-2 font-sans">
-      {/* LEFT PANEL */}
       <div className="relative flex flex-col px-[5vw] py-[2.5vh] text-[#f5f5dc] overflow-hidden">
-        <div className="mb-[1.2vh] z-10 flex items-center gap-[0.9rem]">
-          <Sparkles className="w-[1.8rem] h-[1.8rem]" />
-          <h1 className="text-[2rem] font-bold tracking-wide">Boat 2.0</h1>
+        <div className="z-10 flex items-start mb-[1.2vh]">
+          <a href="/" className="text-[#f5f5dc] hover:text-white">
+            <ArrowLeft className="w-6 h-6" />
+          </a>
+          <div className="flex items-center mt-20 gap-[0.9rem]">
+            <Sparkles className="w-[1.8rem] h-[1.8rem]" />
+            <a
+              href="/"
+              className="text-[1.9rem] font-bold tracking-wide text-[#f5f5dc] no-underline"
+              style={{ fontFamily: "Saira Condensed" }}
+            >
+              bo<span className="text-red-500">A</span>t 2.0
+            </a>
+          </div>
         </div>
 
         {[["top-[2vh] left-[2vw]"], ["bottom-[2vh] right-[2vw]"]].map(([position], idx) => (
@@ -99,7 +110,6 @@ const Signup = () => {
         </div>
       </div>
 
-      {/* RIGHT PANEL - Clerk */}
       <div className="w-full pt-[6.5vh] px-[5vw] pb-[1.25rem] flex items-center justify-center">
         <SignUp
           path="/signup"

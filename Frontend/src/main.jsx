@@ -16,12 +16,12 @@ const localization = {
   ...enUS,
   signUp: {
     start: {
-      title: "Ride the Wave — Join Boat 2.0 🎧",
+      title: "Ride the Wave — Join boAt 2.0 🎧",
     },
   },
   signIn: {
     start: {
-      title: "Welcome Back to Boat 2.0 🎶",
+      title: "Welcome Back to boAt 2.0 🎶",
     },
   },
 };

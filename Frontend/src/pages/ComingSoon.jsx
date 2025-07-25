@@ -33,7 +33,7 @@ const ComingSoon = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLocalLoading(false), 3000);
+    const timer = setTimeout(() => setLocalLoading(false), 1500);
     return () => clearTimeout(timer);
   }, []);
 
