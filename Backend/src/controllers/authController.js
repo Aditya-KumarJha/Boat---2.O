@@ -8,7 +8,6 @@ exports.syncClerkUser = async (req, res) => {
       return res.status(400).json({ message: 'Missing required fields' });
     }
 
-    // Check if already exists
     let user = await User.findOne({ clerkId });
 
     if (!user) {

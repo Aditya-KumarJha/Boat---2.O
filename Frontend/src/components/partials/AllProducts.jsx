@@ -5,17 +5,17 @@ import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-const AllProducts = () => {
+const AllProducts = ({ sortOption, searchTerm }) => {
   const [allProducts, setAllProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(12);
   const [hasMore, setHasMore] = useState(true);
   const [showEndMessage, setShowEndMessage] = useState(false);
+  const [shuffledProducts, setShuffledProducts] = useState([]);
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
         const { data } = await instance.get('/api/products');
-        console.log(`[FETCHED] Total products: ${data.length}`);
         setAllProducts(data);
         setHasMore(data.length > 12);
       } catch (err) {
@@ -26,19 +26,93 @@ const AllProducts = () => {
     fetchProducts();
   }, []);
 
+  const matchesSearch = (product) => {
+    if (!searchTerm) return true;
+    const term = searchTerm.toLowerCase();
+    return (
+      product.title?.toLowerCase().includes(term) ||
+      product.brand?.toLowerCase().includes(term) ||
+      product.model?.toLowerCase().includes(term) ||
+      product.color?.toLowerCase().includes(term) ||
+      product.type?.toLowerCase().includes(term) ||
+      product.form_factor?.toLowerCase().includes(term) ||
+      product.connectivity_type?.toLowerCase().includes(term) ||
+      product.category?.some((cat) => cat.toLowerCase().includes(term))
+    );
+  };
+
+  const shuffleArray = (arr) => {
+    const shuffled = [...arr];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  const applySortAndFilter = () => {
+    let sorted = [...allProducts];
+
+    // Deduplicate by _id or id
+    const seen = new Set();
+    sorted = sorted.filter((item) => {
+      const key = item._id ?? item.id;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    // Apply filtering first
+    if (
+      ['Wireless', 'Popular', 'Limited', 'Gaming', 'Noise-Cancelling', 'Trending'].includes(sortOption)
+    ) {
+      sorted = sorted.filter((item) =>
+        item.category?.some((cat) =>
+          cat.toLowerCase().includes(sortOption.toLowerCase())
+        )
+      );
+    }
+
+    // Apply sorting
+    if (sortOption === 'Budget') {
+      sorted.sort((a, b) => a.selling_price - b.selling_price);
+    } else if (sortOption === 'Premium') {
+      sorted.sort((a, b) => b.selling_price - a.selling_price);
+    } else {
+      // Default or category filters – randomize
+      sorted = shuffleArray(sorted);
+    }
+
+    return sorted.filter(matchesSearch);
+  };
+
+  // Recompute filtered & (possibly shuffled) products when dependencies change
+  useEffect(() => {
+    const filtered = applySortAndFilter();
+    setShuffledProducts(filtered);
+    setVisibleCount(12);
+    setHasMore(filtered.length > 12);
+  }, [sortOption, allProducts, searchTerm]);
+
+  const visibleProducts = shuffledProducts.slice(0, visibleCount);
+
   const loadMore = useCallback(() => {
     setVisibleCount((prev) => {
       const newCount = prev + 12;
-      if (newCount >= allProducts.length) {
+      if (newCount >= shuffledProducts.length) {
         setHasMore(false);
         setShowEndMessage(true);
         setTimeout(() => setShowEndMessage(false), 3000);
       }
       return newCount;
     });
-  }, [allProducts]);
+  }, [shuffledProducts]);
 
-  const visibleProducts = allProducts.slice(0, visibleCount);
+  const getHeading = () => {
+    if (searchTerm) return `Search results for "${searchTerm}"`;
+    if (!sortOption) return 'All Products';
+    return `All Products in ‘${sortOption}’ category`;
+  };
 
   return (
     <div className="mt-20 space-y-6">
@@ -46,7 +120,7 @@ const AllProducts = () => {
         className="px-10 text-2xl font-semibold text-white mt-12 mb-6"
         style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 600 }}
       >
-        All Products
+        {getHeading()}
       </h2>
 
       <InfiniteScroll
@@ -62,7 +136,7 @@ const AllProducts = () => {
       >
         {visibleProducts.map((item, index) => (
           <Tilt
-            key={item._id}
+            key={item._id ?? item.id}
             glareEnable
             glareColor="white"
             glareMaxOpacity={0.2}
@@ -79,13 +153,18 @@ const AllProducts = () => {
                   className="w-full h-52 object-fill mb-4 rounded-lg"
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src = '/noimage.jpg'; 
-                  }}                
+                    e.target.src = '/noimage.jpg';
+                  }}
                 />
                 <h3 className="text-lg font-semibold text-white group-hover:text-teal-200 transition">
                   {item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title}
                 </h3>
-                <p className="mt-1 text-sm text-white/80 capitalize">{item.type}</p>
+                <div className="mt-1 flex justify-between text-sm text-white/80 capitalize">
+                  <span>{item.type}</span>
+                  {sortOption && (
+                    <span className="text-right">Category: {sortOption}</span>
+                  )}
+                </div>
                 <div className="mt-2 flex items-center justify-between">
                   <span className="text-base font-bold text-teal-300">
                     ₹{item.selling_price}
@@ -100,7 +179,6 @@ const AllProducts = () => {
         ))}
       </InfiniteScroll>
 
-      {/* Show "No more products" message for 3 seconds */}
       {showEndMessage && (
         <motion.div
           initial={{ opacity: 0, y: 20 }}

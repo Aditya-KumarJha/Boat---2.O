@@ -81,7 +81,7 @@ const Highlights = () => {
               <img
                 src={item.image}
                 alt={item.model}
-                className="w-full h-[75%] max-h-60 object-contain mb-4"
+                className="w-full h-[75%] max-h-60 object-fill mb-4"
               />
               <div className="text-white text-sm space-y-1 text-left line-clamp-3">
                 <p className="text-gray-200">

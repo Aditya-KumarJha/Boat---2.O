@@ -54,7 +54,7 @@ const HighlightedProducts = () => {
 
       <div className="px-6 pb-10 overflow-hidden" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
         <div className="flex w-max gap-2" style={{
-          animation: 'scroll-loop 40s linear infinite',
+          animation: 'scroll-loop 15s linear infinite',
           animationPlayState: isHovered ? 'paused' : 'running',
         }}>
           {highlights.map((item, index) => (

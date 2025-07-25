@@ -9,6 +9,7 @@ import Dashboard from '../pages/Dashboard';
 import About from '../pages/About';
 import ComingSoon from '../pages/ComingSoon';
 import ExplorePage from '../pages/ExplorePage';
+import ProductDetails from '../components/ProductDetails'; 
 
 const AppRoutes = () => [
   <Route key="/" path="/" element={<HomePage />} />,
@@ -30,6 +31,12 @@ const AppRoutes = () => [
         </SignedOut>
       </>
     }
+  />,
+
+  <Route
+    key="/product/:id"
+    path="/product/:id"
+    element={<ProductDetails />}
   />
 ];
 

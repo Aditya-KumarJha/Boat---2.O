@@ -14,6 +14,7 @@ const ExplorePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [localLoading, setLocalLoading] = useState(true);
   const { loadingProducts, loadingHighlights } = useProductContext();
+  const [sortOption, setSortOption] = useState('');
 
   const bannerImages = [
     'banner/Banner1.webp',
@@ -70,12 +71,16 @@ const ExplorePage = () => {
         <Dropdown
           title="Sort by"
           options={[
-            'Price - Low to High',
-            'Price - High to Low',
-            'Newest',
-            'Top Rated',
+            'Budget',
+            'Premium',
+            'Wireless',
+            'Popular',
+            'Limited',
+            'Gaming',
+            'Noise-Cancelling',
+            'Trending',
           ]}
-          func={(e) => console.log('Sort:', e.target.value)}
+          func={(e) => setSortOption(e.target.value)}
         />
       </div>
 
@@ -99,9 +104,9 @@ const ExplorePage = () => {
       </div>
 
       <HighlightedProducts />
-      <AllProducts />
+      <AllProducts sortOption={sortOption} searchTerm={searchTerm} />
 
-      <div className="flex justify-center text-sm text-[#f5f5dc]/60 mt-12 mb-6">
+      <div className="flex justify-center text-sm text-[#f5f5dc]/60 mt-12 py-6">
         © 2025 Boat 2.0 — All rights reserved.
       </div>
     </div>
