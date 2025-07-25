@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate, Route } from 'react-router-dom';
+import { useLocation, useNavigate, Routes, Route } from 'react-router-dom';
 import Signup from '../pages/Signup';
 import Login from '../pages/Login';
 
@@ -43,11 +43,13 @@ const SSORedirectHandler = () => {
   return null;
 };
 
-const ClerkRoutes = () => [
-  <Route key="verify-email" path="/signup/verify-email-address" element={<Signup />} />,
-  <Route key="factor-one" path="/login/factor-one" element={<Login />} />,
-  <Route key="signup-sso" path="/signup/sso-callback/*" element={<SSORedirectHandler />} />,
-  <Route key="login-sso" path="/login/sso-callback/*" element={<SSORedirectHandler />} />,
-];
+const ClerkRoutes = () => (
+  <Routes>
+    <Route path="/signup/verify-email-address" element={<Signup />} />
+    <Route path="/login/factor-one" element={<Login />} />
+    <Route path="/signup/sso-callback/*" element={<SSORedirectHandler />} />
+    <Route path="/login/sso-callback/*" element={<SSORedirectHandler />} />
+  </Routes>
+);
 
 export default ClerkRoutes;

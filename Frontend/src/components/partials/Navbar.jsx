@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, LogOut } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useUserContext } from "@/context/userContext";
+import { useUserContext } from "../../context/userContext";
 import { useClerk } from "@clerk/clerk-react";
 
 const navItems = [

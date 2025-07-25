@@ -1,13 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const requireAuth = require('../middleware/requireAuth');
 const {
   getCollection,
-  addToCollection
+  toggleCollection
 } = require('../controllers/userController');
 
-router.get('/collection', requireAuth, getCollection);
+router.get('/collection', getCollection);
 
-router.post('/collection', requireAuth, addToCollection);
+router.post('/collection', toggleCollection);
 
 module.exports = router;

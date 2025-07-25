@@ -1,95 +1,264 @@
-import React, { useEffect } from 'react';
-import { useClerk, useUser, useAuth } from '@clerk/clerk-react';
-import { useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, LogOut } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Card, Layout, Menu, Avatar, Button } from 'antd';
+import {
+  UserOutlined,
+  LogoutOutlined,
+  HomeOutlined,
+  DashboardOutlined,
+  ArrowLeftOutlined,
+  ShoppingOutlined,
+  ClockCircleOutlined,
+  ProfileOutlined,
+  FileDoneOutlined,
+  HeartOutlined,
+  CreditCardOutlined,
+} from '@ant-design/icons';
+import { useUser, useClerk } from '@clerk/clerk-react';
+import { Link } from 'react-router-dom';
+import Loading from '../components/Loading';
 import instance from '../utils/axios';
+import Tilt from 'react-parallax-tilt';
+
+const { Header, Content, Sider } = Layout;
 
 const Dashboard = () => {
+  const { user } = useUser();
   const { signOut } = useClerk();
-  const { user, isLoaded } = useUser();
-  const { getToken } = useAuth();
-  const navigate = useNavigate();
+  const [savedItems, setSavedItems] = useState([]);
+  const [collapsed, setCollapsed] = useState(false);
 
-  const handleLogout = async () => {
-    try {
-      await signOut();
-      navigate('/login');
-    } catch (error) {
-      console.error('Logout failed:', error);
-    }
+  const handleLogout = () => {
+    signOut(() => window.location.reload());
   };
 
   useEffect(() => {
-    const syncUser = async () => {
-      if (!isLoaded || !user) return;
-
+    const fetchSavedItems = async () => {
       try {
-        const token = await getToken();
-
-        await instance.post(
-          '/api/sync-user',
-          {
-            externalId: user.id,
-            name: user.fullName,
-            email: user.primaryEmailAddress?.emailAddress,
-            profileImage: user.imageUrl,
+        const res = await instance.get(`/api/user/collection`, {
+          params: {
+            email: user?.primaryEmailAddress?.emailAddress,
           },
-          {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          }
-        );
-
-        console.log('✅ Synced user to backend');
-      } catch (error) {
-        console.error('❌ Failed to sync user:', error);
+        });
+        setSavedItems(res.data || []);
+      } catch (err) {
+        console.error('Error fetching saved items:', err);
       }
     };
 
-    syncUser();
-  }, [isLoaded, user, getToken]);
+    if (user?.primaryEmailAddress?.emailAddress) {
+      fetchSavedItems();
+    }
+  }, [user]);
+
+  if (!user) return <Loading />;
+
+  const menuItems = [
+    {
+      key: 'dashboard',
+      icon: <DashboardOutlined />,
+      label: <span style={{ color: '#f5f5dc' }}>Dashboard</span>,
+    },
+    {
+      key: 'home',
+      icon: <HomeOutlined />,
+      label: <Link to="/" style={{ color: '#f5f5dc' }}>Home</Link>,
+    },
+    {
+      key: 'logout',
+      icon: <LogoutOutlined />,
+      label: <span style={{ color: '#f5f5dc' }}>Logout</span>,
+      onClick: handleLogout,
+    },
+  ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0f172a] via-[#0d9488] to-[#065f46] text-[#f5f5dc] px-[4vw] lg:px-[6vw] py-[4vh] space-y-[12vh]">
-      <div className="flex items-center justify-between mb-10">
-        <Link
-          to="/"
-          className="inline-flex items-center justify-center p-2 rounded-full text-white hover:text-teal-300 transition"
-        >
-          <ArrowLeft size={24} />
-        </Link>
-
-        <div className="flex items-center space-x-4">
-          <img
-            src={user?.imageUrl || '/avtar.webp'}
-            alt="Profile"
-            className="w-12 h-12 rounded-full object-cover"
-            draggable={false}
-          />
-          <h2 className="text-lg font-semibold">
-            Welcome, {user?.username || 'User'}
-          </h2>
+    <Layout style={{ minHeight: '100vh', background: 'linear-gradient(to bottom, #0f172a, #0d9488, #065f46)' }} className="min-w-0">
+      <Sider
+        collapsible
+        collapsed={collapsed}
+        onCollapse={value => setCollapsed(value)}
+        width="13.75rem"
+        breakpoint="lg"
+        style={{
+          background: 'transparent',
+          paddingTop: '2rem',
+          position: 'fixed',
+          height: '100vh',
+          left: 0,
+          top: 0,
+          bottom: 0,
+          zIndex: 10,
+          overflow: 'hidden',
+        }}
+      >
+        <div className="text-white text-lg font-semibold px-[1rem] pb-[1.5rem]">
+          <Link to="/" className="flex items-center gap-2 text-[#f5f5dc] hover:text-gray-300">
+            <ArrowLeftOutlined />
+            {!collapsed && 'Back'}
+          </Link>
         </div>
 
-        <button
-          onClick={handleLogout}
-          className="px-4 py-2 text-base font-semibold border-2 border-red-500 text-red-500 rounded-full relative overflow-hidden group flex items-center space-x-2"
-        >
-          <span className="relative z-20 group-hover:text-black transition-all duration-300 flex items-center space-x-2">
-            <LogOut size={18} />
-            <span>Logout</span>
-          </span>
-          <span className="absolute inset-0 flex justify-center items-center z-0">
-            <span className="h-10 w-10 bg-red-500 rounded-full scale-0 group-hover:scale-[3.5] transition-transform duration-500 ease-out" />
-          </span>
-        </button>
-      </div>
+        <Menu
+          theme="dark"
+          mode="inline"
+          defaultSelectedKeys={['dashboard']}
+          items={menuItems}
+          style={{
+            background: 'transparent',
+            color: '#f5f5dc',
+          }}
+        />
+      </Sider>
 
-      <div className="flex flex-col items-center justify-center flex-grow space-y-6">
-        <h1 className="text-5xl font-bold">Dashboard</h1>
-      </div>
-    </div>
+      <Layout className="min-w-0" style={{ background: 'transparent', marginLeft: collapsed ? '80px' : '13.75rem', transition: 'margin-left 0.2s ease' }}>
+        <Header
+          style={{
+            background: 'linear-gradient(to right, #0f172a, #0d9488, #065f46)',
+            display: 'flex',
+            justifyContent: 'flex-end',
+            alignItems: 'center',
+            padding: '0 2vw',
+          }}
+        >
+          <Button
+            type="primary"
+            danger
+            icon={<LogoutOutlined />}
+            onClick={handleLogout}
+            className="font-medium"
+          >
+            Logout
+          </Button>
+        </Header>
+
+        <Content
+          className="min-w-0"
+          style={{
+            margin: '3vh 3vw',
+            backgroundColor: '#0f172a',
+            padding: '2rem',
+            borderRadius: '1rem',
+          }}
+        >
+          <div className="flex flex-col items-center gap-2 mb-[1.5rem] text-center">
+            <Avatar
+              src={user.imageUrl}
+              size={100}
+              icon={<UserOutlined />}
+              style={{ border: '0.125rem solid #0d9488' }}
+              draggable={false}
+            />
+            <h2 className="text-[1.25rem] font-bold" style={{ color: '#f5f5dc' }}>
+              Welcome back,
+            </h2>
+            <p style={{ color: '#f5f5dc' }}>{user.fullName}</p>
+          </div>
+
+          <h3 className="text-[1.75rem] font-semibold mb-[1.5rem]" style={{ color: '#f5f5dc' }}>
+            Dashboard
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[1.5rem]">
+            {[
+              {
+                title: 'Your Overview',
+                icon: <ShoppingOutlined style={{ color: '#0d9488' }} />,
+                content: (
+                  <>
+                    <p style={{ color: '#f5f5dc' }}>Total Orders: 3</p>
+                    <p style={{ color: '#f5f5dc' }}>Wishlist Items: {savedItems.length}</p>
+                    <p style={{ color: '#f5f5dc' }}>Last Login: {new Date().toLocaleString()}</p>
+                  </>
+                ),
+              },
+              {
+                title: 'Recent Activity',
+                icon: <ClockCircleOutlined style={{ color: '#0d9488' }} />,
+                content: (
+                  <ul className="list-disc pl-[1.25rem] space-y-2 text-[#f5f5dc]">
+                    <li>Browsed "Wireless Earbuds" - 2 hours ago</li>
+                    <li>Added "Bass Headphones" to Wishlist - yesterday</li>
+                    <li>Visited "Soundbar" product page - 3 days ago</li>
+                  </ul>
+                ),
+              },
+              {
+                title: 'Account Details',
+                icon: <ProfileOutlined style={{ color: '#0d9488' }} />,
+                content: (
+                  <>
+                    <p style={{ color: '#f5f5dc' }}>
+                      Email: {user.primaryEmailAddress?.emailAddress}
+                    </p>
+                    <p style={{ color: '#f5f5dc' }}>
+                      Signed Up: {new Date(user.createdAt).toLocaleDateString()}
+                    </p>
+                  </>
+                ),
+              },
+              {
+                title: 'Recent Orders',
+                icon: <FileDoneOutlined style={{ color: '#0d9488' }} />,
+                content: (
+                  <ul className="list-disc pl-[1.25rem] space-y-1 text-[#f5f5dc]">
+                    <li>#00124 – Wireless Earbuds – ₹1,999</li>
+                    <li>#00123 – Bass Headphones – ₹2,499</li>
+                    <li>#00122 – Soundbar – ₹3,299</li>
+                  </ul>
+                ),
+              },
+              {
+                title: 'Wishlist Summary',
+                icon: <HeartOutlined style={{ color: '#0d9488' }} />,
+                content: savedItems.length > 0 ? (
+                  <ul className="list-disc pl-[1.25rem] space-y-2 text-[#f5f5dc]">
+                    {savedItems.map((item, index) => (
+                      <li key={index} className="line-clamp-2">
+                        {item.productId?.title || 'Unnamed product'}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p style={{ color: '#f5f5dc' }}>No items in wishlist.</p>
+                ),
+              },
+              {
+                title: 'Payment Methods',
+                icon: <CreditCardOutlined style={{ color: '#0d9488' }} />,
+                content: (
+                  <>
+                    <p style={{ color: '#f5f5dc' }}>Default: **** **** **** 4242</p>
+                    <p style={{ color: '#f5f5dc' }}>UPI Linked: yesbank@upi</p>
+                    <Button type="link" style={{ color: '#3e4ef5' }}>
+                      Manage Payment Options
+                    </Button>
+                  </>
+                ),
+              },
+            ].map(({ title, icon, content }) => (
+              <Tilt tiltMaxAngleX={6} tiltMaxAngleY={6} key={title}>
+                <Card
+                  title={<span className="flex items-center gap-2" style={{ color: '#f5f5dc' }}>{icon} {title}</span>}
+                  className="transition-all duration-300 hover:shadow-2xl"
+                  style={{
+                    borderRadius: '1rem',
+                    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+                    transition: 'box-shadow 0.3s ease',
+                  }}
+                  bodyStyle={{
+                    transition: 'transform 0.3s ease',
+                  }}
+                >
+                  {content}
+                </Card>
+              </Tilt>
+            ))}
+          </div>
+        </Content>
+      </Layout>
+    </Layout>
   );
 };
 

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useUser } from "@clerk/clerk-react";
-import axios from "../utils/axios"; 
+import axios from "../utils/axios"; // Your pre-configured Axios instance
 
 const UserContext = createContext();
 
@@ -9,11 +9,14 @@ export const UserProvider = ({ children }) => {
 
   const [backendUser, setBackendUser] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [synced, setSynced] = useState(false); 
+  const [synced, setSynced] = useState(false);
 
   useEffect(() => {
     const syncUser = async () => {
-      if (!isLoaded || !isSignedIn || !user?.id || synced) return;
+      if (!isLoaded || !isSignedIn || !user?.id || synced) {
+        setLoading(false);
+        return;
+      }
 
       try {
         const res = await axios.post("/api/users/sync", {
@@ -25,9 +28,9 @@ export const UserProvider = ({ children }) => {
 
         setBackendUser(res.data.user);
         setSynced(true);
-        console.log("✅ User synced to backend");
       } catch (err) {
         console.error("❌ Error syncing user:", err);
+        setBackendUser(null);
       } finally {
         setLoading(false);
       }
@@ -39,7 +42,7 @@ export const UserProvider = ({ children }) => {
   const addToCollection = async (productId) => {
     if (!backendUser) return;
     try {
-      const res = await axios.post("/api/user/collection", { productId });
+      const res = await axios.post("/api/users/collection", { productId });
       setBackendUser(res.data.user);
     } catch (err) {
       console.error("❌ Failed to add to collection:", err);
@@ -49,7 +52,7 @@ export const UserProvider = ({ children }) => {
   const removeFromCollection = async (productId) => {
     if (!backendUser) return;
     try {
-      const res = await axios.delete("/api/user/collection", {
+      const res = await axios.delete("/api/users/collection", {
         data: { productId },
       });
       setBackendUser(res.data.user);

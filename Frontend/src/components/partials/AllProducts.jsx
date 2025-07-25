@@ -16,7 +16,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
   const [showEndMessage, setShowEndMessage] = useState(false);
   const [shuffledProducts, setShuffledProducts] = useState([]);
   const [bookmarked, setBookmarked] = useState({});
-  const { user } = useUserContext();
+  const { backendUser, isSignedIn } = useUserContext();
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -116,32 +116,41 @@ const AllProducts = ({ sortOption, searchTerm }) => {
   };
 
   useEffect(() => {
-    if (user && user.bookmarkedProducts) {
+    if (backendUser?.savedItems) {
       const initialBookmarks = {};
-      user.bookmarkedProducts.forEach(pid => {
-        initialBookmarks[pid] = true;
+      backendUser.savedItems.forEach((item) => {
+        initialBookmarks[item.productId] = true;
       });
       setBookmarked(initialBookmarks);
     }
-  }, [user]);
+  }, [backendUser]);
 
   const handleBookmark = async (e, productId) => {
     e.stopPropagation();
     e.preventDefault(); // prevent <Link> navigation
 
-    if (!user || !user.email) {
+    if (!isSignedIn || !backendUser?.email) {
       toast.info('Login to bookmark', { autoClose: 2000 });
       return;
     }
 
+    const alreadyBookmarked = bookmarked[productId];
+
     try {
-      await instance.post('/api/users/bookmark', {
-        email: user.email,
+      await instance.post('/api/users/collection', {
+        email: backendUser.email,
         productId,
       });
 
-      toast.success('Bookmark added', { autoClose: 2000 });
-      setBookmarked((prev) => ({ ...prev, [productId]: true }));
+      setBookmarked((prev) => ({
+        ...prev,
+        [productId]: !alreadyBookmarked,
+      }));
+
+      toast.success(
+        alreadyBookmarked ? 'Bookmark removed' : 'Bookmark added',
+        { autoClose: 2000 }
+      );
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });
@@ -191,7 +200,6 @@ const AllProducts = ({ sortOption, searchTerm }) => {
                   }}
                 />
 
-                {/* 🔥 Bookmark Button Fix: Moved outside Link click propagation */}
                 <button
                   onClick={(e) => handleBookmark(e, item._id)}
                   className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"

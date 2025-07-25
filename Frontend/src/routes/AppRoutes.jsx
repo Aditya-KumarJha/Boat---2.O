@@ -1,43 +1,30 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import { SignedIn, SignedOut, RedirectToSignIn } from '@clerk/clerk-react';
+import { Routes, Route } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
-import Dashboard from '../pages/Dashboard';
 import About from '../pages/About';
 import ComingSoon from '../pages/ComingSoon';
 import ExplorePage from '../pages/ExplorePage';
-import ProductDetails from '../components/ProductDetails'; 
+import ProductDetails from '../components/ProductDetails';
+import NotFound from '../components/NotFound';
+import ProtectedDashboard from '../components/ProtectedDashboard';
 
-const AppRoutes = () => [
-  <Route key="/" path="/" element={<HomePage />} />,
-  <Route key="/login" path="/login" element={<Login />} />,
-  <Route key="/signup" path="/signup" element={<Signup />} />,
-  <Route key="/about" path="/about" element={<About />} />,
-  <Route key="/soon" path="/soon" element={<ComingSoon />} />,
-  <Route key="/explore" path="/explore" element={<ExplorePage />} />,
-  <Route
-    key="/dashboard"
-    path="/dashboard"
-    element={
-      <>
-        <SignedIn>
-          <Dashboard />
-        </SignedIn>
-        <SignedOut>
-          <RedirectToSignIn />
-        </SignedOut>
-      </>
-    }
-  />,
-
-  <Route
-    key="/product/:id"
-    path="/product/:id"
-    element={<ProductDetails />}
-  />
-];
+const AppRoutes = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/soon" element={<ComingSoon />} />
+      <Route path="/explore" element={<ExplorePage />} />
+      <Route path="/product/:id" element={<ProductDetails />} />
+      <Route path="/dashboard" element={<ProtectedDashboard />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+};
 
 export default AppRoutes;

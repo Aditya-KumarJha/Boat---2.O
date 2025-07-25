@@ -26,19 +26,19 @@ const App = () => {
   };
 
   return (
-    <>
-      <ToastContainer position="top-right" autoClose={3000} />
+    <div className='select-none'>
+      <ToastContainer position="top-right" autoClose={3000} theme="dark" />
       <MouseTracker onMove={(pos) => (mouseRef.current = pos)} />
 
       {!isLoaded ? (
         <Loader onLoaded={handleLoaded} mouse={mouseRef} />
       ) : (
-        <Routes>
-          {AppRoutes()}
-          {ClerkRoutes()}
-        </Routes>
+        <>
+          <AppRoutes />
+          <ClerkRoutes />
+        </>
       )}
-    </>
+    </div>
   );
 };
 

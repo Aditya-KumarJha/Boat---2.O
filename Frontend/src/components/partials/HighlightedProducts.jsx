@@ -12,7 +12,7 @@ const HighlightedProducts = () => {
   const [highlights, setHighlights] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
   const [bookmarked, setBookmarked] = useState({});
-  const { user } = useUserContext();
+  const { backendUser, isSignedIn } = useUserContext();
 
   useEffect(() => {
     const fetchHighlights = async () => {
@@ -43,29 +43,38 @@ const HighlightedProducts = () => {
   }, []);
 
   useEffect(() => {
-    if (user && user.bookmarkedProducts) {
+    if (backendUser?.savedItems) {
       const initialBookmarks = {};
-      user.bookmarkedProducts.forEach(pid => {
-        initialBookmarks[pid] = true;
+      backendUser.savedItems.forEach((item) => {
+        initialBookmarks[item.productId] = true;
       });
       setBookmarked(initialBookmarks);
     }
-  }, [user]);
+  }, [backendUser]);
 
   const handleBookmark = async (productId) => {
-    if (!user || !user.email) {
+    if (!isSignedIn || !backendUser?.email) {
       toast.info('Login to bookmark', { autoClose: 2000 });
       return;
     }
 
     try {
-      await instance.post('/api/users/bookmark', {
-        email: user.email,
+      const wasBookmarked = bookmarked[productId];
+
+      await instance.post('/api/users/collection', {
+        email: backendUser.email,
         productId,
       });
 
-      toast.success('Bookmark added', { autoClose: 2000 });
-      setBookmarked((prev) => ({ ...prev, [productId]: true }));
+      setBookmarked((prev) => ({
+        ...prev,
+        [productId]: !wasBookmarked,
+      }));
+
+      toast.success(
+        wasBookmarked ? 'Bookmark removed' : 'Bookmark added',
+        { autoClose: 2000 }
+      );
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });
@@ -132,18 +141,17 @@ const HighlightedProducts = () => {
                   </div>
                 </Link>
 
-                {/* Bookmark Icon with Golden Border */}
                 <button
-                onClick={() => handleBookmark(item._id)}
-                className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
-                title="Bookmark"
-              >
-                {bookmarked[item._id] ? (
-                  <BookmarkCheck size={20} className="text-[#FFD700]" />
-                ) : (
-                  <Bookmark size={20} className="text-white" />
-                )}
-              </button>
+                  onClick={() => handleBookmark(item._id)}
+                  className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
+                  title="Bookmark"
+                >
+                  {bookmarked[item._id] ? (
+                    <BookmarkCheck size={20} className="text-[#FFD700]" />
+                  ) : (
+                    <Bookmark size={20} className="text-white" />
+                  )}
+                </button>
               </motion.div>
             </Tilt>
           ))}
