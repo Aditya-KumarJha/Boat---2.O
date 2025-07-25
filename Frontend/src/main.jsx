@@ -28,12 +28,18 @@ const localization = {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ClerkProvider publishableKey={clerkKey} localization={localization}>
+    <ClerkProvider
+      publishableKey={clerkKey}
+      localization={localization}
+      signInUrl="/login"
+      signUpUrl="/signup"
+      signInFallbackRedirectUrl="/login"
+    >
       <ClerkLoaded>
         <BrowserRouter>
           <SmoothScrollProvider>
-            <UserProvider>           
-                <App />              
+            <UserProvider>
+              <App />
             </UserProvider>
           </SmoothScrollProvider>
         </BrowserRouter>

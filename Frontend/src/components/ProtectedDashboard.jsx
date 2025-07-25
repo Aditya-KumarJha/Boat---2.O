@@ -9,7 +9,7 @@ const ProtectedDashboard = () => {
         <Dashboard />
       </SignedIn>
       <SignedOut>
-        <RedirectToSignIn fallbackRedirectUr="/login" />
+      <RedirectToSignIn fallbackRedirectUrl="/login" />
       </SignedOut>
     </>
   );
