@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import Loading from './Loading';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useUserContext } from '../context/UserContext';
+import { useUserContext } from '../context/userContext';
 
 const ProductDetails = () => {
   const navigate = useNavigate();

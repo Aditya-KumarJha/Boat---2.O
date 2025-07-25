@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bookmark, BookmarkCheck } from 'lucide-react';
-import { useUserContext } from '../../context/UserContext';
+import { useUserContext } from '../../context/userContext';
 
 const HighlightedProducts = () => {
   const [highlights, setHighlights] = useState([]);

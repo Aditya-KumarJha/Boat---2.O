@@ -7,7 +7,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bookmark, BookmarkCheck } from 'lucide-react';
-import { useUserContext } from '../../context/UserContext';
+import { useUserContext } from '../../context/userContext';
 
 const AllProducts = ({ sortOption, searchTerm }) => {
   const [allProducts, setAllProducts] = useState([]);

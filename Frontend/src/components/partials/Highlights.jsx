@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import instance from '../../utils/axios';
-import { useUserContext } from '../../context/UserContext';
+import { useUserContext } from '../../context/userContext';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bookmark, BookmarkCheck } from 'lucide-react';
