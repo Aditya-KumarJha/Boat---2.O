@@ -6,7 +6,7 @@ import Stats from '../components/partials/Stats';
 import Contact from '../components/partials/Contact';
 import Highlights from '../components/partials/Highlights';
 import FAQ from '../components/partials/FAQ';
-import Footer from '../components/Footer';
+import Footer from '../components/partials/Footer';
 import Loading from "../components/Loading";
 
 const HomePage = () => {

@@ -6,8 +6,9 @@ import "./index.css";
 import { ClerkProvider, ClerkLoaded } from "@clerk/clerk-react";
 import { BrowserRouter } from "react-router-dom";
 import { enUS } from "@clerk/localizations";
+
 import SmoothScrollProvider from "./providers/SmoothScrollProvider.jsx";
-import { ProductProvider } from './context/ProductContext';
+import { UserProvider } from './context/userContext'; 
 
 const clerkKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -31,9 +32,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <ClerkLoaded>
         <BrowserRouter>
           <SmoothScrollProvider>
-            <ProductProvider>
-              <App />
-            </ProductProvider>
+            <UserProvider>           
+                <App />              
+            </UserProvider>
           </SmoothScrollProvider>
         </BrowserRouter>
       </ClerkLoaded>

@@ -20,6 +20,7 @@ const productSchema = new mongoose.Schema({
   connectivity_type: String,
   image: String, 
   category: [String], 
+  type: String,
 }, {
   timestamps: true,
 });

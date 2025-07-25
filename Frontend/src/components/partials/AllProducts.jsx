@@ -4,6 +4,10 @@ import instance from '../../utils/axios';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Bookmark, BookmarkCheck } from 'lucide-react';
+import { useUserContext } from '../../context/UserContext';
 
 const AllProducts = ({ sortOption, searchTerm }) => {
   const [allProducts, setAllProducts] = useState([]);
@@ -11,6 +15,8 @@ const AllProducts = ({ sortOption, searchTerm }) => {
   const [hasMore, setHasMore] = useState(true);
   const [showEndMessage, setShowEndMessage] = useState(false);
   const [shuffledProducts, setShuffledProducts] = useState([]);
+  const [bookmarked, setBookmarked] = useState({});
+  const { user } = useUserContext();
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -53,7 +59,6 @@ const AllProducts = ({ sortOption, searchTerm }) => {
   const applySortAndFilter = () => {
     let sorted = [...allProducts];
 
-    // Deduplicate by _id or id
     const seen = new Set();
     sorted = sorted.filter((item) => {
       const key = item._id ?? item.id;
@@ -62,7 +67,6 @@ const AllProducts = ({ sortOption, searchTerm }) => {
       return true;
     });
 
-    // Apply filtering first
     if (
       ['Wireless', 'Popular', 'Limited', 'Gaming', 'Noise-Cancelling', 'Trending'].includes(sortOption)
     ) {
@@ -73,20 +77,17 @@ const AllProducts = ({ sortOption, searchTerm }) => {
       );
     }
 
-    // Apply sorting
     if (sortOption === 'Budget') {
       sorted.sort((a, b) => a.selling_price - b.selling_price);
     } else if (sortOption === 'Premium') {
       sorted.sort((a, b) => b.selling_price - a.selling_price);
     } else {
-      // Default or category filters – randomize
       sorted = shuffleArray(sorted);
     }
 
     return sorted.filter(matchesSearch);
   };
 
-  // Recompute filtered & (possibly shuffled) products when dependencies change
   useEffect(() => {
     const filtered = applySortAndFilter();
     setShuffledProducts(filtered);
@@ -112,6 +113,39 @@ const AllProducts = ({ sortOption, searchTerm }) => {
     if (searchTerm) return `Search results for "${searchTerm}"`;
     if (!sortOption) return 'All Products';
     return `All Products in ‘${sortOption}’ category`;
+  };
+
+  useEffect(() => {
+    if (user && user.bookmarkedProducts) {
+      const initialBookmarks = {};
+      user.bookmarkedProducts.forEach(pid => {
+        initialBookmarks[pid] = true;
+      });
+      setBookmarked(initialBookmarks);
+    }
+  }, [user]);
+
+  const handleBookmark = async (e, productId) => {
+    e.stopPropagation();
+    e.preventDefault(); // prevent <Link> navigation
+
+    if (!user || !user.email) {
+      toast.info('Login to bookmark', { autoClose: 2000 });
+      return;
+    }
+
+    try {
+      await instance.post('/api/users/bookmark', {
+        email: user.email,
+        productId,
+      });
+
+      toast.success('Bookmark added', { autoClose: 2000 });
+      setBookmarked((prev) => ({ ...prev, [productId]: true }));
+    } catch (err) {
+      console.error('Bookmark error:', err);
+      toast.error('Something went wrong', { autoClose: 2000 });
+    }
   };
 
   return (
@@ -144,7 +178,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
           >
             <motion.div
               whileHover={{ scale: 1.03 }}
-              className={`group bg-white/10 rounded-xl p-4 hover:bg-white/20 transition backdrop-blur-sm shadow-md border border-white/10 ${index < 4 ? 'mt-10' : ''}`}
+              className={`relative group bg-white/10 rounded-xl p-4 hover:bg-white/20 transition backdrop-blur-sm shadow-md border border-white/10 ${index < 4 ? 'mt-10' : ''}`}
             >
               <Link to={`/product/${item._id}`}>
                 <img
@@ -156,6 +190,20 @@ const AllProducts = ({ sortOption, searchTerm }) => {
                     e.target.src = '/noimage.jpg';
                   }}
                 />
+
+                {/* 🔥 Bookmark Button Fix: Moved outside Link click propagation */}
+                <button
+                  onClick={(e) => handleBookmark(e, item._id)}
+                  className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
+                  title="Bookmark"
+                >
+                  {bookmarked[item._id] ? (
+                    <BookmarkCheck size={20} className="text-[#FFD700]" />
+                  ) : (
+                    <Bookmark size={20} className="text-white" />
+                  )}
+                </button>
+
                 <h3 className="text-lg font-semibold text-white group-hover:text-teal-200 transition">
                   {item.title.length > 40 ? item.title.slice(0, 40) + '...' : item.title}
                 </h3>

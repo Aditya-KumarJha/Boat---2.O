@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import instance from '../../utils/axios';
+import { useUserContext } from '../../context/UserContext';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Bookmark, BookmarkCheck } from 'lucide-react';
 
 const Highlights = () => {
   const [products, setProducts] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
+  const [bookmarked, setBookmarked] = useState({});
+  const { user } = useUserContext();
 
   useEffect(() => {
     const fetchHighlights = async () => {
@@ -38,8 +44,39 @@ const Highlights = () => {
     fetchHighlights();
   }, []);
 
+  useEffect(() => {
+    if (user && user.bookmarkedProducts) {
+      const initialBookmarks = {};
+      user.bookmarkedProducts.forEach(pid => {
+        initialBookmarks[pid] = true;
+      });
+      setBookmarked(initialBookmarks);
+    }
+  }, [user]);
+
+  const handleBookmark = async (productId) => {
+    if (!user || !user.email) {
+      toast.info('Login to bookmark', { autoClose: 2000 });
+      return;
+    }
+
+    try {
+      await instance.post('/api/users/bookmark', {
+        email: user.email,
+        productId,
+      });
+
+      toast.success('Bookmark added', { autoClose: 2000 });
+      setBookmarked((prev) => ({ ...prev, [productId]: true }));
+    } catch (err) {
+      console.error('Bookmark error:', err);
+      toast.error('Something went wrong', { autoClose: 2000 });
+    }
+  };
+
   return (
     <div className="w-full py-12 overflow-hidden">
+      <ToastContainer position="top-center" theme="dark" />
       <style>
         {`
           @keyframes slide-infinite {
@@ -73,29 +110,44 @@ const Highlights = () => {
           }}
         >
           {products.map((item, idx) => (
-            <Link
-              to={`/product/${item._id}`}
+            <div
               key={`${item._id}-${idx}`}
-              className="w-[80vw] sm:w-[300px] rounded-2xl border border-white/30 shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:shadow-[0_0_35px_rgba(255,255,255,0.15)] hover:scale-[1.02] transition duration-300 p-4 flex-shrink-0"
+              className="relative w-[80vw] sm:w-[300px] rounded-2xl border border-white/30 shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:shadow-[0_0_35px_rgba(255,255,255,0.15)] hover:scale-[1.02] transition duration-300 p-4 flex-shrink-0 bg-transparent"
             >
-              <img
-                src={item.image}
-                alt={item.model}
-                className="w-full h-[75%] max-h-60 object-fill mb-4"
-              />
-              <div className="text-white text-sm space-y-1 text-left line-clamp-3">
-                <p className="text-gray-200">
-                  <span className="font-bold">Brand:</span> {item.brand}
-                </p>
-                <p className="text-gray-200">
-                  <span className="font-bold">Model:</span>{' '}
-                  {item.model.length > 50 ? item.model.slice(0, 50) + '...' : item.model}
-                </p>
-                <p className="text-gray-200">
-                  <span className="font-bold">Color:</span> {item.color}
-                </p>
-              </div>
-            </Link>
+              {/* Bookmark Icon */}
+              <button
+                onClick={() => handleBookmark(item._id)}
+                className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
+                title="Bookmark"
+              >
+                {bookmarked[item._id] ? (
+                  <BookmarkCheck size={20} className="text-[#FFD700]" />
+                ) : (
+                  <Bookmark size={20} className="text-white" />
+                )}
+              </button>
+
+              {/* Product Content */}
+              <Link to={`/product/${item._id}`}>
+                <img
+                  src={item.image}
+                  alt={item.model}
+                  className="w-full h-[75%] max-h-60 object-fill mb-4"
+                />
+                <div className="text-white text-sm space-y-1 text-left line-clamp-3">
+                  <p className="text-gray-200">
+                    <span className="font-bold">Brand:</span> {item.brand}
+                  </p>
+                  <p className="text-gray-200">
+                    <span className="font-bold">Model:</span>{' '}
+                    {item.model.length > 50 ? item.model.slice(0, 50) + '...' : item.model}
+                  </p>
+                  <p className="text-gray-200">
+                    <span className="font-bold">Color:</span> {item.color}
+                  </p>
+                </div>
+              </Link>
+            </div>
           ))}
         </div>
       </div>

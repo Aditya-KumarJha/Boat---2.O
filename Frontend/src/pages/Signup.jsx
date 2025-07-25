@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SignUp, useUser } from "@clerk/clerk-react";
+import { SignUp } from "@clerk/clerk-react";
 import {
   BarChart3,
   Circle,
@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import Lottie from "lottie-react";
 import Loading from "../components/Loading";
-import instance from "../utils/axios";
 
 const FloatingIcon = ({ Icon, className, style }) => (
   <div className={`absolute ${className}`} style={style}>
@@ -23,78 +22,46 @@ const FloatingIcon = ({ Icon, className, style }) => (
 );
 
 const Signup = () => {
-  const { user } = useUser();
   const [animationData, setAnimationData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [synced, setSynced] = useState(false);
 
   useEffect(() => {
     fetch("/music-wave.json")
       .then((res) => res.json())
       .then(setAnimationData);
 
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2500);
-
+    const timer = setTimeout(() => setLoading(false), 2500);
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    if (user && !synced) {
-      const syncUser = async () => {
-        try {
-          await instance.post("/api/sync-user", {
-            externalId: user.id,
-            name: user.fullName,
-            email: user.primaryEmailAddress?.emailAddress || "",
-            profileImage: user.imageUrl,
-          });
-          setSynced(true);
-        } catch (error) {
-          console.error("Error syncing user to backend:", error);
-        }
-      };
-      syncUser();
-    }
-  }, [user, synced]);
-
-  if (loading) {
-    return <Loading />;
-  }
+  if (loading) return <Loading />;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] flex flex-col md:grid md:grid-cols-2 md:gap-[1.5rem] font-sans">
-      <div className="relative flex flex-col bg-gradient-to-br px-[5vw] py-[2.5vh] sm:py-[3vh] md:py-[2.5vh] text-[#f5f5dc] overflow-hidden w-full md:px-[3vw] lg:px-[5vw]">
-        <div className="mb-[1.2vh] sm:mb-[1.5vh] md:mb-[1vh] z-10 flex items-center gap-[0.9rem]">
-          <Sparkles className="w-[1.8rem] h-[1.8rem] sm:w-[2rem] sm:h-[2rem] text-[#f5f5dc]" />
-          <h1 className="text-[2rem] sm:text-[2.2rem] font-bold tracking-wide">Boat 2.0</h1>
+    <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] flex flex-col md:grid md:grid-cols-2 font-sans">
+      {/* LEFT PANEL */}
+      <div className="relative flex flex-col px-[5vw] py-[2.5vh] text-[#f5f5dc] overflow-hidden">
+        <div className="mb-[1.2vh] z-10 flex items-center gap-[0.9rem]">
+          <Sparkles className="w-[1.8rem] h-[1.8rem]" />
+          <h1 className="text-[2rem] font-bold tracking-wide">Boat 2.0</h1>
         </div>
 
-        <div className="absolute top-[2vh] left-[2vw] grid grid-cols-4 gap-[0.6rem] z-0 opacity-20 animate-pulse">
-          {Array.from({ length: 16 }).map((_, i) => (
-            <Circle key={i} className="w-[1.1rem] h-[1.1rem]" strokeWidth={1.2} />
-          ))}
-        </div>
-        <div className="absolute bottom-[2vh] right-[2vw] grid grid-cols-4 gap-[0.6rem] z-0 opacity-20 animate-pulse">
-          {Array.from({ length: 16 }).map((_, i) => (
-            <Circle key={i} className="w-[1.1rem] h-[1.1rem]" strokeWidth={1.2} />
-          ))}
-        </div>
+        {[["top-[2vh] left-[2vw]"], ["bottom-[2vh] right-[2vw]"]].map(([position], idx) => (
+          <div key={idx} className={`absolute ${position} grid grid-cols-4 gap-[0.6rem] z-0 opacity-20 animate-pulse`}>
+            {Array.from({ length: 16 }).map((_, i) => (
+              <Circle key={i} className="w-[1.1rem] h-[1.1rem]" strokeWidth={1.2} />
+            ))}
+          </div>
+        ))}
 
         <div className="flex-grow flex flex-col items-center justify-center space-y-[1.8rem] z-10 relative">
-          <div className="relative w-[16rem] sm:w-[19rem] h-[16rem] sm:h-[19rem]">
+          <div className="relative w-[16rem] h-[16rem]">
             <div className="absolute inset-0 flex items-center justify-center">
-              {animationData && (
-                <Lottie animationData={animationData} loop autoplay />
-              )}
+              {animationData && <Lottie animationData={animationData} loop autoplay />}
             </div>
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white px-6 py-3 rounded-xl shadow-2xl w-[11rem] border border-gray-200">
                 <BarChart3 className="text-[#3e4ef5] w-12 h-12 mx-auto" />
-                <p className="text-black text-[1rem] font-semibold mt-3 text-center">
-                  Listener Analytics
-                </p>
+                <p className="text-black text-[1rem] font-semibold mt-3 text-center">Listener Analytics</p>
               </div>
             </div>
 
@@ -121,9 +88,7 @@ const Signup = () => {
         </div>
 
         <div className="mt-[2rem] z-10">
-          <p className="text-[0.85rem] italic text-[#f5f5dc]/70 leading-snug">
-            "India’s #1 audio brand — redefining how the nation listens."
-          </p>
+          <p className="text-[0.85rem] italic text-[#f5f5dc]/70">"India’s #1 audio brand — redefining how the nation listens."</p>
           <div className="flex items-center gap-[0.75rem] mt-[0.6rem]">
             <UserCircle2 className="w-[2.4rem] h-[2.4rem] rounded-full ring-2 ring-white bg-white text-[#3e4ef5]" />
             <div className="text-[0.95rem] leading-tight">
@@ -134,12 +99,13 @@ const Signup = () => {
         </div>
       </div>
 
+      {/* RIGHT PANEL - Clerk */}
       <div className="w-full pt-[6.5vh] px-[5vw] pb-[1.25rem] flex items-center justify-center">
         <SignUp
           path="/signup"
           routing="path"
           signInUrl="/login"
-          redirectUrl="/dashboard"
+          fallbackRedirectUrl="/dashboard"
           appearance={{
             elements: {
               rootBox: "w-full h-full",

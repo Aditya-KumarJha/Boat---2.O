@@ -1,27 +1,40 @@
 import React, { useState } from "react";
-import { UserButton, SignedIn, SignedOut } from "@clerk/clerk-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link, useLocation } from "react-router-dom";
-import { Menu } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Menu, LogOut } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useUserContext } from "@/context/userContext";
+import { useClerk } from "@clerk/clerk-react";
 
 const navItems = [
   { name: "Explore", href: "/explore", icon: "ri-compass-3-line" },
-  { name: "Top Picks", href: "/toppicks", icon: "ri-star-line" },
   { name: "Coming Soon", href: "/soon", icon: "ri-time-line" },
   { name: "About", href: "/about", icon: "ri-information-line" },
   { name: "Contact Us", href: "/contact", icon: "ri-contacts-line" },
+  { name: "Dashboard", href: "/dashboard", icon: "ri-dashboard-line" },
 ];
 
 const NavBar = ({ onContactClick }) => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isSignedIn } = useUserContext();
+  const { signOut } = useClerk();
 
   const handleNavClick = (e, item) => {
     if (item.href === "/contact" && typeof onContactClick === "function") {
       e.preventDefault();
       onContactClick();
       setIsMenuOpen(false);
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      navigate("/login");
+    } catch (error) {
+      console.error("Logout failed:", error);
     }
   };
 
@@ -60,38 +73,44 @@ const NavBar = ({ onContactClick }) => {
 
         <div className="flex-1 flex justify-end items-center gap-4">
           <div className="hidden md:flex items-center gap-[1rem]">
-            <SignedOut>
-              <Link to="/login">
-                <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-lime-400 text-lime-400 rounded-full relative overflow-hidden group">
-                  <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                    Login
-                  </span>
-                  <span className="absolute inset-0 flex justify-center items-center z-0">
-                    <span className="h-[3rem] w-[3rem] bg-[#a3e635] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
-                  </span>
-                </button>
-              </Link>
+            {!isSignedIn ? (
+              <>
+                <Link to="/login">
+                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-lime-400 text-lime-400 rounded-full relative overflow-hidden group">
+                    <span className="relative z-20 group-hover:text-black transition-all duration-300">
+                      Login
+                    </span>
+                    <span className="absolute inset-0 flex justify-center items-center z-0">
+                      <span className="h-[3rem] w-[3rem] bg-[#a3e635] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                    </span>
+                  </button>
+                </Link>
 
-              <Link to="/signup">
-                <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-[#f472b6] text-[#f472b6] rounded-full relative overflow-hidden group">
-                  <span className="relative z-20 group-hover:text-black transition-all duration-300">
-                    Signup
-                  </span>
-                  <span className="absolute inset-0 flex justify-center items-center z-0">
-                    <span className="h-[3rem] w-[3rem] bg-[#f472b6] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
-                  </span>
-                </button>
-              </Link>
-            </SignedOut>
-
-            <SignedIn>
-              <UserButton
-                appearance={{
-                  elements: { avatarBox: "w-[2.5rem] h-[2.5rem]" },
-                }}
-                redirectUrl="/"
-              />
-            </SignedIn>
+                <Link to="/signup">
+                  <button className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-[#f472b6] text-[#f472b6] rounded-full relative overflow-hidden group">
+                    <span className="relative z-20 group-hover:text-black transition-all duration-300">
+                      Signup
+                    </span>
+                    <span className="absolute inset-0 flex justify-center items-center z-0">
+                      <span className="h-[3rem] w-[3rem] bg-[#f472b6] rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                    </span>
+                  </button>
+                </Link>
+              </>
+            ) : (
+              <button
+                onClick={handleLogout}
+                className="px-[1.25rem] py-[0.625rem] text-[1rem] font-semibold border-2 border-red-400 text-red-400 rounded-full relative overflow-hidden group flex items-center gap-2"
+              >
+                <span className="relative z-20 group-hover:text-black transition-all duration-300 flex items-center gap-2">
+                  <LogOut size={18} />
+                  Logout
+                </span>
+                <span className="absolute inset-0 flex justify-center items-center z-0">
+                  <span className="h-[3rem] w-[3rem] bg-red-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                </span>
+              </button>
+            )}
           </div>
 
           <div className="lg:hidden">
@@ -125,15 +144,13 @@ const NavBar = ({ onContactClick }) => {
                     : "text-[#e0f2f1] hover:text-[#ccfbf1] hover:scale-105 hover:bg-[#0d948810] hover:border hover:border-[#22d3ee]"
                 )}
               >
-                <i
-                  className={`${item.icon} mr-2 group-hover:animate-bounce`}
-                />
+                <i className={`${item.icon} mr-2 group-hover:animate-bounce`} />
                 {item.name}
               </Link>
             ))}
 
             <div className="block md:hidden pt-2">
-              <SignedOut>
+              {!isSignedIn ? (
                 <div className="flex flex-row flex-wrap gap-3 justify-between">
                   <Link to="/login" className="flex-1 min-w-[45%]">
                     <button className="w-full px-4 py-2 text-base font-semibold border-2 border-[#22d3ee] text-[#22d3ee] rounded-full relative overflow-hidden group">
@@ -157,18 +174,20 @@ const NavBar = ({ onContactClick }) => {
                     </button>
                   </Link>
                 </div>
-              </SignedOut>
-
-              <SignedIn>
-                <div className="pt-3">
-                  <UserButton
-                    appearance={{
-                      elements: { avatarBox: "w-[2.5rem] h-[2.5rem]" },
-                    }}
-                    redirectUrl="/"
-                  />
-                </div>
-              </SignedIn>
+              ) : (
+                <button
+                  onClick={handleLogout}
+                  className="w-full mt-3 px-4 py-2 text-base font-semibold border-2 border-red-400 text-red-400 rounded-full relative overflow-hidden group flex items-center justify-center gap-2"
+                >
+                  <span className="relative z-20 group-hover:text-black transition-all duration-300 flex items-center gap-2">
+                    <LogOut size={18} />
+                    Logout
+                  </span>
+                  <span className="absolute inset-0 flex justify-center items-center z-0">
+                    <span className="h-10 w-10 bg-red-400 rounded-full scale-0 group-hover:scale-[2.5] transition-transform duration-500 ease-out" />
+                  </span>
+                </button>
+              )}
             </div>
           </motion.div>
         )}

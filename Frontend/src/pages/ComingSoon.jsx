@@ -2,10 +2,10 @@ import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { useProductContext } from '../context/ProductContext';
 import Cubes from '../components/partials/Cubes';
 import Loading from "../components/Loading";
 import InfiniteScroll from 'react-infinite-scroll-component';
+import instance from '../utils/axios';
 
 const getRandomLaunchDate = () => {
   const today = new Date();
@@ -25,17 +25,29 @@ const shuffleArray = (arr) => {
 };
 
 const ComingSoon = () => {
-  const { products, loading } = useProductContext();
-
   const [email, setEmail] = useState('');
   const [visibleCount, setVisibleCount] = useState(8);
   const [hasMore, setHasMore] = useState(true);
   const [showEndMessage, setShowEndMessage] = useState(false);
   const [localLoading, setLocalLoading] = useState(true);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const timer = setTimeout(() => setLocalLoading(false), 3000);
     return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const { data } = await instance.get('/api/products');
+        setProducts(data);
+      } catch (err) {
+        console.error('Failed to fetch products:', err);
+        toast.error('Failed to load products');
+      }
+    };
+    fetchProducts();
   }, []);
 
   const upcomingProducts = useMemo(() => {
@@ -68,7 +80,7 @@ const ComingSoon = () => {
     setEmail('');
   };
 
-  if (loading || localLoading) return <Loading />;
+  if (localLoading) return <Loading />;
 
   const visibleProducts = upcomingProducts.slice(0, visibleCount);
 
