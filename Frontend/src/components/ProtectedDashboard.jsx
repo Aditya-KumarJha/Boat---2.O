@@ -1,18 +1,18 @@
 import React from 'react';
-import { SignedIn, SignedOut, RedirectToSignIn } from '@clerk/clerk-react';
+import { useAuth } from '@clerk/clerk-react';
+import { RedirectToSignIn } from '@clerk/clerk-react';
 import Dashboard from '../pages/Dashboard';
 
 const ProtectedDashboard = () => {
-  return (
-    <>
-      <SignedIn>
-        <Dashboard />
-      </SignedIn>
-      <SignedOut>
-      <RedirectToSignIn fallbackRedirectUrl="/login" />
-      </SignedOut>
-    </>
-  );
+  const { isLoaded, isSignedIn } = useAuth();
+
+  if (!isLoaded) return null; 
+
+  if (!isSignedIn) {
+    return <RedirectToSignIn fallbackRedirectUrl="/login" />;
+  }
+
+  return <Dashboard />;
 };
 
 export default ProtectedDashboard;
