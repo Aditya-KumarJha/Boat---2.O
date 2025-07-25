@@ -65,7 +65,7 @@ boAt-2.0/
 ├── public/
 │   └── assets/                    # 📂 Static media (videos, images)
 │                          
-└── README.md                      # 📘 This file
+└── README.md                      # 📘 This file for documentation
 ```
 
 
