@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import {
     HiSpeakerWave,
     HiShieldCheck,
-    HiBolt,
+    HiBoltSlash,
     HiSparkles,
     HiUserGroup,
     HiGlobeAlt,
@@ -25,7 +25,7 @@ const features = [
       desc: 'Durable and stylish, crafted with premium-grade materials.',
     },
     {
-      icon: <HiBolt size={28} />,
+      icon: <HiBoltSlash size={28} />,
       title: 'Fast Charging',
       desc: 'Get hours of playback with just a few minutes of charging.',
     },
