@@ -45,7 +45,7 @@ boAt 2.0 is a reimagined e-commerce experience for boAt, India's leading audio a
 ```bash
 boAt-2.0/
 │
-├── backend/                        # 🛠️ Backend Node.js API
+├── backend/                       # 🛠️ Backend Node.js API
 │   ├── controllers/               # 📦 Handles request logic (product routes)
 │   ├── models/                    # 🧬 Mongoose schemas (Product, etc.)
 │   ├── routes/                    # 🚏 API endpoints for frontend
@@ -161,19 +161,19 @@ npm run dev
 Runs at http://localhost:5173
 
 ## 🖼 Key UI Highlights
-🎞️ LandingShowcase: Dynamic Swiper slider with video previews.
-📱 Touch Device Logic: Different behavior for touch vs. hover.
-🛒 Shop Now CTA: Linked to /explore product page.
-🔒 Protected Routes: Prevent unauthorized dashboard access.
-🪄 Framer Motion Animations: Smooth fade-ins, transitions, video reveals.
+- 🎞️ LandingShowcase: Dynamic Swiper slider with video previews.
+- 📱 Touch Device Logic: Different behavior for touch vs. hover.
+- 🛒 Shop Now CTA: Linked to /explore product page.
+- 🔒 Protected Routes: Prevent unauthorized dashboard access.
+- 🪄 Framer Motion Animations: Smooth fade-ins, transitions, video reveals.
 
 ## 🧠 Learning Outcomes
-🔥 Building full-stack MERN projects with auth and APIs
-🎞️ Using Swiper and Framer Motion for interactive UI
-⚙️ Backend architecture with Express and MongoDB
-🔐 Integrating Clerk authentication with custom flow
-💻 Mobile-first UI with adaptive behaviors (touch vs hover)
-📁 Managing global state using React Context
+- 🔥 Building full-stack MERN projects with auth and APIs
+- 🎞️ Using Swiper and Framer Motion for interactive UI
+- ⚙️ Backend architecture with Express and MongoDB
+- 🔐 Integrating Clerk authentication with custom flow
+- 💻 Mobile-first UI with adaptive behaviors (touch vs hover)
+- 📁 Managing global state using React Context
 
 ### 🤝 Contributing
 Pull requests are welcome!
@@ -192,15 +192,15 @@ git push origin feature/feature-name
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### 🙏 Acknowledgements
-Clerk – Seamless authentication and user session management.
-Swiper – Beautiful and customizable product carousels and sliders.
-Framer Motion – Declarative animations, smooth UI transitions, and interactive hover effects.
-Lucide Icons – Clean and flexible React icon library.
-MongoDB Atlas – Cloud-hosted NoSQL database for scalable backend data storage.
-Render/Vercel – For deploying full-stack apps and static frontend sites effortlessly.
-LottieFiles – Lightweight and interactive JSON-based animations (used for loaders, soundwaves, icons).
-Rive – Real-time, interactive vector animations (used for glowing ambient effects or micro-interactions).
-React Toastify – Notification system for user actions like login/logout, bookmarking, etc.
-Tailwind CSS / DaisyUI / Skiper UI – Utility-first CSS frameworks for consistent styling and themes.
-React Parallax Tilt – For 3D tilt and parallax hover interactions on product cards.
-React Three Fiber – 3D animated cube, glowing effects, and environment lighting setup.
+- Clerk – Seamless authentication and user session management.
+- Swiper – Beautiful and customizable product carousels and sliders.
+- Framer Motion – Declarative animations, smooth UI transitions, and interactive hover effects.
+- Lucide Icons – Clean and flexible React icon library.
+- MongoDB Atlas – Cloud-hosted NoSQL database for scalable backend data storage.
+- Render/Vercel – For deploying full-stack apps and static frontend sites effortlessly.
+- LottieFiles – Lightweight and interactive JSON-based animations (used for loaders, soundwaves, icons).
+- Rive – Real-time, interactive vector animations (used for glowing ambient effects or micro-interactions).
+- React Toastify – Notification system for user actions like login/logout, bookmarking, etc.
+- Tailwind CSS / DaisyUI / Skiper UI – Utility-first CSS frameworks for consistent styling and themes.
+- React Parallax Tilt – For 3D tilt and parallax hover interactions on product cards.
+- React Three Fiber – 3D animated cube, glowing effects, and environment lighting setup.
