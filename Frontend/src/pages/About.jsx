@@ -310,9 +310,9 @@ const About = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition">
+                <p className="hover:text-white transition">
                   Contact
-                </a>
+                </p>
               </li>
             </ul>
           </div>
