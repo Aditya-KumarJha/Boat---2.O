@@ -69,7 +69,7 @@ const Highlights = () => {
       const wasBookmarked = bookmarked[productId];
 
       // Call backend toggle API
-      await instance.post('/api/users/collection', {
+      await instance.post('/api/user/collection', {
         email: backendUser.email,
         productId,
       });

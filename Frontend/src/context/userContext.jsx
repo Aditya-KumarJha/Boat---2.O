@@ -42,7 +42,7 @@ export const UserProvider = ({ children }) => {
   const addToCollection = async (productId) => {
     if (!backendUser) return;
     try {
-      const res = await axios.post("/api/users/collection", { productId });
+      const res = await axios.post("/api/user/collection", { productId });
       setBackendUser(res.data.user);
     } catch (err) {
       console.error("❌ Failed to add to collection:", err);
@@ -52,7 +52,7 @@ export const UserProvider = ({ children }) => {
   const removeFromCollection = async (productId) => {
     if (!backendUser) return;
     try {
-      const res = await axios.delete("/api/users/collection", {
+      const res = await axios.delete("/api/user/collection", {
         data: { productId },
       });
       setBackendUser(res.data.user);

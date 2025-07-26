@@ -61,7 +61,7 @@ const HighlightedProducts = () => {
     try {
       const wasBookmarked = bookmarked[productId];
 
-      await instance.post('/api/users/collection', {
+      await instance.post('/api/user/collection', {
         email: backendUser.email,
         productId,
       });

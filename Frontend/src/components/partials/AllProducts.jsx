@@ -137,7 +137,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
     const alreadyBookmarked = bookmarked[productId];
 
     try {
-      await instance.post('/api/users/collection', {
+      await instance.post('/api/user/collection', {
         email: backendUser.email,
         productId,
       });
