@@ -62,7 +62,7 @@ export const UserProvider = ({ children }) => {
   };
 
   const isInCollection = (productId) => {
-    return backendUser?.productCollection?.includes(productId);
+    return backendUser?.savedItems?.some((item) => item.productId === productId)
   };
 
   return (
