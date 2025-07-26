@@ -16,8 +16,7 @@ const ProductDetails = () => {
   const {
     backendUser,
     isSignedIn,
-    addToCollection,
-    removeFromCollection,
+    toggleCollection,
     isInCollection,
   } = useUserContext();
 
@@ -75,13 +74,7 @@ const ProductDetails = () => {
     }
 
     try {
-      if (isInCollection(productId)) {
-        await removeFromCollection(productId);
-        toast.success('Bookmark removed', { autoClose: 2000 });
-      } else {
-        await addToCollection(productId);
-        toast.success('Bookmark added', { autoClose: 2000 });
-      }
+      await toggleCollection(productId);
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });

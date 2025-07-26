@@ -15,8 +15,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
   const [hasMore, setHasMore] = useState(true);
   const [showEndMessage, setShowEndMessage] = useState(false);
   const [shuffledProducts, setShuffledProducts] = useState([]);
-  const [bookmarked, setBookmarked] = useState({});
-  const { backendUser, isSignedIn } = useUserContext();
+  const { backendUser, isSignedIn, toggleCollection, isInCollection } = useUserContext();
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -115,42 +114,18 @@ const AllProducts = ({ sortOption, searchTerm }) => {
     return `All Products in ‘${sortOption}’ category`;
   };
 
-  useEffect(() => {
-    if (backendUser?.savedItems) {
-      const initialBookmarks = {};
-      backendUser.savedItems.forEach((item) => {
-        initialBookmarks[item.productId] = true;
-      });
-      setBookmarked(initialBookmarks);
-    }
-  }, [backendUser]);
-
   const handleBookmark = async (e, productId) => {
     e.stopPropagation();
-    e.preventDefault(); 
+    e.preventDefault();
 
     if (!isSignedIn || !backendUser?.email) {
       toast.info('Login to bookmark', { autoClose: 2000 });
       return;
     }
 
-    const alreadyBookmarked = bookmarked[productId];
-
     try {
-      await instance.post('/api/user/collection', {
-        email: backendUser.email,
-        productId,
-      });
-
-      setBookmarked((prev) => ({
-        ...prev,
-        [productId]: !alreadyBookmarked,
-      }));
-
-      toast.success(
-        alreadyBookmarked ? 'Bookmark removed' : 'Bookmark added',
-        { autoClose: 2000 }
-      );
+      await toggleCollection(productId);
+      // toggleCollection already shows success/error toast
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });
@@ -205,7 +180,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
                   className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
                   title="Bookmark"
                 >
-                  {bookmarked[item._id] ? (
+                  {isInCollection(item._id) ? (
                     <BookmarkCheck size={20} className="text-[#FFD700]" />
                   ) : (
                     <Bookmark size={20} className="text-white" />

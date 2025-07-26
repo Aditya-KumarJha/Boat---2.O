@@ -11,8 +11,7 @@ import { useUserContext } from '../../context/userContext';
 const HighlightedProducts = () => {
   const [highlights, setHighlights] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
-  const [bookmarked, setBookmarked] = useState({});
-  const { backendUser, isSignedIn } = useUserContext();
+  const { backendUser, isSignedIn, toggleCollection, isInCollection } = useUserContext();
 
   useEffect(() => {
     const fetchHighlights = async () => {
@@ -42,16 +41,6 @@ const HighlightedProducts = () => {
     fetchHighlights();
   }, []);
 
-  useEffect(() => {
-    if (backendUser?.savedItems) {
-      const initialBookmarks = {};
-      backendUser.savedItems.forEach((item) => {
-        initialBookmarks[item.productId] = true;
-      });
-      setBookmarked(initialBookmarks);
-    }
-  }, [backendUser]);
-
   const handleBookmark = async (productId) => {
     if (!isSignedIn || !backendUser?.email) {
       toast.info('Login to bookmark', { autoClose: 2000 });
@@ -59,22 +48,7 @@ const HighlightedProducts = () => {
     }
 
     try {
-      const wasBookmarked = bookmarked[productId];
-
-      await instance.post('/api/user/collection', {
-        email: backendUser.email,
-        productId,
-      });
-
-      setBookmarked((prev) => ({
-        ...prev,
-        [productId]: !wasBookmarked,
-      }));
-
-      toast.success(
-        wasBookmarked ? 'Bookmark removed' : 'Bookmark added',
-        { autoClose: 2000 }
-      );
+      await toggleCollection(productId);
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });
@@ -146,7 +120,7 @@ const HighlightedProducts = () => {
                   className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
                   title="Bookmark"
                 >
-                  {bookmarked[item._id] ? (
+                  {isInCollection(item._id) ? (
                     <BookmarkCheck size={20} className="text-[#FFD700]" />
                   ) : (
                     <Bookmark size={20} className="text-white" />

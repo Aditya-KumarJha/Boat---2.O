@@ -24,13 +24,13 @@ const ExplorePage = () => {
   ];
 
   useEffect(() => {
-    // Simulate a 3-second loading screen
+    
     const timer = setTimeout(() => {
       setLoading(false);
-      // Set mock/empty data (you can replace with real data later)
-      setAllProducts([]); // ← Add your static/mock product array if needed
-      setHighlightProducts([]); // ← Add highlight items here if needed
-    }, 3000);
+      
+      setAllProducts([]); 
+      setHighlightProducts([]); 
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
