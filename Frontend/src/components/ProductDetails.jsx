@@ -12,13 +12,19 @@ import { useUserContext } from '../context/userContext';
 const ProductDetails = () => {
   const navigate = useNavigate();
   const { id } = useParams();
-  const { backendUser, isSignedIn } = useUserContext();
+
+  const {
+    backendUser,
+    isSignedIn,
+    addToCollection,
+    removeFromCollection,
+    isInCollection,
+  } = useUserContext();
 
   const [product, setProduct] = useState(null);
   const [similarProducts, setSimilarProducts] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [bookmarked, setBookmarked] = useState({});
 
   useEffect(() => {
     setLoading(true);
@@ -62,36 +68,20 @@ const ProductDetails = () => {
     fetchSimilar();
   }, [product]);
 
-  useEffect(() => {
-    if (backendUser?.savedItems) {
-      const initialBookmarks = {};
-      backendUser.savedItems.forEach((item) => {
-        initialBookmarks[item.productId] = true;
-      });
-      setBookmarked(initialBookmarks);
-    }
-  }, [backendUser]);
-
   const handleBookmark = async (productId) => {
-    if (!isSignedIn || !backendUser?.email) {
+    if (!isSignedIn) {
       toast.info('Login to bookmark', { autoClose: 2000 });
       return;
     }
 
-    const alreadyBookmarked = bookmarked[productId];
     try {
-      await instance.post('/api/user/collection', {
-        email: backendUser.email,
-        productId,
-      });
-      setBookmarked((prev) => ({
-        ...prev,
-        [productId]: !alreadyBookmarked,
-      }));
-      toast.success(
-        alreadyBookmarked ? 'Bookmark removed' : 'Bookmark added',
-        { autoClose: 2000 }
-      );
+      if (isInCollection(productId)) {
+        await removeFromCollection(productId);
+        toast.success('Bookmark removed', { autoClose: 2000 });
+      } else {
+        await addToCollection(productId);
+        toast.success('Bookmark added', { autoClose: 2000 });
+      }
     } catch (err) {
       console.error('Bookmark error:', err);
       toast.error('Something went wrong', { autoClose: 2000 });
@@ -137,7 +127,7 @@ const ProductDetails = () => {
             className="absolute top-3 right-3 text-white bg-black/50 border border-[#FFD700] rounded-full p-1 hover:scale-110 transition"
             title="Bookmark"
           >
-            {bookmarked[product._id] ? (
+            {isInCollection(product._id) ? (
               <BookmarkCheck size={22} className="text-[#FFD700]" />
             ) : (
               <Bookmark size={22} className="text-white" />
@@ -250,7 +240,7 @@ const ProductDetails = () => {
                       className="absolute top-4 right-4 text-white bg-black/50 border border-[#FFD700] rounded-full p-1 hover:scale-110 transition"
                       title="Bookmark"
                     >
-                      {bookmarked[item._id] ? (
+                      {isInCollection(item._id) ? (
                         <BookmarkCheck size={20} className="text-[#FFD700]" />
                       ) : (
                         <Bookmark size={20} className="text-white" />
