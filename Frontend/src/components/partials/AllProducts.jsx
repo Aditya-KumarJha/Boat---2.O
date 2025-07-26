@@ -127,7 +127,7 @@ const AllProducts = ({ sortOption, searchTerm }) => {
 
   const handleBookmark = async (e, productId) => {
     e.stopPropagation();
-    e.preventDefault(); // prevent <Link> navigation
+    e.preventDefault(); 
 
     if (!isSignedIn || !backendUser?.email) {
       toast.info('Login to bookmark', { autoClose: 2000 });
