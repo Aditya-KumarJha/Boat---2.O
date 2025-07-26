@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useUser } from "@clerk/clerk-react";
-import axios from "../utils/axios"; // Your pre-configured Axios instance
+import axios from "../utils/axios"; 
 
 const UserContext = createContext();
 

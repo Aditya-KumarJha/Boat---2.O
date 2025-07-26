@@ -40,18 +40,15 @@ exports.toggleCollection = async (req, res) => {
     );
 
     if (isSaved) {
-      // Clean remove using MongoDB operator
       await User.updateOne(
         { email },
         { $pull: { savedItems: { productId: productId } } }
       );
     } else {
-      // Add to saved items
       user.savedItems.push({ productId });
       await user.save();
     }
 
-    // Refetch updated user
     const updatedUser = await User.findOne({ email });
     res.status(200).json({ savedItems: updatedUser.savedItems });
   } catch (error) {

@@ -31,7 +31,6 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#0d9488] to-[#065f46] flex flex-col md:flex-row-reverse font-sans md:gap-[0.5rem]">
       
-      {/* SignIn Card */}
       <div className="w-full px-[6vw] pt-[22vh] pb-[3vh] flex items-center justify-center md:w-1/2 order-3 md:order-none">
         <SignIn
           path="/login"
@@ -61,15 +60,12 @@ const Login = () => {
         />
       </div>
 
-      {/* Left Section */}
       <div className="relative flex flex-col justify-between text-[#f5f5dc] px-[6vw] py-[5vh] overflow-hidden w-full md:w-1/2 order-2 md:order-none">
         
-        {/* Back Icon on Mobile Only */}
         <a href="/" className="absolute top-4 left-4 z-20">
           <ArrowLeft className="text-[#f5f5dc] hover:text-teal-300 w-6 h-6" />
         </a>
 
-        {/* Boat 2.0 Title */}
         <div className="z-10 flex items-center gap-[1rem]">
           <Sparkles className="w-[1.6rem] h-[1.6rem]" />
           <a href="/" className="text-[1.9rem] font-bold tracking-wide text-[#f5f5dc] no-underline" style={{ fontFamily: "Saira Condensed" }}>
@@ -77,7 +73,6 @@ const Login = () => {
           </a>
         </div>
 
-        {/* Top Floating Background Icons */}
         <div className="absolute top-[2vh] left-[2vw] grid grid-cols-5 gap-[0.6rem] opacity-10 animate-pulse z-0">
           {Array.from({ length: 25 }).map((_, i) => (
             <Waves
@@ -88,7 +83,6 @@ const Login = () => {
           ))}
         </div>
 
-        {/* Bottom Floating Background Icons */}
         <div className="absolute bottom-[2vh] right-[2vw] grid grid-cols-5 gap-[0.6rem] opacity-10 animate-pulse z-0">
           {Array.from({ length: 25 }).map((_, i) => (
             <Waves
@@ -99,7 +93,6 @@ const Login = () => {
           ))}
         </div>
 
-        {/* Center Visual + Message */}
         <div className="flex-grow flex flex-col items-center justify-center text-center relative z-10">
           <div className="relative w-[14rem] sm:w-[17rem] h-[14rem] sm:h-[17rem] mb-8">
             {animationData && (
@@ -165,7 +158,6 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Footer Message */}
         <div className="z-10 mt-4">
           <p className="text-[0.85rem] italic text-[#f5f5dc]/70 leading-snug">
             "Your sound universe awaits. Let’s get you back in."

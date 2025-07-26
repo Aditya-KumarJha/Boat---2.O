@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -7,7 +6,6 @@ import Loader from './components/Loader';
 import MouseTracker from './components/MouseFollower';
 
 import AppRoutes from './routes/AppRoutes';
-import ClerkRoutes from './routes/ClerkRoutes';
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);

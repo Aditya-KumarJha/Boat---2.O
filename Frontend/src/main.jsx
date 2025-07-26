@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 
-import { ClerkProvider, ClerkLoaded } from "@clerk/clerk-react";
+import { ClerkProvider } from "@clerk/clerk-react";
 import { BrowserRouter } from "react-router-dom";
 import { enUS } from "@clerk/localizations";
 
@@ -27,14 +27,14 @@ const localization = {
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <ClerkProvider
-    publishableKey={clerkKey}
-    localization={localization}
-    signInUrl="/login"
-    signUpUrl="/signup"
-    signInFallbackRedirectUrl="/login"
-  >
-    <ClerkLoaded>
+  <React.StrictMode>
+    <ClerkProvider
+      publishableKey={clerkKey}
+      localization={localization}
+      signInUrl="/login"
+      signUpUrl="/signup"
+      signInFallbackRedirectUrl="/login"
+    >
       <BrowserRouter>
         <SmoothScrollProvider>
           <UserProvider>
@@ -42,6 +42,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           </UserProvider>
         </SmoothScrollProvider>
       </BrowserRouter>
-    </ClerkLoaded>
-  </ClerkProvider>
+    </ClerkProvider>
+  </React.StrictMode>
 );

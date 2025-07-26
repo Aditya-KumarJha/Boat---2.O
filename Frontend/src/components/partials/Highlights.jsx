@@ -74,7 +74,6 @@ const Highlights = () => {
         productId,
       });
 
-      // Update UI
       setBookmarked((prev) => ({
         ...prev,
         [productId]: !wasBookmarked,
@@ -126,7 +125,6 @@ const Highlights = () => {
               key={`${item._id}-${idx}`}
               className="relative w-[80vw] sm:w-[300px] rounded-2xl border border-white/30 shadow-[0_4px_20px_rgba(0,0,0,0.3)] hover:shadow-[0_0_35px_rgba(255,255,255,0.15)] hover:scale-[1.02] transition duration-300 p-4 flex-shrink-0 bg-transparent"
             >
-              {/* Bookmark Icon */}
               <button
                 onClick={() => handleBookmark(item._id)}
                 className="absolute top-5 right-6 z-10 text-white hover:scale-110 transition p-1 bg-black/50 rounded-full border border-[#FFD700]"
@@ -139,7 +137,6 @@ const Highlights = () => {
                 )}
               </button>
 
-              {/* Product Content */}
               <Link to={`/product/${item._id}`}>
                 <img
                   src={item.image}
