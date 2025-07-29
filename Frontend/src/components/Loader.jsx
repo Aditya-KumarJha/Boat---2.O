@@ -133,9 +133,7 @@ const Loader = ({ onLoaded }) => {
   }, []);
 
   if (loading) {
-    return (
-      <Loading />
-    );
+    return <Loading />;
   }
 
   return (
@@ -186,7 +184,7 @@ const Loader = ({ onLoaded }) => {
           <Vignette eskil={false} offset={0.1} darkness={0.8} />
         </EffectComposer>
 
-        <Environment preset="city" />
+        {/* Removed <Environment preset="city" /> */}
         <OrbitControls enablePan={false} enableZoom={false} enableRotate />
       </Canvas>
 
@@ -207,8 +205,8 @@ const Loader = ({ onLoaded }) => {
                   setTypewriterStarted(true);
                   if (userInteracted) playWhoosh();
                   typewriter
-                  .typeString(`bo<span style="color: #ef4444;">A</span>t 2.0`)
-                  .start();
+                    .typeString(`bo<span style="color: #ef4444;">A</span>t 2.0`)
+                    .start();
                 }}
               />
             </h1>
